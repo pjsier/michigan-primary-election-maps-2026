@@ -20,14 +20,17 @@ data/tiles/%.mbtiles: data/results/%.geojson
 input/precinct-id-map.json: input/precincts.geojson
 	cat $< | poetry run python scripts/process_precinct_id_map.py > $@
 
+# TODO: Match on counties too, not just ID names, need to include CountyFIPS
+# TODO: Benzie AVCBs
 input/precincts.geojson:
 	wget -O - 'https://hub.arcgis.com/api/v3/datasets/b7df95c78668407280a7dead8e26aad0_0/downloads/data?format=geojson&spatialRefId=4326&where=1=1' | \
 	npm run mapshaper -- -i - \
-	-dissolve where='CountyFIPS === "031"' calc='CountyFIPS = "031", PrecinctLongName= "Cheboygan County", PrecinctCode = "031"' \
 	-dissolve where='CountyFIPS === "011"' calc='CountyFIPS = "011", PrecinctLongName= "Arenac County", PrecinctCode = "011"' \
+	-dissolve where='CountyFIPS === "031"' calc='CountyFIPS = "031", PrecinctLongName= "Cheboygan County", PrecinctCode = "031"' \
+	-dissolve where='CountyFIPS === "097"' calc='CountyFIPS = "097", PrecinctLongName= "Mackinac County", PrecinctCode = "097"' \
 	-dissolve where='CountyFIPS === "119"' calc='CountyFIPS = "119", PrecinctLongName= "Montmorency County", PrecinctCode = "119"' \
 	-dissolve where='CountyFIPS === "153"' calc='CountyFIPS = "153", PrecinctLongName= "Schoolcraft County", PrecinctCode = "153"' \
-	-rename-fields id=PrecinctCode,name=PrecinctLongName \
+	-rename-fields id=PrecinctCode,name=PrecinctLongName,countyfips=CountyFIPS \
 	-each 'id = +id' \
 	-filter-fields id,name \
 	-o $@
