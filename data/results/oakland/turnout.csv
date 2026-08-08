@@ -1,0 +1,406 @@
+id,name,ballots,registered,turnout
+1250040000001,"Addison Township, Precinct 1",916,1982,46.22
+1250040000002,"Addison Township, Precinct 2",897,1932,46.43
+1250040000003,"Addison Township, Precinct 3",446,1333,33.46
+1130908000001,"Bloomfield Township, Precinct 1",655,1870,35.03
+1250911000002,"Bloomfield Township, Precinct 2",990,2437,40.62
+1250911000003,"Bloomfield Township, Precinct 3",1876,4146,45.25
+1250911000004,"Bloomfield Township, Precinct 4",703,1534,45.83
+1250911000005,"Bloomfield Township, Precinct 5",2041,4784,42.66
+1250911000006,"Bloomfield Township, Precinct 6",983,2211,44.46
+1250911000007,"Bloomfield Township, Precinct 7",2037,4145,49.14
+1250911000008,"Bloomfield Township, Precinct 8",1548,3295,46.98
+1250911000009,"Bloomfield Township, Precinct 9",2019,4136,48.82
+1250911000010,"Bloomfield Township, Precinct 10",1107,2636,42.00
+1250911000011,"Bloomfield Township, Precinct 11",2236,5392,41.47
+1250911000012,"Bloomfield Township, Precinct 12",813,1847,44.02
+1251004000001,"Brandon Township, Precinct 1",866,2350,36.85
+1251004000002,"Brandon Township, Precinct 2",974,2533,38.45
+1251004000003,"Brandon Township, Precinct 3",1080,2655,40.68
+1251004000004,"Brandon Township, Precinct 4",1091,2919,37.38
+1251004000005,"Brandon Township, Precinct 5",280,1929,14.52
+1251004000006,"Brandon Township, Precinct 6",456,1195,38.16
+1251764000001,"Commerce Township, Precinct 1",878,2342,37.49
+1251764000002,"Commerce Township, Precinct 2",819,2523,32.46
+1251764000003,"Commerce Township, Precinct 3",1150,2703,42.55
+1251764000004,"Commerce Township, Precinct 4",880,2653,33.17
+1251764000005,"Commerce Township, Precinct 5",1001,2727,36.71
+1251764000006,"Commerce Township, Precinct 6",701,2028,34.57
+1251764000007,"Commerce Township, Precinct 7",1063,2520,42.18
+1251764000008,"Commerce Township, Precinct 8",994,2683,37.05
+1251764000009,"Commerce Township, Precinct 9",1100,3034,36.26
+1251764000010,"Commerce Township, Precinct 10",889,2578,34.48
+1251764000011,"Commerce Township, Precinct 11",932,2788,33.43
+1251764000012,"Commerce Township, Precinct 12",489,1423,34.36
+1251764000013,"Commerce Township, Precinct 13",1056,3103,34.03
+1251764000014,"Commerce Township, Precinct 14",440,2091,21.04
+1251764000015,"Commerce Township, Precinct 15",771,2009,38.38
+1253564000001,"Groveland Township, Precinct 1",481,1303,36.91
+1253564000002,"Groveland Township, Precinct 2",593,2276,26.05
+1253564000003,"Groveland Township, Precinct 3",780,1810,43.09
+1333810000001,"Highland Township, Precinct 1",1419,3843,36.92
+1253808000002,"Highland Township, Precinct 2",1550,4052,38.25
+1253808000003,"Highland Township, Precinct 3",1439,3841,37.46
+1253808000004,"Highland Township, Precinct 4",1296,3947,32.84
+1253808000005,"Highland Township, Precinct 5",763,1966,38.81
+1253872000001,"Holly Township, Precinct 1",718,2713,26.47
+1253872000002,"Holly Township, Precinct 2",649,2192,29.61
+1253872000003,"Holly Township, Precinct 3",875,2842,30.79
+1253872000004,"Holly Township, Precinct 4",938,2785,33.68
+1254040000001,"Independence Township, Precinct 1",1118,2725,41.03
+1254040000002,"Independence Township, Precinct 2",1489,3746,39.75
+1254040000003,"Independence Township, Precinct 3",1827,4252,42.97
+1254040000004,"Independence Township, Precinct 4",1718,3903,44.02
+1254040000005,"Independence Township, Precinct 5",1620,4250,38.12
+1254040000006,"Independence Township, Precinct 6",1465,4080,35.91
+1254040000007,"Independence Township, Precinct 7",1375,4019,34.21
+1254040000008,"Independence Township, Precinct 8",1185,4095,28.94
+1254982000001,"Lyon Township, Precinct 1",357,915,39.02
+1254982000002,"Lyon Township, Precinct 2",251,562,44.66
+1254982000003,"Lyon Township, Precinct 3",566,1785,31.71
+1254982000004,"Lyon Township, Precinct 4",686,2189,31.34
+1254982000005,"Lyon Township, Precinct 5",646,1529,42.25
+1254982000006,"Lyon Township, Precinct 6",959,2828,33.91
+1254982000007,"Lyon Township, Precinct 7",197,744,26.48
+1254982000008,"Lyon Township, Precinct 8",818,2047,39.96
+1254982000009,"Lyon Township, Precinct 9",1036,2684,38.60
+1254982000010,"Lyon Township, Precinct 10",470,1729,27.18
+1254982000011,"Lyon Township, Precinct 11",861,1998,43.09
+1255398000001,"Milford Township, Precinct 1",1112,2632,42.25
+1255398000002,"Milford Township, Precinct 2",701,2481,28.25
+1255398000003,"Milford Township, Precinct 3",696,1456,47.80
+1255398000004,"Milford Township, Precinct 4",1444,3477,41.53
+1255398000005,"Milford Township, Precinct 5",1086,2573,42.21
+1255398000006,"Milford Township, Precinct 6",707,1733,40.80
+1255398000007,"Milford Township, Precinct 7",575,1404,40.95
+1255946000001,"Novi Township, Precinct 1",72,131,54.96
+1255982000001,"Oakland Township, Precinct 1",749,2051,36.52
+1255982000002,"Oakland Township, Precinct 2",1296,3951,32.80
+1255982000003,"Oakland Township, Precinct 3",1169,3199,36.54
+1255982000004,"Oakland Township, Precinct 4",660,1903,34.68
+1255982000005,"Oakland Township, Precinct 5",1045,2993,34.91
+1255982000006,"Oakland Township, Precinct 6",1140,2936,38.83
+1256110000001,"Orion Township, Precinct 1",1516,4210,36.01
+1256110000002,"Orion Township, Precinct 2",952,2356,40.41
+1256110000003,"Orion Township, Precinct 3",941,2051,45.88
+1256110000004,"Orion Township, Precinct 4",1028,2483,41.40
+1256110000005,"Orion Township, Precinct 5",959,2379,40.31
+1256110000006,"Orion Township, Precinct 6",922,1829,50.41
+1256110000007,"Orion Township, Precinct 7",1426,3889,36.67
+1256110000008,"Orion Township, Precinct 8",1392,3427,40.62
+1256110000009,"Orion Township, Precinct 9",948,2734,34.67
+1256110000010,"Orion Township, Precinct 10",913,2349,38.87
+1256110000011,"Orion Township, Precinct 11",1242,3788,32.79
+1256204000001,"Oxford Township, Precinct 1",1101,2671,41.22
+1256204000002,"Oxford Township, Precinct 2",1679,4702,35.71
+1256204000003,"Oxford Township, Precinct 3",2183,4813,45.36
+1256204000004,"Oxford Township, Precinct 4",1484,3218,46.12
+1256204000005,"Oxford Township, Precinct 5",1067,2798,38.13
+1296960000001,"Rose Township, Precinct 1",528,1427,37.00
+1256958000002,"Rose Township, Precinct 2",745,1934,38.52
+1256958000003,"Rose Township, Precinct 3",729,1986,36.71
+1257006000001,"Royal Oak Township, Precinct 1",313,1354,23.12
+1257006000002,"Royal Oak Township, Precinct 2",253,999,25.33
+1257492000001,"Southfield Township, Precinct 1",875,2015,43.42
+1257492000002,"Southfield Township, Precinct 2",1078,2255,47.80
+1257492000003,"Southfield Township, Precinct 3",675,1442,46.81
+1257492000004,"Southfield Township, Precinct 4",524,1171,44.75
+1257492000005,"Southfield Township, Precinct 5",1016,2173,46.76
+1257492000006,"Southfield Township, Precinct 6",527,991,53.18
+1257492000007,"Southfield Township, Precinct 7",1377,2802,49.14
+1257576000001,"Springfield Township, Precinct 1",1098,2751,39.91
+1257576000002,"Springfield Township, Precinct 2",615,2128,28.90
+1257576000003,"Springfield Township, Precinct 3",916,2416,37.91
+1257576000004,"Springfield Township, Precinct 4",1235,3575,34.55
+1257576000005,"Springfield Township, Precinct 5",733,1760,41.65
+1258424000001,"Waterford Township, Precinct 1",394,975,40.41
+1258424000002,"Waterford Township, Precinct 2",1191,3185,37.39
+1258424000003,"Waterford Township, Precinct 3",1054,2993,35.22
+1258424000004,"Waterford Township, Precinct 4",1066,2771,38.47
+1258424000005,"Waterford Township, Precinct 5",1264,3111,40.63
+1258424000006,"Waterford Township, Precinct 6",1032,2972,34.72
+1258424000007,"Waterford Township, Precinct 7",1000,3126,31.99
+1258424000008,"Waterford Township, Precinct 8",1016,2885,35.22
+1258424000009,"Waterford Township, Precinct 9",1123,2870,39.13
+1258424000010,"Waterford Township, Precinct 10",741,1671,44.34
+1258424000011,"Waterford Township, Precinct 11",842,2980,28.26
+1258424000012,"Waterford Township, Precinct 12",1095,2967,36.91
+1258424000013,"Waterford Township, Precinct 13",1031,3104,33.22
+1258424000014,"Waterford Township, Precinct 14",736,2919,25.21
+1258424000015,"Waterford Township, Precinct 15",890,3065,29.04
+1258424000016,"Waterford Township, Precinct 16",1025,2897,35.38
+1258424000017,"Waterford Township, Precinct 17",1051,3050,34.46
+1258424000018,"Waterford Township, Precinct 18",1070,2923,36.61
+1258424000019,"Waterford Township, Precinct 19",938,2837,33.06
+1258424000020,"Waterford Township, Precinct 20",923,3010,30.66
+1258424000021,"Waterford Township, Precinct 21",957,3051,31.37
+1258548000001,"West Bloomfield Township, Precinct 1",1224,2688,45.54
+1258548000002,"West Bloomfield Township, Precinct 2",1251,2683,46.63
+1258548000003,"West Bloomfield Township, Precinct 3",1711,3611,47.38
+1258548000004,"West Bloomfield Township, Precinct 4",811,1945,41.70
+1258548000005,"West Bloomfield Township, Precinct 5",449,1147,39.15
+1258548000006,"West Bloomfield Township, Precinct 6",1298,3172,40.92
+1258548000007,"West Bloomfield Township, Precinct 7",1292,3148,41.04
+1258548000008,"West Bloomfield Township, Precinct 8",1440,4485,32.11
+1258548000009,"West Bloomfield Township, Precinct 9",1135,2703,41.99
+1258548000010,"West Bloomfield Township, Precinct 10",1061,2806,37.81
+1258548000011,"West Bloomfield Township, Precinct 11",870,3003,28.97
+1258548000012,"West Bloomfield Township, Precinct 12",695,1922,36.16
+1258548000013,"West Bloomfield Township, Precinct 13",257,501,51.30
+1258548000014,"West Bloomfield Township, Precinct 14",1433,3500,40.94
+1258548000015,"West Bloomfield Township, Precinct 15",1053,2652,39.71
+1258548000016,"West Bloomfield Township, Precinct 16",1609,3802,42.32
+1258548000017,"West Bloomfield Township, Precinct 17",1204,3480,34.60
+1258548000018,"West Bloomfield Township, Precinct 18",1007,2388,42.17
+1258548000019,"West Bloomfield Township, Precinct 19",1339,3212,41.69
+1258548000020,"West Bloomfield Township, Precinct 20",1823,4465,40.83
+1258686000001,"White Lake Township, Precinct 1",168,992,16.94
+1258686000002,"White Lake Township, Precinct 2",917,2553,35.92
+1258686000003,"White Lake Township, Precinct 3",1033,2985,34.61
+1258686000004,"White Lake Township, Precinct 4",800,2800,28.57
+1258686000005,"White Lake Township, Precinct 5",1351,3177,42.52
+1258686000006,"White Lake Township, Precinct 6",1374,3487,39.40
+1258686000007,"White Lake Township, Precinct 7",1380,3911,35.29
+1258686000008,"White Lake Township, Precinct 8",1229,3570,34.43
+1258686000009,"White Lake Township, Precinct 9",1510,3787,39.87
+1250410500001,"Auburn Hills, Precinct 1",527,1995,26.42
+1250410500002,"Auburn Hills, Precinct 2",1412,3450,40.93
+1250410500003,"Auburn Hills, Precinct 3",590,2054,28.72
+1250410500004,"Auburn Hills, Precinct 4",541,1926,28.09
+1250410500005,"Auburn Hills, Precinct 5",563,2459,22.90
+1250410500006,"Auburn Hills, Precinct 6",1056,3249,32.50
+1250410500007,"Auburn Hills, Precinct 7",576,2045,28.17
+1250766000001,"Berkley, Precinct 1",1911,3892,49.10
+1250766000002,"Berkley, Precinct 2",1757,3891,45.16
+1250766000003,"Berkley, Precinct 3",1628,3655,44.54
+1250766000004,"Berkley, Precinct 4",855,1966,43.49
+1250864000001,"Birmingham, Precinct 1",1558,3762,41.41
+1250864000002,"Birmingham, Precinct 2",1518,3679,41.26
+1250864000003,"Birmingham, Precinct 3",1124,2632,42.71
+1250864000004,"Birmingham, Precinct 4",2033,5079,40.03
+1250864000005,"Birmingham, Precinct 5",1220,3411,35.77
+1250918000001,"Bloomfield Hills, Precinct 1",963,2326,41.40
+1250918000002,"Bloomfield Hills, Precinct 2",690,1867,36.96
+1258245000001,"Clarkston, Precinct 1",366,796,45.98
+1251616000001,"Clawson, Precinct 1",983,2484,39.57
+1251616000002,"Clawson, Precinct 2",689,1718,40.10
+1251616000003,"Clawson, Precinct 3",1307,3356,38.95
+1251616000004,"Clawson, Precinct 4",835,2109,39.59
+1252738000001,"Farmington, Precinct 1",700,1218,57.47
+1252738000002,"Farmington, Precinct 2",1392,3121,44.60
+1252738000003,"Farmington, Precinct 3",1390,3260,42.64
+1252744000001,"Farmington Hills, Precinct 1",310,2238,13.85
+1252744000002,"Farmington Hills, Precinct 2",382,2341,16.32
+1252744000003,"Farmington Hills, Precinct 3",546,2612,20.90
+1252744000004,"Farmington Hills, Precinct 4",410,2554,16.05
+1252744000005,"Farmington Hills, Precinct 5",437,3757,11.63
+1252744000006,"Farmington Hills, Precinct 6",1044,2432,42.93
+1252744000007,"Farmington Hills, Precinct 7",956,2112,45.27
+1252744000008,"Farmington Hills, Precinct 8",1277,2927,43.63
+1252744000009,"Farmington Hills, Precinct 9",1308,3071,42.59
+1252744000010,"Farmington Hills, Precinct 10",881,2512,35.07
+1252744000011,"Farmington Hills, Precinct 11",1981,4242,46.70
+1252744000012,"Farmington Hills, Precinct 12",1098,2382,46.10
+1252744000013,"Farmington Hills, Precinct 13",637,1367,46.60
+1252744000014,"Farmington Hills, Precinct 14",1231,2826,43.56
+1252744000015,"Farmington Hills, Precinct 15",467,2344,19.92
+1252744000016,"Farmington Hills, Precinct 16",1744,3928,44.40
+1252744000017,"Farmington Hills, Precinct 17",1141,3002,38.01
+1252744000018,"Farmington Hills, Precinct 18",1014,2868,35.36
+1252744000019,"Farmington Hills, Precinct 19",1322,3972,33.28
+1252744000020,"Farmington Hills, Precinct 20",1029,2820,36.49
+1252744000021,"Farmington Hills, Precinct 21",1121,2910,38.52
+1252744000022,"Farmington Hills, Precinct 22",418,2668,15.67
+1252744000023,"Farmington Hills, Precinct 23",380,2732,13.91
+0492776000002,"Fenton, Precinct 2",2,18,11.11
+1252788000001,"Ferndale, Precinct 1",1459,2437,59.87
+1252788000002,"Ferndale, Precinct 2",1288,2498,51.56
+1252788000003,"Ferndale, Precinct 3",1706,3277,52.06
+1252788000004,"Ferndale, Precinct 4",1145,2640,43.37
+1252788000005,"Ferndale, Precinct 5",1196,2529,47.29
+1252788000006,"Ferndale, Precinct 6",1449,3545,40.87
+1253742000001,"Hazel Park, Precinct 1",747,2365,31.59
+1253742000002,"Hazel Park, Precinct 2",699,2344,29.82
+1253742000003,"Hazel Park, Precinct 3",578,2142,26.98
+1253742000004,"Hazel Park, Precinct 4",527,1642,32.10
+1253742000005,"Hazel Park, Precinct 5",667,2445,27.28
+1253742000006,"Hazel Park, Precinct 6",544,2216,24.55
+1254000000001,"Huntington Woods, Precinct 1",1177,1771,66.46
+1254000000002,"Huntington Woods, Precinct 2",1165,1805,64.54
+1254000000003,"Huntington Woods, Precinct 3",1321,2150,61.44
+1254246000001,"Keego Harbor, Precinct 1",639,2202,29.02
+1254444000001,"Lake Angelus, Precinct 1",147,310,47.42
+1254632000001,"Lathrup Village, Precinct 1",2008,3929,51.11
+1255056000001,"Madison Heights, Precinct 1",1097,3823,28.69
+1255056000002,"Madison Heights, Precinct 2",810,3002,26.98
+1255056000003,"Madison Heights, Precinct 3",730,2938,24.85
+1255056000004,"Madison Heights, Precinct 4",1138,3095,36.77
+1255056000005,"Madison Heights, Precinct 5",617,3051,20.22
+1255056000006,"Madison Heights, Precinct 6",1522,4385,34.71
+1255056000007,"Madison Heights, Precinct 7",879,2347,37.45
+1255898000002,"Northville, Precinct 2",1162,2739,42.42
+1255944000001,"Novi, Precinct 1",877,1942,45.16
+1255944000002,"Novi, Precinct 2",982,2549,38.52
+1255944000003,"Novi, Precinct 3",648,1787,36.26
+1255944000004,"Novi, Precinct 4",791,2005,39.45
+1255944000005,"Novi, Precinct 5",583,1869,31.19
+1255944000006,"Novi, Precinct 6",812,2494,32.56
+1255944000007,"Novi, Precinct 7",653,2174,30.04
+1255944000008,"Novi, Precinct 8",788,2341,33.66
+1255944000009,"Novi, Precinct 9",806,1743,46.24
+1255944000010,"Novi, Precinct 10",922,1350,68.30
+1255944000011,"Novi, Precinct 11",452,2254,20.05
+1255944000012,"Novi, Precinct 12",439,2057,21.34
+1255944000013,"Novi, Precinct 13",700,2137,32.76
+1255944000014,"Novi, Precinct 14",191,835,22.87
+1255944000015,"Novi, Precinct 15",760,2291,33.17
+1255944000016,"Novi, Precinct 16",1456,3431,42.44
+1255944000018,"Novi, Precinct 18",784,1875,41.81
+1255944000019,"Novi, Precinct 19",814,1907,42.68
+1255944000020,"Novi, Precinct 20",498,1472,33.83
+1255944000021,"Novi, Precinct 21",707,2059,34.34
+1255944000022,"Novi, Precinct 22",371,2030,18.28
+1255944000023,"Novi, Precinct 23",618,1765,35.01
+1255944000024,"Novi, Precinct 24",714,1983,36.01
+1255944000025,"Novi, Precinct 25",421,1463,28.78
+1255992000001,"Oak Park, Precinct 1",1020,3157,32.31
+1255992000002,"Oak Park, Precinct 2",854,1964,43.48
+1255992000003,"Oak Park, Precinct 3",486,1681,28.91
+1255992000004,"Oak Park, Precinct 4",998,2870,34.77
+1255992000005,"Oak Park, Precinct 5",1075,3325,32.33
+1255992000006,"Oak Park, Precinct 6",1143,3590,31.84
+1255992000007,"Oak Park, Precinct 7",346,1685,20.53
+1255992000008,"Oak Park, Precinct 8",1319,3734,35.32
+1255992000009,"Oak Park, Precinct 9",672,1412,47.59
+1255992000010,"Oak Park, Precinct 10",1233,3079,40.05
+1256102000001,"Orchard Lake, Precinct 1",812,2120,38.30
+1256490000001,"Pleasant Ridge, Precinct 1",1401,2436,57.51
+1256544001001,"Pontiac, Precinct 1",732,3396,21.55
+1256544001002,"Pontiac, Precinct 2",390,3502,11.14
+1256544001003,"Pontiac, Precinct 3",762,2988,25.50
+1256544002004,"Pontiac, Precinct 4",956,3175,30.11
+1256544002005,"Pontiac, Precinct 5",627,3359,18.67
+1256544002006,"Pontiac, Precinct 6",153,1447,10.57
+1256544003007,"Pontiac, Precinct 7",411,3907,10.52
+1256544003008,"Pontiac, Precinct 8",438,3380,12.96
+1256544004009,"Pontiac, Precinct 9",867,3938,22.02
+1256544004010,"Pontiac, Precinct 10",636,4016,15.84
+1256544005011,"Pontiac, Precinct 11",544,4296,12.66
+1256544005012,"Pontiac, Precinct 12",720,4365,16.49
+1256544006013,"Pontiac, Precinct 13",723,4557,15.87
+1256544006014,"Pontiac, Precinct 14",777,4262,18.23
+1256902000001,"Rochester, Precinct 1",1289,3548,36.33
+1256902000002,"Rochester, Precinct 2",1533,4039,37.95
+1256902000003,"Rochester, Precinct 3",1220,3288,37.10
+1256903501001,"Rochester Hills, Precinct 1",1188,2572,46.19
+1256903501002,"Rochester Hills, Precinct 2",1064,2508,42.42
+1256903501003,"Rochester Hills, Precinct 3",956,2561,37.33
+1256903501004,"Rochester Hills, Precinct 4",1218,2625,46.40
+1256903501005,"Rochester Hills, Precinct 5",1142,2376,48.06
+1256903501006,"Rochester Hills, Precinct 6",1242,3239,38.35
+1256903502007,"Rochester Hills, Precinct 7",1994,4024,49.55
+1256903502008,"Rochester Hills, Precinct 8",1668,3710,44.96
+1256903502009,"Rochester Hills, Precinct 9",1468,3943,37.23
+1256903502010,"Rochester Hills, Precinct 10",520,1456,35.71
+1256903502011,"Rochester Hills, Precinct 11",760,2065,36.80
+1256903503012,"Rochester Hills, Precinct 12",1868,4290,43.54
+1256903503013,"Rochester Hills, Precinct 13",1197,3068,39.02
+1256903503014,"Rochester Hills, Precinct 14",1240,3286,37.74
+1256903503015,"Rochester Hills, Precinct 15",1283,3462,37.06
+1256903503016,"Rochester Hills, Precinct 16",694,1784,38.90
+1256903504017,"Rochester Hills, Precinct 17",1310,3507,37.35
+1256903504018,"Rochester Hills, Precinct 18",611,2493,24.51
+1256903504019,"Rochester Hills, Precinct 19",803,2277,35.27
+1256903504020,"Rochester Hills, Precinct 20",1206,3385,35.63
+1256903504021,"Rochester Hills, Precinct 21",550,1837,29.94
+1257004000001,"Royal Oak, Precinct 1",1855,4475,41.45
+1257004000002,"Royal Oak, Precinct 2",1165,2650,43.96
+1257004000003,"Royal Oak, Precinct 3",1667,4183,39.85
+1257004000004,"Royal Oak, Precinct 4",1637,3846,42.56
+1257004000005,"Royal Oak, Precinct 5",1794,4150,43.23
+1257004000006,"Royal Oak, Precinct 6",2289,4713,48.57
+1257004000007,"Royal Oak, Precinct 7",2085,4251,49.05
+1257004000008,"Royal Oak, Precinct 8",1613,4102,39.32
+1257004000009,"Royal Oak, Precinct 9",1450,3726,38.92
+1257004000010,"Royal Oak, Precinct 10",941,2254,41.75
+1257004000011,"Royal Oak, Precinct 11",867,1844,47.02
+1257004000012,"Royal Oak, Precinct 12",1020,2160,47.22
+1257004000013,"Royal Oak, Precinct 13",1236,3046,40.58
+1257004000014,"Royal Oak, Precinct 14",1194,3018,39.56
+1257004000015,"Royal Oak, Precinct 15",677,1878,36.05
+1257510000001,"South Lyon, Precinct 1",1015,2477,40.98
+1257510000002,"South Lyon, Precinct 2",754,2340,32.22
+1257510000003,"South Lyon, Precinct 3",985,2486,39.62
+1257510000004,"South Lyon, Precinct 4",489,1722,28.40
+1257510000005,"South Lyon, Precinct 5",316,878,35.99
+1257490000001,"Southfield, Precinct 1",727,1736,41.88
+1257490000002,"Southfield, Precinct 2",942,2125,44.33
+1257490000003,"Southfield, Precinct 3",617,1825,33.81
+1257490000004,"Southfield, Precinct 4",741,2334,31.75
+1257490000005,"Southfield, Precinct 5",563,1316,42.78
+1257490000006,"Southfield, Precinct 6",724,1705,42.46
+1257490000007,"Southfield, Precinct 7",784,1829,42.86
+1257490000008,"Southfield, Precinct 8",605,1477,40.96
+1257490000009,"Southfield, Precinct 9",574,1964,29.23
+1257490000010,"Southfield, Precinct 10",602,1774,33.93
+1257490000011,"Southfield, Precinct 11",644,1980,32.53
+1257490000012,"Southfield, Precinct 12",651,1645,39.57
+1257490000013,"Southfield, Precinct 13",857,1823,47.01
+1257490000014,"Southfield, Precinct 14",570,1689,33.75
+1257490000015,"Southfield, Precinct 15",527,1498,35.18
+1257490000016,"Southfield, Precinct 16",635,1637,38.79
+1257490000017,"Southfield, Precinct 17",770,1911,40.29
+1257490000018,"Southfield, Precinct 18",471,1883,25.01
+1257490000019,"Southfield, Precinct 19",484,1568,30.87
+1257490000020,"Southfield, Precinct 20",645,1870,34.49
+1257490000021,"Southfield, Precinct 21",792,1937,40.89
+1257490000022,"Southfield, Precinct 22",589,2068,28.48
+1257490000023,"Southfield, Precinct 23",664,1942,34.19
+1257490000024,"Southfield, Precinct 24",443,1769,25.04
+1257490000025,"Southfield, Precinct 25",564,1468,38.42
+1257490000026,"Southfield, Precinct 26",797,1911,41.71
+1257490000027,"Southfield, Precinct 27",552,1833,30.11
+1257490000028,"Southfield, Precinct 28",320,1762,18.16
+1257490000029,"Southfield, Precinct 29",793,2224,35.66
+1257490000030,"Southfield, Precinct 30",734,2119,34.64
+1257490000031,"Southfield, Precinct 31",565,2044,27.64
+1257490000032,"Southfield, Precinct 32",605,1512,40.01
+1257490000033,"Southfield, Precinct 33",586,2013,29.11
+1257490000034,"Southfield, Precinct 34",466,1609,28.96
+1257490000035,"Southfield, Precinct 35",339,1448,23.41
+1257490000036,"Southfield, Precinct 36",402,1641,24.50
+1257786000001,"Sylvan Lake, Precinct 1",706,1485,47.54
+1258070000001,"Troy, Precinct 1",1409,3508,40.17
+1258070000002,"Troy, Precinct 2",910,2407,37.81
+1258070000003,"Troy, Precinct 3",882,2343,37.64
+1258070000004,"Troy, Precinct 4",660,1526,43.25
+1258070000005,"Troy, Precinct 5",257,546,47.07
+1258070000006,"Troy, Precinct 6",367,917,40.02
+1258070000007,"Troy, Precinct 7",1529,3582,42.69
+1258070000008,"Troy, Precinct 8",730,1954,37.36
+1258070000009,"Troy, Precinct 9",1344,3194,42.08
+1258070000010,"Troy, Precinct 10",993,2280,43.55
+1258070000011,"Troy, Precinct 11",1031,2404,42.89
+1258070000012,"Troy, Precinct 12",689,1636,42.11
+1258070000013,"Troy, Precinct 13",1218,3015,40.40
+1258070000014,"Troy, Precinct 14",895,2326,38.48
+1258070000015,"Troy, Precinct 15",1597,3967,40.26
+1258070000016,"Troy, Precinct 16",786,1953,40.25
+1258070000017,"Troy, Precinct 17",891,2262,39.39
+1258070000018,"Troy, Precinct 18",1046,2620,39.92
+1258070000019,"Troy, Precinct 19",1286,3725,34.52
+1258070000020,"Troy, Precinct 20",1059,2660,39.81
+1258070000021,"Troy, Precinct 21",1124,2946,38.15
+1258070000022,"Troy, Precinct 22",1180,3101,38.05
+1258070000023,"Troy, Precinct 23",1088,3746,29.04
+1258070000024,"Troy, Precinct 24",484,1987,24.36
+1258070000025,"Troy, Precinct 25",243,612,39.71
+1258070000026,"Troy, Precinct 26",659,2550,25.84
+1258070000027,"Troy, Precinct 27",731,3091,23.65
+1258306000001,"Walled Lake, Precinct 1",455,1982,22.96
+1258306000002,"Walled Lake, Precinct 2",746,2172,34.35
+1258306000003,"Walled Lake, Precinct 3",557,1635,34.07
+1258814000001,"Wixom, Precinct 1",1102,2916,37.79
+1258814000002,"Wixom, Precinct 2",1094,2947,37.12
+1258814000003,"Wixom, Precinct 3",393,2517,15.61
+1258814000004,"Wixom, Precinct 4",979,2844,34.42

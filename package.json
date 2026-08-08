@@ -1,0 +1,65 @@
+{
+  "name": "michigan-primary-election-2026-maps",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "mapshaper": "mapshaper"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@babel/eslint-parser": "^7.29.7",
+    "@babel/preset-env": "^7.29.7",
+    "babel-preset-solid": "^1.9.12",
+    "eslint": "^8.57.1",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-solid": "^0.14.5",
+    "mapshaper": "^0.7.51",
+    "prettier": "^3.9.6",
+    "prettier-eslint": "^17.1.1",
+    "vite": "^8.2.1",
+    "vite-plugin-solid": "^2.11.14"
+  },
+  "dependencies": {
+    "maplibre-gl": "^6.2.0",
+    "solid-js": "^1.9.14"
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "plugin:solid/recommended"
+    ],
+    "env": {
+      "browser": true,
+      "commonjs": true,
+      "es6": true,
+      "node": true
+    },
+    "plugins": [
+      "import",
+      "solid"
+    ],
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+      "ecmaVersion": 2018,
+      "sourceType": "module",
+      "requireConfigFile": false,
+      "babelOptions": {
+        "presets": [
+          "@babel/preset-env",
+          "babel-preset-solid"
+        ]
+      }
+    }
+  },
+  "prettier": {
+    "endOfLine": "lf",
+    "semi": false,
+    "singleQuote": false,
+    "tabWidth": 2,
+    "trailingComma": "es5"
+  }
+}
