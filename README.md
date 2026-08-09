@@ -19,3 +19,7 @@
 - [Gogebic](https://cms2.revize.com/revize/gogebiccountymi/document_center/Unofficial%20Results%20August%20Primary.pdf?t=202608050055060)
 - [Crawford](https://www.crawfordco.org/offices-departments/clerk/election-information/)
 - [Mackinac](https://www.mackinaccounty.net/wp-content/media/August-2026-Primary-Official-Results.pdf)
+- [Missaukee](https://cms8.revize.com/revize/missaukeecountymi/August%204,%202026%20Final%20Unofficial%20Results.pdf?t=202608051616310)
+    - **Note:** Containts 141 votes in a separate Absent Voter Counting Board
+- [Alcona](https://alconacountymi.com/wp-content/uploads/2026/08/2026-Primary-Spreadsheet6.pdf)
+    - **Note:** Contains 182 votes in a separate Absent Voter Counting Board
