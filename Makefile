@@ -22,6 +22,7 @@ input/precinct-id-map.json: input/precincts.geojson
 
 # TODO: Match on counties too, not just ID names, need to include CountyFIPS
 # TODO: Benzie AVCBs
+# TODO: Consolidate Alpena, Antrim, Oscoda, Alger
 input/precincts.geojson:
 	wget -O - 'https://hub.arcgis.com/api/v3/datasets/b7df95c78668407280a7dead8e26aad0_0/downloads/data?format=geojson&spatialRefId=4326&where=1=1' | \
 	npm run mapshaper -- -i - \
@@ -32,7 +33,7 @@ input/precincts.geojson:
 	-dissolve where='CountyFIPS === "153"' calc='CountyFIPS = "153", PrecinctLongName= "Schoolcraft County", PrecinctCode = "153"' \
 	-rename-fields id=PrecinctCode,name=PrecinctLongName,countyfips=CountyFIPS \
 	-each 'id = +id' \
-	-filter-fields id,name \
+	-filter-fields id,name,countyfips \
 	-o $@
 
 input/counties.geojson: input/districts.geojson

@@ -2,15 +2,13 @@
 name = "michigan-primary-election-2026-maps"
 version = "0.1.0"
 description = ""
-authors = [
-    {name = "pjsier",email = "pjsier@gmail.com"}
-]
+authors = [{ name = "pjsier", email = "pjsier@gmail.com" }]
 requires-python = ">=3.14"
 dependencies = [
     "lxml (>=6.1.1,<7.0.0)",
     "requests (>=2.34.2,<3.0.0)",
     "pdfplumber (>=0.11.10,<0.12.0)",
-    "pandas (>=3.0.5,<4.0.0)"
+    "pandas (>=3.0.5,<4.0.0)",
 ]
 
 
@@ -18,7 +16,8 @@ dependencies = [
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
+[tool.poetry]
+packages = [{ include = "processor" }]
+
 [dependency-groups]
-dev = [
-    "ruff (>=0.16.2,<0.17.0)"
-]
+dev = ["ruff (>=0.16.2,<0.17.0)"]

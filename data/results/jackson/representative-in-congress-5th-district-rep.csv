@@ -1,0 +1,57 @@
+id,name,board,Tim Walberg,Unresolved Write-In,registered,ballots,over_votes,under_votes,total,turnout
+754142001001,"City of Jackson, Ward 1, Precinct 1",,73,3,4031,615,0,0,76,15.26
+754142002002,"City of Jackson, Ward 2, Precinct 2",,21,0,959,120,0,0,21,12.51
+754142002003,"City of Jackson, Ward 2, Precinct 3",,128,4,3049,402,0,0,132,13.18
+754142003004,"City of Jackson, Ward 3, Precinct 4",,116,1,1911,360,0,0,117,18.84
+754142003005,"City of Jackson, Ward 3, Precinct 5",,132,0,2254,433,0,0,132,19.21
+754142004006,"City of Jackson, Ward 4, Precinct 6",,132,1,2114,445,0,0,133,21.05
+754142004007,"City of Jackson, Ward 4, Precinct 7",,106,0,2069,298,0,0,106,14.4
+754142005008,"City of Jackson, Ward 5, Precinct 8",,162,1,4256,673,0,0,163,15.81
+754142006009,"City of Jackson, Ward 6, Precinct 9",,299,1,2719,920,0,0,300,33.84
+754142006010,"City of Jackson, Ward 6, Precinct 10",,176,1,1634,586,0,0,177,35.86
+blackman-charter-township-precinct-1,"Blackman Charter Township, Precinct 1",,203,2,2738,479,0,0,205,17.49
+blackman-charter-township-precinct-2,"Blackman Charter Township, Precinct 2",,248,1,2460,626,0,0,249,25.45
+blackman-charter-township-precinct-3,"Blackman Charter Township, Precinct 3",,276,2,2965,634,0,0,278,21.38
+blackman-charter-township-precinct-4,"Blackman Charter Township, Precinct 4",,151,1,2951,451,0,0,152,15.28
+blackman-charter-township-precinct-5,"Blackman Charter Township, Precinct 5",,170,2,2751,439,0,0,172,15.96
+blackman-charter-township-precinct-6,"Blackman Charter Township, Precinct 6",,320,1,2333,719,0,0,321,30.82
+columbia-charter-township-precinct-1,"Columbia Charter Township, Precinct 1",,312,1,2409,696,0,0,313,28.89
+columbia-charter-township-precinct-2,"Columbia Charter Township, Precinct 2",,268,2,1733,547,0,0,270,31.56
+columbia-charter-township-precinct-3,"Columbia Charter Township, Precinct 3",,422,0,2607,893,0,0,422,34.25
+751776000001,"Concord Township, Precinct 1",,337,0,2318,601,0,0,337,25.93
+753450000001,"Grass Lake Charter Township, Precinct 1",,333,1,2331,722,0,0,334,30.97
+753450000002,"Grass Lake Charter Township, Precinct 2",,429,1,3058,1028,0,0,430,33.62
+753640000001,"Hanover Township, Precinct 1",,209,2,1340,416,0,0,211,31.04
+753640000002,"Hanover Township, Precinct 2",,243,1,1760,408,0,0,244,23.18
+753770000001,"Henrietta Township, Precinct 1",,266,1,1832,573,0,0,267,31.28
+753770000002,"Henrietta Township, Precinct 2",,297,0,2205,562,0,0,297,25.49
+754698000001,"Leoni Township, Precinct 1",,366,1,2799,756,0,0,367,27.01
+754698000002,"Leoni Township, Precinct 2",,332,5,3100,682,0,0,337,22.0
+754698000003,"Leoni Township, Precinct 3",,299,4,2760,691,0,0,303,25.04
+754698000004,"Leoni Township, Precinct 4",,349,2,2929,815,0,0,351,27.83
+754736000001,"Liberty Township, Precinct 1",,471,1,2727,862,0,0,472,31.61
+755664000001,"Napoleon Township, Precinct 1",,428,4,3009,803,0,0,432,26.69
+755664000002,"Napoleon Township, Precinct 2",,369,2,2881,773,0,0,371,26.83
+755918000001,"Norvell Township, Precinct 1",,187,1,1157,383,0,0,188,33.1
+755918000002,"Norvell Township, Precinct 2",,244,2,1415,466,0,0,246,32.93
+756276000001,"Parma Township, Precinct 1",,232,0,2278,501,0,0,232,21.99
+756644000001,"Pulaski Township, Precinct 1",,221,3,1530,355,0,0,224,23.2
+756892000001,"Rives Township, Precinct 1",,311,5,2346,593,0,0,316,25.28
+756892000002,"Rives Township, Precinct 2",,332,0,1694,588,0,0,332,34.71
+sandstone-charter-township-precinct-1,"Sandstone Charter Township, Precinct 1",,237,0,1420,423,0,0,237,29.79
+sandstone-charter-township-precinct-2,"Sandstone Charter Township, Precinct 2",,183,1,990,321,0,0,184,32.42
+sandstone-charter-township-precinct-3,"Sandstone Charter Township, Precinct 3",,109,2,959,230,0,0,111,23.98
+757564000001,"Spring Arbor Township, Precinct 1",,245,0,1480,470,0,0,245,31.76
+757564000002,"Spring Arbor Township, Precinct 2",,338,2,2414,697,0,0,340,28.87
+757564000003,"Spring Arbor Township, Precinct 3",,281,3,2217,560,0,0,284,25.26
+757588000001,"Springport Township, Precinct 1",,216,1,1745,383,0,0,217,21.95
+757720000001,"Summit Township, Precinct 1",,188,0,2455,530,0,0,188,21.59
+757720000002,"Summit Township, Precinct 2",,471,3,2609,1069,0,0,474,40.97
+757720000003,"Summit Township, Precinct 3",,318,2,2223,794,0,0,320,35.72
+757720000004,"Summit Township, Precinct 4",,380,3,2242,882,0,0,383,39.34
+757720000005,"Summit Township, Precinct 5",,402,0,2123,832,0,0,402,39.19
+757720000006,"Summit Township, Precinct 6",,253,0,1534,562,0,0,253,36.64
+757720000007,"Summit Township, Precinct 7",,374,1,3153,807,0,0,375,25.59
+757720000008,"Summit Township, Precinct 8",,282,2,2973,648,0,0,284,21.8
+757998000001,"Tompkins Township, Precinct 1",,289,4,2203,547,0,0,293,24.83
+758430000001,"Waterloo Township, Precinct 1",,335,0,2499,765,0,0,335,30.61
