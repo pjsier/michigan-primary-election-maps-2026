@@ -1,0 +1,250 @@
+id,name,total,over_votes,under_votes,Write-in,John James,Perry Johnson,Mike Cox,Aric Nesbitt
+991432000001,"Center Line, Precinct 1",122,,,0,46,58,17,1
+991432000002,"Center Line, Precinct 2",84,,,1,53,24,6,0
+991432000003,"Center Line, Precinct 3",215,,,1,103,81,27,3
+991432000004,"Center Line, Precinct 4",72,,,0,38,22,10,2
+992429000001,"Eastpointe, Precinct 1",127,,,1,51,58,14,3
+992429000002,"Eastpointe, Precinct 2",140,,,0,81,46,13,0
+992429000003,"Eastpointe, Precinct 3",165,,,1,72,64,28,0
+992429000004,"Eastpointe, Precinct 4",140,,,0,72,52,13,3
+992429000005,"Eastpointe, Precinct 5",146,,,2,72,48,23,1
+992429000006,"Eastpointe, Precinct 6",111,,,0,57,39,13,2
+992429000007,"Eastpointe, Precinct 7",177,,,0,75,78,22,2
+992429000008,"Eastpointe, Precinct 8",114,,,0,62,42,8,2
+993042000001,"Fraser, Precinct 1",256,,,0,120,103,30,3
+993042000002,"Fraser, Precinct 2",338,,,0,171,141,26,0
+993042000003,"Fraser, Precinct 3",204,,,0,106,71,24,3
+993042000004,"Fraser, Precinct 4",223,,,0,114,79,30,0
+993042000005,"Fraser, Precinct 5",295,,,0,139,102,51,3
+998245300002,Grosse Pointe Shores 2,22,,,0,17,5,0,0
+995296000001,"Memphis, Precinct 1",96,,,0,43,33,20,0
+995582000001,"Mount Clemens, Precinct 1",40,,,0,21,17,2,0
+995582000002,"Mount Clemens, Precinct 2",153,,,0,94,41,17,1
+995582000003,"Mount Clemens, Precinct 3",176,,,0,85,72,17,2
+995582000004,"Mount Clemens, Precinct 4",90,,,0,35,35,16,4
+995582000005,"Mount Clemens, Precinct 5",250,,,1,125,94,28,2
+995582000006,"Mount Clemens, Precinct 6",137,,,0,63,47,26,1
+995710000001,"New Baltimore, Precinct 1",216,,,1,92,96,26,1
+995710000002,"New Baltimore, Precinct 2",195,,,0,94,71,23,7
+995710000003,"New Baltimore, Precinct 3",379,,,0,197,143,38,1
+995710000004,"New Baltimore, Precinct 4",308,,,0,129,121,57,1
+995710000005,"New Baltimore, Precinct 5",333,,,3,169,121,38,2
+996838000001,"Richmond, Precinct 1",414,,,0,176,173,59,6
+996838000002,"Richmond, Precinct 2",327,,,0,149,130,47,1
+996980000001,"Roseville, Precinct 1",191,,,0,78,72,38,3
+996980000002,"Roseville, Precinct 2",273,,,0,128,111,33,1
+996980000003,"Roseville, Precinct 3",109,,,0,50,48,11,0
+996980000004,"Roseville, Precinct 4",265,,,0,119,104,37,5
+996980000005,"Roseville, Precinct 5",162,,,0,85,44,30,3
+996980000006,"Roseville, Precinct 6",255,,,0,130,97,25,3
+996980000007,"Roseville, Precinct 7",209,,,1,102,78,23,5
+996980000008,"Roseville, Precinct 8",242,,,2,113,103,22,2
+996980000009,"Roseville, Precinct 9",285,,,0,134,113,36,2
+996980000010,"Roseville, Precinct 10",153,,,0,70,65,17,1
+996980000011,"Roseville, Precinct 11",313,,,0,135,146,27,5
+996980000012,"Roseville, Precinct 12",266,,,2,123,108,30,3
+997076000001,"St. Clair Shores, Precinct 1",337,,,1,168,109,56,3
+997076000002,"St. Clair Shores, Precinct 2",343,,,1,171,134,37,0
+997076000003,"St. Clair Shores, Precinct 3",506,,,3,269,166,58,10
+997076000004,"St. Clair Shores, Precinct 4",490,,,0,246,173,69,2
+997076000005,"St. Clair Shores, Precinct 5",308,,,0,146,118,42,2
+997076000006,"St. Clair Shores, Precinct 6",559,,,2,293,191,71,2
+997076000007,"St. Clair Shores, Precinct 7",568,,,3,279,217,65,4
+997076000008,"St. Clair Shores, Precinct 8",795,,,1,409,269,106,10
+997076000009,"St. Clair Shores, Precinct 9",706,,,0,333,265,105,3
+997076000010,"St. Clair Shores, Precinct 10",695,,,1,364,241,88,1
+997076000011,"St. Clair Shores, Precinct 11",655,,,3,294,263,92,3
+997076000012,"St. Clair Shores, Precinct 12",485,,,1,238,186,57,3
+997646000001,"Sterling Heights, Precinct 1",109,,,0,44,46,18,1
+997646000002,"Sterling Heights, Precinct 2",198,,,0,92,84,21,1
+997646000003,"Sterling Heights, Precinct 3",217,,,0,127,59,29,2
+997646000004,"Sterling Heights, Precinct 4",169,,,0,87,57,23,2
+997646000005,"Sterling Heights, Precinct 5",145,,,1,82,37,24,1
+997646000006,"Sterling Heights, Precinct 6",146,,,0,70,59,15,2
+997646000007,"Sterling Heights, Precinct 7",191,,,0,85,72,33,1
+997646000008,"Sterling Heights, Precinct 8",190,,,0,86,80,22,2
+997646000009,"Sterling Heights, Precinct 9",242,,,0,120,86,32,4
+997646000010,"Sterling Heights, Precinct 10",268,,,0,157,82,28,1
+997646000011,"Sterling Heights, Precinct 11",327,,,1,175,117,32,2
+997646000012,"Sterling Heights, Precinct 12",131,,,0,59,46,25,1
+997646000013,"Sterling Heights, Precinct 13",330,,,0,162,128,38,2
+997646000014,"Sterling Heights, Precinct 14",560,,,1,297,191,68,3
+997646000015,"Sterling Heights, Precinct 15",290,,,0,129,126,30,5
+997646000017,"Sterling Heights, Precinct 17",121,,,0,53,49,17,2
+997646000018,"Sterling Heights, Precinct 18",253,,,0,145,75,33,0
+997646000019,"Sterling Heights, Precinct 19",166,,,1,75,74,15,1
+997646000020,"Sterling Heights, Precinct 20",162,,,0,82,60,16,4
+997646000021,"Sterling Heights, Precinct 21",532,,,2,279,175,75,1
+997646000022,"Sterling Heights, Precinct 22",235,,,0,118,81,33,3
+997646000023,"Sterling Heights, Precinct 23",242,,,0,113,92,35,2
+997646000025,"Sterling Heights, Precinct 25",119,,,0,64,46,8,1
+997646000026,"Sterling Heights, Precinct 26",196,,,0,89,79,26,2
+997646000027,"Sterling Heights, Precinct 27",247,,,0,124,92,28,3
+997646000028,"Sterling Heights, Precinct 28",269,,,0,134,101,34,0
+997646000029,"Sterling Heights, Precinct 29",271,,,0,140,95,33,3
+997646000030,"Sterling Heights, Precinct 30",391,,,0,204,147,35,5
+997646000031,"Sterling Heights, Precinct 31",257,,,2,139,78,37,1
+997646000032,"Sterling Heights, Precinct 32",204,,,1,125,52,24,2
+997646000033,"Sterling Heights, Precinct 33",138,,,0,71,49,15,3
+997646000034,"Sterling Heights, Precinct 34",238,,,0,128,85,20,5
+997646000035,"Sterling Heights, Precinct 35",250,,,1,127,86,33,3
+997646000036,"Sterling Heights, Precinct 36",277,,,0,146,99,30,2
+997646000037,"Sterling Heights, Precinct 37",164,,,1,93,45,25,0
+997646000038,"Sterling Heights, Precinct 38",282,,,0,152,88,42,0
+997646000039,"Sterling Heights, Precinct 39",276,,,1,136,95,42,2
+997646000040,"Sterling Heights, Precinct 40",270,,,0,132,106,29,3
+997646000042,"Sterling Heights, Precinct 42",232,,,0,132,76,23,1
+997646000043,"Sterling Heights, Precinct 43",295,,,0,153,91,44,7
+998154000001,"Utica, Precinct 1",448,,,1,199,164,80,4
+998400001001,"Warren, Precinct 1",79,,,1,28,36,13,1
+998400002002,"Warren, Precinct 2",79,,,0,31,38,10,0
+998400002003,"Warren, Precinct 3",130,,,0,46,58,26,0
+998400001004,"Warren, Precinct 4",106,,,0,47,44,14,1
+998400001005,"Warren, Precinct 5",136,,,0,58,58,19,1
+998400005006,"Warren, Precinct 6",53,,,0,27,22,4,0
+998400005007,"Warren, Precinct 7",66,,,1,30,24,9,2
+998400005008,"Warren, Precinct 8",73,,,0,35,25,13,0
+998400003009,"Warren, Precinct 9",53,,,0,26,21,6,0
+998400003010,"Warren, Precinct 10",2,,,0,1,1,0,0
+998400005011,"Warren, Precinct 11",44,,,0,25,15,4,0
+998400005012,"Warren, Precinct 12",51,,,0,22,15,14,0
+998400003013,"Warren, Precinct 13",159,,,0,66,76,14,3
+998400004014,"Warren, Precinct 14",79,,,1,38,30,9,1
+998400004015,"Warren, Precinct 15",86,,,0,34,32,19,1
+998400004016,"Warren, Precinct 16",84,,,0,37,30,16,1
+998400005017,"Warren, Precinct 17",12,,,0,3,7,1,1
+998400002018,"Warren, Precinct 18",127,,,2,49,59,15,2
+998400002019,"Warren, Precinct 19",209,,,0,88,93,27,1
+998400005020,"Warren, Precinct 20",207,,,0,97,91,16,3
+998400005021,"Warren, Precinct 21",184,,,0,92,75,15,2
+998400003022,"Warren, Precinct 22",88,,,1,50,28,8,1
+998400004023,"Warren, Precinct 23",95,,,0,43,42,9,1
+998400004024,"Warren, Precinct 24",47,,,0,24,12,10,1
+998400004025,"Warren, Precinct 25",224,,,0,118,88,17,1
+998400003026,"Warren, Precinct 26",146,,,0,65,67,14,0
+998400003027,"Warren, Precinct 27",221,,,0,100,92,28,1
+998400004028,"Warren, Precinct 28",224,,,1,113,80,30,0
+998400003029,"Warren, Precinct 29",234,,,1,120,79,34,0
+998400004030,"Warren, Precinct 30",268,,,0,133,103,26,6
+998400001031,"Warren, Precinct 31",95,,,1,41,36,16,1
+998400002032,"Warren, Precinct 32",212,,,0,94,80,37,1
+998400002033,"Warren, Precinct 33",123,,,0,59,56,8,0
+998400001034,"Warren, Precinct 34",89,,,0,38,39,12,0
+998400001035,"Warren, Precinct 35",100,,,0,60,33,7,0
+998400002036,"Warren, Precinct 36",226,,,0,119,72,34,1
+998400005037,"Warren, Precinct 37",212,,,2,101,88,20,1
+998400005038,"Warren, Precinct 38",193,,,1,84,80,25,3
+998400005039,"Warren, Precinct 39",125,,,0,65,37,21,2
+998400002040,"Warren, Precinct 40",174,,,0,98,50,25,1
+998400001041,"Warren, Precinct 41",122,,,0,61,41,19,1
+998400001042,"Warren, Precinct 42",270,,,0,115,116,35,4
+998400002043,"Warren, Precinct 43",110,,,0,66,35,9,0
+998400003044,"Warren, Precinct 44",289,,,0,136,116,33,4
+998400004045,"Warren, Precinct 45",209,,,0,109,77,23,0
+998400003046,"Warren, Precinct 46",332,,,0,173,126,29,4
+998400004047,"Warren, Precinct 47",173,,,0,83,66,24,0
+998400003048,"Warren, Precinct 48",162,,,0,86,59,15,2
+998400003049,"Warren, Precinct 49",259,,,1,138,83,35,2
+998400002050,"Warren, Precinct 50",211,,,0,94,95,22,0
+998400001051,"Warren, Precinct 51",106,,,1,48,45,11,1
+998400001052,"Warren, Precinct 52",213,,,0,111,60,41,1
+998400004053,"Warren, Precinct 53",335,,,0,167,127,36,5
+990354000001,"Armada Township, Precinct 1",503,,,0,231,198,61,13
+990354000002,"Armada Township, Precinct 2",350,,,1,178,137,29,5
+991130000001,"Bruce Township, Precinct 1",228,,,0,102,94,31,1
+991130000002,"Bruce Township, Precinct 2",459,,,2,254,156,42,5
+991130000003,"Bruce Township, Precinct 3",383,,,1,175,156,48,3
+991130000004,"Bruce Township, Precinct 4",407,,,0,186,167,49,5
+991534000001,"Chesterfield Township, Precinct 1",664,,,2,335,220,102,5
+991534000002,"Chesterfield Township, Precinct 2",538,,,0,274,195,67,2
+991534000003,"Chesterfield Township, Precinct 3",968,,,1,475,358,129,5
+991534000004,"Chesterfield Township, Precinct 4",786,,,2,374,306,99,5
+991534000005,"Chesterfield Township, Precinct 5",551,,,2,272,206,67,4
+991534000006,"Chesterfield Township, Precinct 6",538,,,1,273,220,43,1
+991534000007,"Chesterfield Township, Precinct 7",290,,,1,128,114,39,8
+991534000008,"Chesterfield Township, Precinct 8",293,,,2,135,112,42,2
+991534000009,"Chesterfield Township, Precinct 9",606,,,2,275,225,99,5
+991534000010,"Chesterfield Township, Precinct 10",605,,,2,277,223,94,9
+991652000001,"Clinton Township, Precinct 1",388,,,1,183,152,50,2
+991652000002,"Clinton Township, Precinct 2",597,,,0,306,213,75,3
+991652000003,"Clinton Township, Precinct 3",615,,,0,330,198,84,3
+991652000004,"Clinton Township, Precinct 4",159,,,0,78,63,17,1
+991652000005,"Clinton Township, Precinct 5",551,,,1,268,199,76,7
+991652000006,"Clinton Township, Precinct 6",817,,,3,387,311,109,7
+991652000007,"Clinton Township, Precinct 7",341,,,1,173,120,45,2
+991652000008,"Clinton Township, Precinct 8",652,,,0,331,243,75,3
+991652000009,"Clinton Township, Precinct 9",369,,,0,180,133,52,4
+991652000010,"Clinton Township, Precinct 10",757,,,0,389,271,95,2
+991652000011,"Clinton Township, Precinct 11",544,,,3,280,183,78,0
+991652000012,"Clinton Township, Precinct 12",384,,,0,172,165,44,3
+991652000013,"Clinton Township, Precinct 13",445,,,1,222,160,58,4
+991652000014,"Clinton Township, Precinct 14",581,,,0,277,216,83,5
+991652000015,"Clinton Township, Precinct 15",495,,,1,250,172,70,2
+991652000016,"Clinton Township, Precinct 16",335,,,2,182,109,40,2
+991652000017,"Clinton Township, Precinct 17",317,,,2,156,120,34,5
+991652000018,"Clinton Township, Precinct 18",238,,,1,114,98,20,5
+993682000001,"Harrison Township, Precinct 1",461,,,1,225,156,78,1
+993682000002,"Harrison Township, Precinct 2",571,,,1,275,224,64,7
+993682000003,"Harrison Township, Precinct 3",789,,,2,377,324,78,8
+993682000004,"Harrison Township, Precinct 4",738,,,2,396,254,80,6
+993682000005,"Harrison Township, Precinct 5",538,,,1,278,180,77,2
+993682000006,"Harrison Township, Precinct 6",389,,,0,190,161,36,2
+994690000001,"Lenox Township, Precinct 1",291,,,0,107,145,34,5
+994690000002,"Lenox Township, Precinct 2",398,,,2,176,164,52,4
+994690000003,"Lenox Township, Precinct 3",244,,,2,124,81,35,2
+994690000004,"Lenox Township, Precinct 4",96,,,0,56,27,10,3
+995048000001,"Macomb Township, Precinct 1",474,,,0,213,188,71,2
+995048000002,"Macomb Township, Precinct 2",538,,,0,288,197,47,6
+995048000003,"Macomb Township, Precinct 3",284,,,0,143,95,44,2
+995048000004,"Macomb Township, Precinct 4",325,,,1,176,117,27,4
+995048000005,"Macomb Township, Precinct 5",746,,,1,364,288,87,6
+995048000006,"Macomb Township, Precinct 6",163,,,1,93,53,16,0
+995048000007,"Macomb Township, Precinct 7",394,,,0,208,135,50,1
+995048000008,"Macomb Township, Precinct 8",615,,,0,318,230,64,3
+995048000009,"Macomb Township, Precinct 9",568,,,1,267,233,63,4
+995048000010,"Macomb Township, Precinct 10",313,,,1,180,98,29,5
+995048000011,"Macomb Township, Precinct 11",395,,,0,218,137,39,1
+995048000012,"Macomb Township, Precinct 12",52,,,0,30,17,5,0
+995048000013,"Macomb Township, Precinct 13",567,,,2,270,223,68,4
+995048000014,"Macomb Township, Precinct 14",585,,,3,310,192,78,2
+995048000015,"Macomb Township, Precinct 15",556,,,2,283,189,77,5
+995048000016,"Macomb Township, Precinct 16",450,,,0,207,180,60,3
+995048000017,"Macomb Township, Precinct 17",225,,,0,111,87,27,0
+995048000018,"Macomb Township, Precinct 18",586,,,3,264,240,75,4
+995048000019,"Macomb Township, Precinct 19",728,,,0,359,262,102,5
+995048000020,"Macomb Township, Precinct 20",354,,,0,178,135,35,6
+995048000021,"Macomb Township, Precinct 21",355,,,1,170,132,46,6
+995048000022,"Macomb Township, Precinct 22",370,,,0,200,120,47,3
+995048000023,"Macomb Township, Precinct 23",154,,,0,71,58,24,1
+995048000024,"Macomb Township, Precinct 24",305,,,0,147,120,38,0
+996742000001,"Ray Township, Precinct 1",348,,,1,153,150,42,2
+996742000002,"Ray Township, Precinct 2",437,,,0,182,199,49,7
+996840000001,"Richmond Township, Precinct 1",303,,,0,147,119,35,2
+996840000002,"Richmond Township, Precinct 2",331,,,1,162,145,18,5
+997282000001,"Shelby Charter Township, Precinct 1",310,,,0,191,88,31,0
+997282000002,"Shelby Charter Township, Precinct 2",607,,,0,331,179,96,1
+997282000003,"Shelby Charter Township, Precinct 3",633,,,1,321,224,85,2
+997282000004,"Shelby Charter Township, Precinct 4",548,,,1,307,187,48,5
+997282000005,"Shelby Charter Township, Precinct 5",551,,,1,267,214,60,9
+997282000006,"Shelby Charter Township, Precinct 6",182,,,1,88,74,18,1
+997282000007,"Shelby Charter Township, Precinct 7",134,,,0,78,37,18,1
+997282000008,"Shelby Charter Township, Precinct 8",279,,,1,144,103,30,1
+997282000009,"Shelby Charter Township, Precinct 9",497,,,1,252,172,63,9
+997282000010,"Shelby Charter Township, Precinct 10",587,,,0,308,200,75,4
+997282000011,"Shelby Charter Township, Precinct 11",274,,,0,129,90,49,6
+997282000012,"Shelby Charter Township, Precinct 12",855,,,4,467,314,62,8
+997282000013,"Shelby Charter Township, Precinct 13",676,,,2,339,245,89,1
+997282000014,"Shelby Charter Township, Precinct 14",745,,,1,404,233,100,7
+997282000015,"Shelby Charter Township, Precinct 15",595,,,1,351,141,101,1
+997282000016,"Shelby Charter Township, Precinct 16",347,,,0,190,106,50,1
+997282000017,"Shelby Charter Township, Precinct 17",443,,,1,243,147,46,6
+997282000018,"Shelby Charter Township, Precinct 18",437,,,0,216,175,39,7
+997282000019,"Shelby Charter Township, Precinct 19",547,,,0,282,199,64,2
+997282000020,"Shelby Charter Township, Precinct 20",664,,,1,364,222,73,4
+998412000001,"Washington Township, Precinct 1",683,,,0,340,270,68,5
+998412000002,"Washington Township, Precinct 2",516,,,3,231,221,55,6
+998412000003,"Washington Township, Precinct 3",505,,,0,263,173,67,2
+998412000004,"Washington Township, Precinct 4",993,,,0,519,361,109,4
+998412000005,"Washington Township, Precinct 5",504,,,2,241,188,71,2
+998412000006,"Washington Township, Precinct 6",711,,,1,316,276,109,9
+998412000007,"Washington Township, Precinct 7",619,,,0,305,227,85,2

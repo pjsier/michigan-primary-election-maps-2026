@@ -2,7 +2,7 @@ id,name,total,over_votes,under_votes,Write-in,Jocelyn Benson,Christopher Robert 
 1250040000001,"Addison Township, Precinct 1",283,,,0,241,42
 1250040000002,"Addison Township, Precinct 2",332,,,2,288,42
 1250040000003,"Addison Township, Precinct 3",180,,,0,153,27
-1130908000001,"Bloomfield Township, Precinct 1",403,,,2,321,80
+1250911000001,"Bloomfield Township, Precinct 1",403,,,2,321,80
 1250911000002,"Bloomfield Township, Precinct 2",679,,,3,557,119
 1250911000003,"Bloomfield Township, Precinct 3",1183,,,5,1003,175
 1250911000004,"Bloomfield Township, Precinct 4",437,,,2,395,40
@@ -38,7 +38,7 @@ id,name,total,over_votes,under_votes,Write-in,Jocelyn Benson,Christopher Robert 
 1253564000001,"Groveland Township, Precinct 1",169,,,0,124,45
 1253564000002,"Groveland Township, Precinct 2",251,,,0,182,69
 1253564000003,"Groveland Township, Precinct 3",295,,,3,228,64
-1333810000001,"Highland Township, Precinct 1",648,,,4,545,99
+1253808000001,"Highland Township, Precinct 1",648,,,4,545,99
 1253808000002,"Highland Township, Precinct 2",673,,,2,547,124
 1253808000003,"Highland Township, Precinct 3",598,,,1,503,94
 1253808000004,"Highland Township, Precinct 4",560,,,0,451,109
@@ -96,7 +96,7 @@ id,name,total,over_votes,under_votes,Write-in,Jocelyn Benson,Christopher Robert 
 1256204000003,"Oxford Township, Precinct 3",998,,,3,850,145
 1256204000004,"Oxford Township, Precinct 4",705,,,0,568,137
 1256204000005,"Oxford Township, Precinct 5",499,,,0,427,72
-1296960000001,"Rose Township, Precinct 1",267,,,0,184,83
+1256958000001,"Rose Township, Precinct 1",267,,,0,184,83
 1256958000002,"Rose Township, Precinct 2",296,,,1,216,79
 1256958000003,"Rose Township, Precinct 3",305,,,0,216,89
 1257006000001,"Royal Oak Township, Precinct 1",276,,,0,257,19
@@ -212,7 +212,7 @@ id,name,total,over_votes,under_votes,Write-in,Jocelyn Benson,Christopher Robert 
 1252744000021,"Farmington Hills, Precinct 21",815,,,0,732,83
 1252744000022,"Farmington Hills, Precinct 22",293,,,0,230,63
 1252744000023,"Farmington Hills, Precinct 23",254,,,0,214,40
-0492776000002,"Fenton, Precinct 2",2,,,0,0,2
+492776000002,"Fenton, Precinct 2",2,,,0,0,2
 1252788000001,"Ferndale, Precinct 1",1257,,,2,1115,140
 1252788000002,"Ferndale, Precinct 2",1112,,,5,949,158
 1252788000003,"Ferndale, Precinct 3",1501,,,5,1309,187

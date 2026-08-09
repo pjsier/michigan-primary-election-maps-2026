@@ -11,7 +11,7 @@ id,name,total,over_votes,under_votes,Write-in,Lisa McClain
 1253564000001,"Groveland Township, Precinct 1",130,,,1,129
 1253564000002,"Groveland Township, Precinct 2",168,,,0,168
 1253564000003,"Groveland Township, Precinct 3",211,,,0,211
-1333810000001,"Highland Township, Precinct 1",266,,,6,260
+1253808000001,"Highland Township, Precinct 1",266,,,6,260
 1253808000002,"Highland Township, Precinct 2",297,,,1,296
 1253808000003,"Highland Township, Precinct 3",285,,,1,284
 1253808000004,"Highland Township, Precinct 4",261,,,1,260
@@ -53,7 +53,7 @@ id,name,total,over_votes,under_votes,Write-in,Lisa McClain
 1256204000003,"Oxford Township, Precinct 3",488,,,1,487
 1256204000004,"Oxford Township, Precinct 4",276,,,0,276
 1256204000005,"Oxford Township, Precinct 5",196,,,0,196
-1296960000001,"Rose Township, Precinct 1",116,,,0,116
+1256958000001,"Rose Township, Precinct 1",116,,,0,116
 1256958000002,"Rose Township, Precinct 2",205,,,0,205
 1256958000003,"Rose Township, Precinct 3",184,,,0,184
 1257576000001,"Springfield Township, Precinct 1",342,,,0,342
@@ -63,4 +63,4 @@ id,name,total,over_votes,under_votes,Write-in,Lisa McClain
 1257576000005,"Springfield Township, Precinct 5",182,,,0,182
 1258686000001,"White Lake Township, Precinct 1",30,,,0,30
 1258245000001,"Clarkston, Precinct 1",111,,,0,111
-0492776000002,"Fenton, Precinct 2",0,,,0,0
+492776000002,"Fenton, Precinct 2",0,,,0,0

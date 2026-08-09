@@ -11,7 +11,7 @@ id,name,total,over_votes,under_votes,Write-in,Ray Pooley
 1253564000001,"Groveland Township, Precinct 1",106,,,1,105
 1253564000002,"Groveland Township, Precinct 2",178,,,1,177
 1253564000003,"Groveland Township, Precinct 3",226,,,3,223
-1333810000001,"Highland Township, Precinct 1",498,,,2,496
+1253808000001,"Highland Township, Precinct 1",498,,,2,496
 1253808000002,"Highland Township, Precinct 2",532,,,1,531
 1253808000003,"Highland Township, Precinct 3",443,,,0,443
 1253808000004,"Highland Township, Precinct 4",419,,,1,418
@@ -53,7 +53,7 @@ id,name,total,over_votes,under_votes,Write-in,Ray Pooley
 1256204000003,"Oxford Township, Precinct 3",745,,,3,742
 1256204000004,"Oxford Township, Precinct 4",513,,,4,509
 1256204000005,"Oxford Township, Precinct 5",390,,,4,386
-1296960000001,"Rose Township, Precinct 1",200,,,1,199
+1256958000001,"Rose Township, Precinct 1",200,,,1,199
 1256958000002,"Rose Township, Precinct 2",241,,,0,241
 1256958000003,"Rose Township, Precinct 3",212,,,3,209
 1257576000001,"Springfield Township, Precinct 1",346,,,0,346
@@ -63,4 +63,4 @@ id,name,total,over_votes,under_votes,Write-in,Ray Pooley
 1257576000005,"Springfield Township, Precinct 5",256,,,4,252
 1258686000001,"White Lake Township, Precinct 1",88,,,1,87
 1258245000001,"Clarkston, Precinct 1",148,,,1,147
-0492776000002,"Fenton, Precinct 2",0,,,0,0
+492776000002,"Fenton, Precinct 2",0,,,0,0

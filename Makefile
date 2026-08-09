@@ -1,4 +1,5 @@
 # TODO: Use more full basemap from Maptiler?
+CLARITY_COUNTIES = 
 
 data/tiles/%.pmtiles: data/tiles/%.mbtiles
 	pmtiles convert $< $@
@@ -16,6 +17,27 @@ data/tiles/%.mbtiles: data/results/%.geojson
 	--use-attribute-for-id=id \
 	--force \
 	-L precincts:$< -o $@
+
+data/results/oakland:
+	poetry run python processor/process_clarity.py https://results.enr.clarityelections.com//MI/OaklandMI/127075/377933/reports/detailxml.zip $@
+
+data/results/macomb:
+	poetry run python processor/process_clarity.py https://results.enr.clarityelections.com//MI/Macomb/126774/377944/reports/detailxml.zip $@
+
+data/results/genesee:
+	poetry run python processor/process_clarity.py https://results.enr.clarityelections.com//MI/Genesee/126773/377963/reports/detailxml.zip $@
+
+data/results/ottawa:
+	poetry run python processor/process_clarity.py https://www.miottawavotes.gov//MI/Ottawa/126772/377930/reports/detailxml.zip $@
+
+data/results/marquette: input/results/marquette/primary.pdf
+	poetry run python processor/process_dominion_alt_pdf.py $< $@
+
+data/results/jackson: input/results/jackson/primary.pdf
+	poetry run python processor/process_dominion_alt_pdf.py $< $@
+
+data/results/saginaw:
+	poetry run python scripts/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/saginaw-county-mi/SaginawCountyAugust2026Primary $@
 
 input/precinct-id-map.json: input/precincts.geojson
 	cat $< | poetry run python processor/process_precinct_id_map.py > $@

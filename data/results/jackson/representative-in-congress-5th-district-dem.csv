@@ -9,15 +9,15 @@ id,name,board,Christian Vukasovich,Unresolved Write-In,registered,ballots,over_v
 754142005008,"City of Jackson, Ward 5, Precinct 8",,390,11,4256,673,0,0,401,15.81
 754142006009,"City of Jackson, Ward 6, Precinct 9",,476,7,2719,920,0,0,483,33.84
 754142006010,"City of Jackson, Ward 6, Precinct 10",,323,3,1634,586,0,0,326,35.86
-blackman-charter-township-precinct-1,"Blackman Charter Township, Precinct 1",,222,4,2738,479,0,0,226,17.49
-blackman-charter-township-precinct-2,"Blackman Charter Township, Precinct 2",,306,2,2460,626,0,0,308,25.45
-blackman-charter-township-precinct-3,"Blackman Charter Township, Precinct 3",,293,1,2965,634,0,0,294,21.38
-blackman-charter-township-precinct-4,"Blackman Charter Township, Precinct 4",,250,1,2951,451,0,0,251,15.28
-blackman-charter-township-precinct-5,"Blackman Charter Township, Precinct 5",,215,2,2751,439,0,0,217,15.96
-blackman-charter-township-precinct-6,"Blackman Charter Township, Precinct 6",,315,1,2333,719,0,0,316,30.82
-columbia-charter-township-precinct-1,"Columbia Charter Township, Precinct 1",,325,4,2409,696,0,0,329,28.89
-columbia-charter-township-precinct-2,"Columbia Charter Township, Precinct 2",,220,1,1733,547,0,0,221,31.56
-columbia-charter-township-precinct-3,"Columbia Charter Township, Precinct 3",,380,2,2607,893,0,0,382,34.25
+750876000001,"Blackman Charter Township, Precinct 1",,222,4,2738,479,0,0,226,17.49
+750876000002,"Blackman Charter Township, Precinct 2",,306,2,2460,626,0,0,308,25.45
+750876000003,"Blackman Charter Township, Precinct 3",,293,1,2965,634,0,0,294,21.38
+750876000004,"Blackman Charter Township, Precinct 4",,250,1,2951,451,0,0,251,15.28
+750876000005,"Blackman Charter Township, Precinct 5",,215,2,2751,439,0,0,217,15.96
+750876000006,"Blackman Charter Township, Precinct 6",,315,1,2333,719,0,0,316,30.82
+751740000001,"Columbia Charter Township, Precinct 1",,325,4,2409,696,0,0,329,28.89
+751740000002,"Columbia Charter Township, Precinct 2",,220,1,1733,547,0,0,221,31.56
+751740000003,"Columbia Charter Township, Precinct 3",,380,2,2607,893,0,0,382,34.25
 751776000001,"Concord Township, Precinct 1",,208,4,2318,601,0,0,212,25.93
 753450000001,"Grass Lake Charter Township, Precinct 1",,301,2,2331,722,0,0,303,30.97
 753450000002,"Grass Lake Charter Township, Precinct 2",,448,5,3058,1028,0,0,453,33.62
@@ -38,9 +38,9 @@ columbia-charter-township-precinct-3,"Columbia Charter Township, Precinct 3",,38
 756644000001,"Pulaski Township, Precinct 1",,90,1,1530,355,0,0,91,23.2
 756892000001,"Rives Township, Precinct 1",,183,2,2346,593,0,0,185,25.28
 756892000002,"Rives Township, Precinct 2",,154,0,1694,588,0,0,154,34.71
-sandstone-charter-township-precinct-1,"Sandstone Charter Township, Precinct 1",,132,2,1420,423,0,0,134,29.79
-sandstone-charter-township-precinct-2,"Sandstone Charter Township, Precinct 2",,89,0,990,321,0,0,89,32.42
-sandstone-charter-township-precinct-3,"Sandstone Charter Township, Precinct 3",,97,0,959,230,0,0,97,23.98
+757150000001,"Sandstone Charter Township, Precinct 1",,132,2,1420,423,0,0,134,29.79
+757150000002,"Sandstone Charter Township, Precinct 2",,89,0,990,321,0,0,89,32.42
+757150000003,"Sandstone Charter Township, Precinct 3",,97,0,959,230,0,0,97,23.98
 757564000001,"Spring Arbor Township, Precinct 1",,183,1,1480,470,0,0,184,31.76
 757564000002,"Spring Arbor Township, Precinct 2",,272,1,2414,697,0,0,273,28.87
 757564000003,"Spring Arbor Township, Precinct 3",,226,0,2217,560,0,0,226,25.26

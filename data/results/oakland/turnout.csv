@@ -2,7 +2,7 @@ id,name,ballots,registered,turnout
 1250040000001,"Addison Township, Precinct 1",916,1982,46.22
 1250040000002,"Addison Township, Precinct 2",897,1932,46.43
 1250040000003,"Addison Township, Precinct 3",446,1333,33.46
-1130908000001,"Bloomfield Township, Precinct 1",655,1870,35.03
+1250911000001,"Bloomfield Township, Precinct 1",655,1870,35.03
 1250911000002,"Bloomfield Township, Precinct 2",990,2437,40.62
 1250911000003,"Bloomfield Township, Precinct 3",1876,4146,45.25
 1250911000004,"Bloomfield Township, Precinct 4",703,1534,45.83
@@ -38,7 +38,7 @@ id,name,ballots,registered,turnout
 1253564000001,"Groveland Township, Precinct 1",481,1303,36.91
 1253564000002,"Groveland Township, Precinct 2",593,2276,26.05
 1253564000003,"Groveland Township, Precinct 3",780,1810,43.09
-1333810000001,"Highland Township, Precinct 1",1419,3843,36.92
+1253808000001,"Highland Township, Precinct 1",1419,3843,36.92
 1253808000002,"Highland Township, Precinct 2",1550,4052,38.25
 1253808000003,"Highland Township, Precinct 3",1439,3841,37.46
 1253808000004,"Highland Township, Precinct 4",1296,3947,32.84
@@ -96,7 +96,7 @@ id,name,ballots,registered,turnout
 1256204000003,"Oxford Township, Precinct 3",2183,4813,45.36
 1256204000004,"Oxford Township, Precinct 4",1484,3218,46.12
 1256204000005,"Oxford Township, Precinct 5",1067,2798,38.13
-1296960000001,"Rose Township, Precinct 1",528,1427,37.00
+1256958000001,"Rose Township, Precinct 1",528,1427,37.00
 1256958000002,"Rose Township, Precinct 2",745,1934,38.52
 1256958000003,"Rose Township, Precinct 3",729,1986,36.71
 1257006000001,"Royal Oak Township, Precinct 1",313,1354,23.12
@@ -212,7 +212,7 @@ id,name,ballots,registered,turnout
 1252744000021,"Farmington Hills, Precinct 21",1121,2910,38.52
 1252744000022,"Farmington Hills, Precinct 22",418,2668,15.67
 1252744000023,"Farmington Hills, Precinct 23",380,2732,13.91
-0492776000002,"Fenton, Precinct 2",2,18,11.11
+492776000002,"Fenton, Precinct 2",2,18,11.11
 1252788000001,"Ferndale, Precinct 1",1459,2437,59.87
 1252788000002,"Ferndale, Precinct 2",1288,2498,51.56
 1252788000003,"Ferndale, Precinct 3",1706,3277,52.06

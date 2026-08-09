@@ -1,13 +1,13 @@
 id,name,board,Jack Bergman,Matthew DenOtter,Justin Michal,Unresolved Write-In,registered,ballots,over_votes,under_votes,total,turnout
 1034122000001,"City of Ishpeming, Precinct 1",,339,73,29,1,5486,1399,0,0,441,25.5
-city-of-marquette-ward-1-precinct-1,"City of Marquette, Ward 1, Precinct 1",,333,77,27,0,4200,1648,0,0,437,39.24
-city-of-marquette-ward-1-precinct-2,"City of Marquette, Ward 1, Precinct 2",,215,32,20,1,2381,977,0,0,267,41.03
-city-of-marquette-ward-1-precinct-3,"City of Marquette, Ward 1, Precinct 3",,188,23,18,1,3850,1528,0,0,229,39.69
-city-of-marquette-ward-1-precinct-4,"City of Marquette, Ward 1, Precinct 4",,184,36,22,1,4481,1527,0,0,242,34.08
+1035190000001,"City of Marquette, Ward 1, Precinct 1",,333,77,27,0,4200,1648,0,0,437,39.24
+1035190000002,"City of Marquette, Ward 1, Precinct 2",,215,32,20,1,2381,977,0,0,267,41.03
+1035190000003,"City of Marquette, Ward 1, Precinct 3",,188,23,18,1,3850,1528,0,0,229,39.69
+1035190000004,"City of Marquette, Ward 1, Precinct 4",,184,36,22,1,4481,1527,0,0,242,34.08
 1035686000001,"City of Negaunee, Precinct 1",,276,46,26,0,3900,1264,0,0,348,32.41
 1031454000001,"Champion Township, Precinct 1",,12,1,0,0,234,72,0,0,13,30.77
-chocolay-charter-township-precinct-1,"Chocolay Charter Township, Precinct 1",,285,77,31,2,2708,1077,0,0,393,39.77
-chocolay-charter-township-precinct-2,"Chocolay Charter Township, Precinct 2",,325,63,28,1,2540,1136,0,0,416,44.72
+1031566000001,"Chocolay Charter Township, Precinct 1",,285,77,31,2,2708,1077,0,0,393,39.77
+1031566000002,"Chocolay Charter Township, Precinct 2",,325,63,28,1,2540,1136,0,0,416,44.72
 1032582000001,"Ely Township, Precinct 1",,172,32,15,0,1793,539,0,0,219,30.06
 1032684000001,"Ewing Township, Precinct 1",,22,5,3,1,137,65,0,0,30,47.45
 1032972000001,"Forsyth Township, Precinct 1",,381,87,45,2,2865,1151,0,0,513,40.17
@@ -15,7 +15,7 @@ chocolay-charter-township-precinct-2,"Chocolay Charter Township, Precinct 2",,32
 1032972000003,"Forsyth Township, Precinct 3",,90,30,9,0,1807,322,0,0,129,17.82
 1033994000001,"Humboldt Township, Precinct 1",,59,8,7,0,425,151,0,0,74,35.53
 1034124000001,"Ishpeming Township, Precinct 1",,336,45,27,2,3137,1038,0,0,408,33.09
-marquette-charter-township-precinct-1,"Marquette Charter Township, Precinct 1",,366,71,22,0,3757,1513,0,0,459,40.27
+1035192000001,"Marquette Charter Township, Precinct 1",,366,71,22,0,3757,1513,0,0,459,40.27
 1035354000001,"Michigamme Township, Precinct 1",,56,2,5,0,328,121,0,0,63,36.89
 1035688000001,"Negaunee Township, Precinct 1",,250,51,15,1,2874,896,0,0,316,31.18
 1036612000001,"Powell Township, Precinct 1",,104,11,8,0,836,320,0,0,123,38.28
@@ -25,5 +25,5 @@ marquette-charter-township-precinct-1,"Marquette Charter Township, Precinct 1",,
 1037411000001,"Skandia Township, Precinct 1",,95,17,21,0,768,282,0,0,133,36.72
 1037978000001,"Tilden Township, Precinct 1",,90,19,3,1,869,267,0,0,112,30.72
 1038078000001,"Turin Township, Precinct 1",,17,5,2,0,119,45,0,0,24,37.82
-0418524000001,"Wells Township, Precinct 1",,31,1,6,0,228,72,0,0,38,31.58
+1038526000001,"Wells Township, Precinct 1",,31,1,6,0,228,72,0,0,38,31.58
 1038554000001,"West Branch Township, Precinct 1",,123,41,8,0,1465,415,0,0,172,28.33

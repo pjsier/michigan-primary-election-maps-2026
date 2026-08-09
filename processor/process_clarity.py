@@ -121,7 +121,7 @@ def process_xml(xml_str, id_map, output_dir):
         contest_slug = slugify(contest_name)
         if not any(
             w in contest_slug
-            for w in ["representative-in-congress", "us-senator-dem", "governor"]
+            for w in ["representative-in-congress", "united-states-senator-dem", "governor"]
         ):
             continue
 
