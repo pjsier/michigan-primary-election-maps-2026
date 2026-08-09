@@ -244,6 +244,8 @@ if __name__ == "__main__":
         df_map[title] = merged
 
     for race_key, df_val in df_map.items():
+        if not any(w in race_key for w in ("governor", "congress", "united-states-senator-dem")):
+            continue
         df_val = df_val.loc[:, ~df_val.columns.duplicated()]
         # TODO: Only run for Detroit-specific
         # assert_totals_match(race_key, df_val)

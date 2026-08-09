@@ -1,0 +1,722 @@
+name,ballots,Mike Cox,John James,Perry Johnson,Aric Nesbitt,Write-in,id
+"Canton Township, Precinct 1",947,42,108,69,0,0,1631312000001.0
+"Canton Township, Precinct 10",754,38,85,61,1,0,1631312000010.0
+"Canton Township, Precinct 11",563,34,52,47,0,0,1631312000011.0
+"Canton Township, Precinct 12",1018,66,162,73,2,0,1631312000012.0
+"Canton Township, Precinct 13",1060,47,141,103,0,0,1631312000013.0
+"Canton Township, Precinct 14",1175,47,178,125,1,0,1631312000014.0
+"Canton Township, Precinct 15",1290,76,178,102,6,1,1631312000015.0
+"Canton Township, Precinct 16",1083,43,102,49,2,0,1631312000016.0
+"Canton Township, Precinct 17",1119,8,74,40,1,0,1631312000017.0
+"Canton Township, Precinct 18",1180,22,77,28,0,0,1631312000018.0
+"Canton Township, Precinct 19",934,10,52,33,3,0,1631312000019.0
+"Canton Township, Precinct 2",1082,66,155,92,1,0,1631312000002.0
+"Canton Township, Precinct 20",903,31,65,46,0,0,1631312000020.0
+"Canton Township, Precinct 3",1234,52,160,102,2,0,1631312000003.0
+"Canton Township, Precinct 4",963,31,114,63,3,1,1631312000004.0
+"Canton Township, Precinct 5",679,21,75,53,2,0,1631312000005.0
+"Canton Township, Precinct 6",350,17,25,33,0,0,1631312000006.0
+"Canton Township, Precinct 7",909,29,120,79,2,0,1631312000007.0
+"Canton Township, Precinct 8",904,26,94,60,0,0,1631312000008.0
+"Canton Township, Precinct 9",798,33,88,67,0,0,1631312000009.0
+"Charter Township of Brownstown, Precinct 1",501,20,59,64,1,0,1631122000001.0
+"Charter Township of Brownstown, Precinct 10",436,1,24,21,0,0,1631122000010.0
+"Charter Township of Brownstown, Precinct 11",263,6,30,29,0,0,1631122000011.0
+"Charter Township of Brownstown, Precinct 12",374,19,22,22,0,0,1631122000012.0
+"Charter Township of Brownstown, Precinct 2",384,15,26,33,0,0,1631122000002.0
+"Charter Township of Brownstown, Precinct 3",570,20,54,45,2,0,1631122000003.0
+"Charter Township of Brownstown, Precinct 4",952,55,150,97,2,0,1631122000004.0
+"Charter Township of Brownstown, Precinct 5",406,20,48,47,1,0,1631122000005.0
+"Charter Township of Brownstown, Precinct 6",540,28,68,52,2,0,1631122000006.0
+"Charter Township of Brownstown, Precinct 7",401,20,46,41,1,0,1631122000007.0
+"Charter Township of Brownstown, Precinct 8",369,14,40,23,1,0,1631122000008.0
+"Charter Township of Brownstown, Precinct 9",379,9,33,27,0,0,1631122000009.0
+"Charter Township of Huron, Precinct 1",586,38,106,96,2,2,1634004000001.0
+"Charter Township of Huron, Precinct 2",518,32,106,83,2,1,1634004000002.0
+"Charter Township of Huron, Precinct 3",872,61,147,113,3,1,1634004000003.0
+"Charter Township of Huron, Precinct 4",474,27,72,78,0,0,1634004000004.0
+"Charter Township of Northville, Precinct 1",1006,61,185,75,1,0,1635900000001.0
+"Charter Township of Northville, Precinct 10",776,40,180,73,1,0,1635900000010.0
+"Charter Township of Northville, Precinct 2",811,35,127,55,0,0,1635900000002.0
+"Charter Township of Northville, Precinct 3",644,41,101,57,1,0,1635900000003.0
+"Charter Township of Northville, Precinct 4",818,73,189,81,4,0,1635900000004.0
+"Charter Township of Northville, Precinct 5",625,46,114,48,1,0,1635900000005.0
+"Charter Township of Northville, Precinct 6",851,50,168,89,3,0,1635900000006.0
+"Charter Township of Northville, Precinct 7",875,61,159,83,4,0,1635900000007.0
+"Charter Township of Northville, Precinct 8",619,38,93,42,2,0,1635900000008.0
+"Charter Township of Northville, Precinct 9",470,24,62,28,2,0,1635900000009.0
+"City of Allen Park, Precinct 1",229,9,25,17,0,0,1630138000001.0
+"City of Allen Park, Precinct 2",581,21,53,53,3,0,1630138000002.0
+"City of Allen Park, Precinct 3",776,31,69,81,8,0,1630138000003.0
+"City of Allen Park, Precinct 4",607,34,63,53,3,0,1630138000004.0
+"City of Allen Park, Precinct 5",577,24,60,49,2,0,1630138000005.0
+"City of Allen Park, Precinct 6",778,34,89,71,4,0,1630138000006.0
+"City of Allen Park, Precinct 7",675,38,60,80,3,0,1630138000007.0
+"City of Allen Park, Precinct 8",235,9,37,26,0,0,1630138000008.0
+"City of Belleville, Precinct 1",570,15,48,59,2,0,1630702000001.0
+"City of Dearborn Heights, Precinct 1",380,5,12,17,1,0,1632102000001.0
+"City of Dearborn Heights, Precinct 10",568,7,28,26,0,0,1632102000010.0
+"City of Dearborn Heights, Precinct 11",303,14,26,14,0,0,1632102000011.0
+"City of Dearborn Heights, Precinct 12",426,22,51,34,4,0,1632102000012.0
+"City of Dearborn Heights, Precinct 13",497,21,43,43,0,0,1632102000013.0
+"City of Dearborn Heights, Precinct 14",289,23,24,34,0,1,1632102000014.0
+"City of Dearborn Heights, Precinct 15",379,9,33,36,1,0,1632102000015.0
+"City of Dearborn Heights, Precinct 2",418,10,23,24,1,0,1632102000002.0
+"City of Dearborn Heights, Precinct 3",360,20,28,37,0,0,1632102000003.0
+"City of Dearborn Heights, Precinct 4",528,28,50,65,1,0,1632102000004.0
+"City of Dearborn Heights, Precinct 5",419,12,32,27,0,0,1632102000005.0
+"City of Dearborn Heights, Precinct 6",402,18,30,36,0,0,1632102000006.0
+"City of Dearborn Heights, Precinct 7",222,7,16,20,0,0,1632102000007.0
+"City of Dearborn Heights, Precinct 8",344,11,25,30,0,0,1632102000008.0
+"City of Dearborn Heights, Precinct 9",427,9,38,23,1,0,1632102000009.0
+"City of Dearborn, Precinct 1",119,0,2,1,0,0,1632100000001.0
+"City of Dearborn, Precinct 10",157,1,2,2,0,0,1632100000010.0
+"City of Dearborn, Precinct 11",105,1,3,4,0,0,1632100000011.0
+"City of Dearborn, Precinct 12",152,3,4,3,0,0,1632100000012.0
+"City of Dearborn, Precinct 13",175,2,15,8,1,0,1632100000013.0
+"City of Dearborn, Precinct 15",184,1,2,7,0,0,1632100000015.0
+"City of Dearborn, Precinct 16",191,1,8,5,0,1,1632100000016.0
+"City of Dearborn, Precinct 17",245,4,4,10,1,1,1632100000017.0
+"City of Dearborn, Precinct 18",239,2,7,10,1,0,1632100000018.0
+"City of Dearborn, Precinct 19",156,0,0,6,0,0,1632100000019.0
+"City of Dearborn, Precinct 2",161,4,4,4,1,0,1632100000002.0
+"City of Dearborn, Precinct 20",89,0,0,0,0,0,1632100000020.0
+"City of Dearborn, Precinct 21",87,2,0,1,0,0,1632100000021.0
+"City of Dearborn, Precinct 22",416,16,28,22,0,0,1632100000022.0
+"City of Dearborn, Precinct 24",221,5,14,15,1,0,1632100000024.0
+"City of Dearborn, Precinct 25",361,17,30,39,1,0,1632100000025.0
+"City of Dearborn, Precinct 26",298,14,40,15,1,1,1632100000026.0
+"City of Dearborn, Precinct 27",293,16,23,17,0,0,1632100000027.0
+"City of Dearborn, Precinct 28",172,8,22,15,0,0,1632100000028.0
+"City of Dearborn, Precinct 29",270,4,29,26,0,0,1632100000029.0
+"City of Dearborn, Precinct 3",210,3,4,5,0,0,1632100000003.0
+"City of Dearborn, Precinct 31",408,16,36,26,0,0,1632100000031.0
+"City of Dearborn, Precinct 32",261,5,32,19,0,0,1632100000032.0
+"City of Dearborn, Precinct 33",286,4,21,21,3,0,1632100000033.0
+"City of Dearborn, Precinct 34",280,9,13,22,0,0,1632100000034.0
+"City of Dearborn, Precinct 35",455,17,34,17,0,0,1632100000035.0
+"City of Dearborn, Precinct 37",325,9,32,11,0,0,1632100000037.0
+"City of Dearborn, Precinct 38",302,3,36,16,0,0,1632100000038.0
+"City of Dearborn, Precinct 4",160,3,1,3,1,0,1632100000004.0
+"City of Dearborn, Precinct 40",219,6,8,17,0,0,1632100000040.0
+"City of Dearborn, Precinct 41",312,9,26,25,1,0,1632100000041.0
+"City of Dearborn, Precinct 42",536,15,37,19,0,1,1632100000042.0
+"City of Dearborn, Precinct 44",297,6,23,19,0,0,1632100000044.0
+"City of Dearborn, Precinct 45",296,4,20,15,0,0,1632100000045.0
+"City of Dearborn, Precinct 46",284,13,15,9,1,0,1632100000046.0
+"City of Dearborn, Precinct 47",389,11,42,21,1,0,1632100000047.0
+"City of Dearborn, Precinct 49",321,3,33,20,1,0,1632100000049.0
+"City of Dearborn, Precinct 50",217,3,20,21,2,0,1632100000050.0
+"City of Dearborn, Precinct 6",172,0,4,2,0,0,1632100000006.0
+"City of Dearborn, Precinct 7",206,2,4,6,0,0,1632100000007.0
+"City of Dearborn, Precinct 8",171,3,9,2,0,0,1632100000008.0
+"City of Dearborn, Precinct 9",148,4,2,1,0,0,1632100000009.0
+"City of Detroit, Precinct 1",206,0,2,1,0,0,1632200004001.0
+"City of Detroit, Precinct 10",76,1,0,0,0,0,1632200004010.0
+"City of Detroit, Precinct 100",69,0,0,0,0,0,1632200003100.0
+"City of Detroit, Precinct 101",102,0,0,0,0,0,1632200004101.0
+"City of Detroit, Precinct 102",64,0,0,0,0,0,1632200003102.0
+"City of Detroit, Precinct 103",101,0,3,1,0,0,1632200004103.0
+"City of Detroit, Precinct 105",195,1,2,0,1,0,1632200004105.0
+"City of Detroit, Precinct 107",31,0,1,1,0,0,1632200003107.0
+"City of Detroit, Precinct 11",327,1,4,0,0,0,1632200004011.0
+"City of Detroit, Precinct 111",133,0,1,0,0,0,1632200004111.0
+"City of Detroit, Precinct 112",179,1,2,1,0,0,1632200004112.0
+"City of Detroit, Precinct 115",266,1,3,0,0,0,1632200004115.0
+"City of Detroit, Precinct 116",225,1,0,0,0,0,1632200004116.0
+"City of Detroit, Precinct 12",245,0,1,0,0,0,1632200004012.0
+"City of Detroit, Precinct 120",243,0,1,1,0,0,1632200005120.0
+"City of Detroit, Precinct 121",169,0,1,0,0,0,1632200003121.0
+"City of Detroit, Precinct 122",74,0,0,0,0,0,1632200005122.0
+"City of Detroit, Precinct 123",45,0,0,1,0,0,1632200005123.0
+"City of Detroit, Precinct 124",855,3,6,2,0,0,1632200005124.0
+"City of Detroit, Precinct 125",616,0,6,1,0,0,1632200005125.0
+"City of Detroit, Precinct 126",263,0,5,1,0,0,1632200005126.0
+"City of Detroit, Precinct 128",145,0,3,1,0,0,1632200005128.0
+"City of Detroit, Precinct 129",88,0,1,1,0,0,1632200005129.0
+"City of Detroit, Precinct 130",112,0,0,1,0,0,1632200005130.0
+"City of Detroit, Precinct 132",506,1,5,1,0,0,1632200005132.0
+"City of Detroit, Precinct 133",377,2,11,5,0,0,1632200005133.0
+"City of Detroit, Precinct 134",312,0,11,1,0,0,1632200005134.0
+"City of Detroit, Precinct 135",208,1,1,0,0,0,1632200004135.0
+"City of Detroit, Precinct 136",517,1,1,2,0,0,1632200005136.0
+"City of Detroit, Precinct 137",74,0,0,1,0,0,1632200005137.0
+"City of Detroit, Precinct 138",248,2,4,2,0,0,1632200005138.0
+"City of Detroit, Precinct 139",236,0,0,1,0,0,1632200005139.0
+"City of Detroit, Precinct 14",35,0,0,1,0,0,1632200004014.0
+"City of Detroit, Precinct 140",154,1,4,1,0,0,1632200005140.0
+"City of Detroit, Precinct 143",199,3,7,4,0,0,1632200006143.0
+"City of Detroit, Precinct 144",271,3,4,1,0,0,1632200006144.0
+"City of Detroit, Precinct 145",140,2,3,3,0,0,1632200006145.0
+"City of Detroit, Precinct 146",267,1,8,1,0,0,1632200006146.0
+"City of Detroit, Precinct 147",200,0,2,1,0,0,1632200005147.0
+"City of Detroit, Precinct 148",129,1,2,2,0,0,1632200006148.0
+"City of Detroit, Precinct 15",143,0,1,2,0,0,1632200004015.0
+"City of Detroit, Precinct 150",231,1,3,0,0,0,1632200006150.0
+"City of Detroit, Precinct 151",488,3,4,1,1,0,1632200006151.0
+"City of Detroit, Precinct 156",143,1,0,1,0,0,1632200005156.0
+"City of Detroit, Precinct 157",194,2,3,1,0,0,1632200006157.0
+"City of Detroit, Precinct 158",309,1,4,3,0,0,1632200005158.0
+"City of Detroit, Precinct 159",224,2,3,4,0,0,1632200005159.0
+"City of Detroit, Precinct 16",104,0,0,1,0,0,1632200004016.0
+"City of Detroit, Precinct 161",260,1,2,0,0,1,1632200005161.0
+"City of Detroit, Precinct 162",318,0,6,0,0,0,1632200005162.0
+"City of Detroit, Precinct 164",73,0,1,1,0,0,1632200005164.0
+"City of Detroit, Precinct 165",464,2,3,1,0,0,1632200005165.0
+"City of Detroit, Precinct 166",50,0,0,0,0,0,1632200007166.0
+"City of Detroit, Precinct 167",260,0,0,0,0,0,1632200005167.0
+"City of Detroit, Precinct 168",258,1,1,1,0,0,1632200005168.0
+"City of Detroit, Precinct 169",182,0,3,1,0,0,1632200005169.0
+"City of Detroit, Precinct 172",141,0,3,0,0,0,1632200003172.0
+"City of Detroit, Precinct 173",221,0,3,3,0,0,1632200003173.0
+"City of Detroit, Precinct 174",72,0,2,0,0,0,1632200003174.0
+"City of Detroit, Precinct 175",46,2,0,0,0,0,1632200003175.0
+"City of Detroit, Precinct 176",146,1,0,0,0,0,1632200003176.0
+"City of Detroit, Precinct 177",138,0,3,0,0,0,1632200003177.0
+"City of Detroit, Precinct 178",127,2,3,0,0,0,1632200003178.0
+"City of Detroit, Precinct 18",169,0,4,2,0,0,1632200004018.0
+"City of Detroit, Precinct 180",113,0,0,0,0,0,1632200003180.0
+"City of Detroit, Precinct 182",239,0,4,1,0,0,1632200003182.0
+"City of Detroit, Precinct 183",74,0,1,0,0,0,1632200003183.0
+"City of Detroit, Precinct 184",276,1,3,2,0,0,1632200003184.0
+"City of Detroit, Precinct 185",141,0,2,1,0,0,1632200003185.0
+"City of Detroit, Precinct 188",104,0,1,1,0,0,1632200003188.0
+"City of Detroit, Precinct 189",157,0,2,0,0,0,1632200003189.0
+"City of Detroit, Precinct 19",121,1,4,5,0,0,1632200004019.0
+"City of Detroit, Precinct 190",77,0,0,0,0,0,1632200003190.0
+"City of Detroit, Precinct 191",152,0,0,1,0,0,1632200003191.0
+"City of Detroit, Precinct 192",138,0,2,0,0,0,1632200003192.0
+"City of Detroit, Precinct 193",84,0,0,1,0,0,1632200003193.0
+"City of Detroit, Precinct 194",89,0,0,0,0,0,1632200003194.0
+"City of Detroit, Precinct 195",197,0,1,1,0,0,1632200003195.0
+"City of Detroit, Precinct 197",63,0,4,0,0,0,1632200003197.0
+"City of Detroit, Precinct 198",151,2,0,2,1,0,1632200003198.0
+"City of Detroit, Precinct 199",54,0,0,0,0,0,1632200003199.0
+"City of Detroit, Precinct 2",203,0,1,0,0,0,1632200004002.0
+"City of Detroit, Precinct 20",259,3,4,12,0,2,1632200004020.0
+"City of Detroit, Precinct 200",224,0,1,0,0,0,1632200002200.0
+"City of Detroit, Precinct 201",541,1,4,11,0,0,1632200002201.0
+"City of Detroit, Precinct 203",394,0,1,4,0,0,1632200002203.0
+"City of Detroit, Precinct 204",257,1,2,2,0,0,1632200002204.0
+"City of Detroit, Precinct 207",442,0,6,5,0,0,1632200002207.0
+"City of Detroit, Precinct 208",453,1,4,1,0,0,1632200002208.0
+"City of Detroit, Precinct 209",130,0,0,0,0,0,1632200002209.0
+"City of Detroit, Precinct 210",147,0,3,0,0,0,1632200002210.0
+"City of Detroit, Precinct 211",247,1,3,2,0,0,1632200002211.0
+"City of Detroit, Precinct 212",197,0,3,1,1,0,1632200005212.0
+"City of Detroit, Precinct 215",103,0,1,0,0,0,1632200005215.0
+"City of Detroit, Precinct 216",64,0,0,0,0,0,1632200005216.0
+"City of Detroit, Precinct 217",165,0,0,0,0,0,1632200005217.0
+"City of Detroit, Precinct 218",66,0,1,0,0,0,1632200005218.0
+"City of Detroit, Precinct 219",92,0,0,1,0,0,1632200005219.0
+"City of Detroit, Precinct 22",143,2,2,2,0,0,1632200004022.0
+"City of Detroit, Precinct 220",95,0,0,0,0,0,1632200005220.0
+"City of Detroit, Precinct 221",380,0,1,1,0,0,1632200002221.0
+"City of Detroit, Precinct 222",142,0,0,1,0,0,1632200002222.0
+"City of Detroit, Precinct 223",202,0,2,1,0,0,1632200002223.0
+"City of Detroit, Precinct 224",344,1,4,0,0,0,1632200002224.0
+"City of Detroit, Precinct 225",271,0,4,0,0,0,1632200002225.0
+"City of Detroit, Precinct 226",198,0,5,1,0,0,1632200002226.0
+"City of Detroit, Precinct 227",147,0,0,0,0,0,1632200002227.0
+"City of Detroit, Precinct 228",332,0,4,2,0,0,1632200002228.0
+"City of Detroit, Precinct 229",257,0,2,1,0,0,1632200002229.0
+"City of Detroit, Precinct 23",319,0,3,5,0,0,1632200004023.0
+"City of Detroit, Precinct 230",311,0,2,0,0,0,1632200002230.0
+"City of Detroit, Precinct 231",216,0,1,0,0,0,1632200002231.0
+"City of Detroit, Precinct 232",304,0,0,0,0,1,1632200002232.0
+"City of Detroit, Precinct 233",349,0,3,1,0,0,1632200002233.0
+"City of Detroit, Precinct 234",182,0,0,0,0,0,1632200002234.0
+"City of Detroit, Precinct 236",327,0,4,0,0,0,1632200002236.0
+"City of Detroit, Precinct 238",144,0,1,0,0,0,1632200002238.0
+"City of Detroit, Precinct 239",154,0,2,0,1,0,1632200002239.0
+"City of Detroit, Precinct 240",202,0,2,0,0,0,1632200002240.0
+"City of Detroit, Precinct 241",145,0,3,0,0,0,1632200002241.0
+"City of Detroit, Precinct 242",176,0,2,0,0,0,1632200002242.0
+"City of Detroit, Precinct 243",105,0,0,0,0,0,1632200002243.0
+"City of Detroit, Precinct 244",288,3,1,1,0,0,1632200002244.0
+"City of Detroit, Precinct 246",128,0,1,1,0,0,1632200002246.0
+"City of Detroit, Precinct 247",238,1,0,0,0,0,1632200002247.0
+"City of Detroit, Precinct 248",110,0,2,0,0,0,1632200002248.0
+"City of Detroit, Precinct 249",143,0,2,1,0,0,1632200002249.0
+"City of Detroit, Precinct 25",100,0,1,0,0,0,1632200004025.0
+"City of Detroit, Precinct 250",151,1,2,0,0,0,1632200002250.0
+"City of Detroit, Precinct 251",113,1,0,2,0,0,1632200002251.0
+"City of Detroit, Precinct 252",147,0,2,0,0,0,1632200002252.0
+"City of Detroit, Precinct 253",126,0,1,0,0,0,1632200002253.0
+"City of Detroit, Precinct 254",221,1,3,0,1,1,1632200002254.0
+"City of Detroit, Precinct 256",141,0,0,1,0,0,1632200002256.0
+"City of Detroit, Precinct 257",386,0,6,0,0,0,1632200002257.0
+"City of Detroit, Precinct 258",225,0,1,0,0,0,1632200002258.0
+"City of Detroit, Precinct 259",175,0,2,1,0,0,1632200002259.0
+"City of Detroit, Precinct 26",66,0,0,1,0,0,1632200004026.0
+"City of Detroit, Precinct 260",174,0,2,0,0,0,1632200002260.0
+"City of Detroit, Precinct 261",313,1,10,2,0,0,1632200001261.0
+"City of Detroit, Precinct 263",468,1,6,3,0,0,1632200001263.0
+"City of Detroit, Precinct 264",209,1,1,1,0,0,1632200001264.0
+"City of Detroit, Precinct 265",204,0,3,0,0,0,1632200001265.0
+"City of Detroit, Precinct 266",21,0,0,0,0,0,1632200001266.0
+"City of Detroit, Precinct 267",112,0,0,0,0,0,1632200001267.0
+"City of Detroit, Precinct 268",87,0,1,0,0,0,1632200001268.0
+"City of Detroit, Precinct 269",124,1,2,0,0,0,1632200001269.0
+"City of Detroit, Precinct 27",147,0,3,0,0,0,1632200004027.0
+"City of Detroit, Precinct 271",342,1,1,4,0,0,1632200001271.0
+"City of Detroit, Precinct 272",32,0,0,0,0,0,1632200001272.0
+"City of Detroit, Precinct 273",89,0,3,0,0,0,1632200001273.0
+"City of Detroit, Precinct 275",238,0,3,3,0,0,1632200001275.0
+"City of Detroit, Precinct 276",242,0,1,1,0,0,1632200001276.0
+"City of Detroit, Precinct 278",206,0,2,0,0,0,1632200001278.0
+"City of Detroit, Precinct 279",413,2,6,1,1,0,1632200001279.0
+"City of Detroit, Precinct 280",100,0,3,3,0,0,1632200001280.0
+"City of Detroit, Precinct 281",319,0,1,1,0,0,1632200001281.0
+"City of Detroit, Precinct 282",303,1,1,0,0,0,1632200001282.0
+"City of Detroit, Precinct 283",300,0,1,0,0,0,1632200001283.0
+"City of Detroit, Precinct 285",237,0,1,0,0,0,1632200001285.0
+"City of Detroit, Precinct 286",227,1,1,0,0,0,1632200001286.0
+"City of Detroit, Precinct 287",121,0,1,2,0,0,1632200001287.0
+"City of Detroit, Precinct 288",152,0,0,0,0,0,1632200002288.0
+"City of Detroit, Precinct 289",99,0,0,0,0,0,1632200002289.0
+"City of Detroit, Precinct 29",72,0,0,0,0,0,1632200004029.0
+"City of Detroit, Precinct 290",105,1,1,0,0,1,1632200002290.0
+"City of Detroit, Precinct 291",230,2,1,2,0,0,1632200002291.0
+"City of Detroit, Precinct 292",183,0,0,0,0,0,1632200002292.0
+"City of Detroit, Precinct 293",110,0,0,0,0,0,1632200002293.0
+"City of Detroit, Precinct 294",170,0,0,0,1,0,1632200002294.0
+"City of Detroit, Precinct 295",255,0,1,0,1,0,1632200002295.0
+"City of Detroit, Precinct 296",195,0,0,1,0,0,1632200002296.0
+"City of Detroit, Precinct 297",219,0,1,0,0,0,1632200001297.0
+"City of Detroit, Precinct 298",213,1,6,3,0,0,1632200001298.0
+"City of Detroit, Precinct 299",194,1,2,3,0,0,1632200001299.0
+"City of Detroit, Precinct 300",122,1,5,6,1,0,1632200001300.0
+"City of Detroit, Precinct 301",76,2,5,4,0,0,1632200001301.0
+"City of Detroit, Precinct 302",187,0,3,2,0,0,1632200001302.0
+"City of Detroit, Precinct 304",75,2,0,1,0,0,1632200001304.0
+"City of Detroit, Precinct 305",201,1,1,0,0,0,1632200001305.0
+"City of Detroit, Precinct 306",163,1,3,0,0,0,1632200001306.0
+"City of Detroit, Precinct 307",180,1,3,0,0,0,1632200001307.0
+"City of Detroit, Precinct 308",339,2,0,0,0,0,1632200001308.0
+"City of Detroit, Precinct 309",139,2,2,0,0,0,1632200001309.0
+"City of Detroit, Precinct 310",160,0,1,1,0,0,1632200001310.0
+"City of Detroit, Precinct 311",253,0,3,1,0,0,1632200001311.0
+"City of Detroit, Precinct 312",256,1,3,2,0,0,1632200001312.0
+"City of Detroit, Precinct 313",172,1,1,0,0,0,1632200002313.0
+"City of Detroit, Precinct 315",207,0,2,0,1,0,1632200001315.0
+"City of Detroit, Precinct 316",176,0,3,1,0,0,1632200001316.0
+"City of Detroit, Precinct 317",95,0,1,3,0,0,1632200001317.0
+"City of Detroit, Precinct 318",42,0,0,0,0,0,1632200002318.0
+"City of Detroit, Precinct 319",132,0,1,0,0,0,1632200001319.0
+"City of Detroit, Precinct 32",377,3,3,5,0,0,1632200004032.0
+"City of Detroit, Precinct 320",173,0,3,1,1,0,1632200001320.0
+"City of Detroit, Precinct 321",82,0,0,0,0,0,1632200001321.0
+"City of Detroit, Precinct 323",427,2,9,4,0,0,1632200001323.0
+"City of Detroit, Precinct 324",359,0,1,1,0,0,1632200001324.0
+"City of Detroit, Precinct 325",161,1,2,1,0,0,1632200001325.0
+"City of Detroit, Precinct 326",439,0,6,5,0,0,1632200001326.0
+"City of Detroit, Precinct 328",115,0,1,0,0,0,1632200001328.0
+"City of Detroit, Precinct 329",104,0,1,2,0,0,1632200001329.0
+"City of Detroit, Precinct 33",203,0,6,1,0,0,1632200004033.0
+"City of Detroit, Precinct 330",225,0,5,0,0,0,1632200007330.0
+"City of Detroit, Precinct 331",179,0,1,0,0,0,1632200007331.0
+"City of Detroit, Precinct 333",106,0,2,0,0,0,1632200007333.0
+"City of Detroit, Precinct 334",45,0,3,1,0,0,1632200007334.0
+"City of Detroit, Precinct 335",103,0,3,1,0,0,1632200007335.0
+"City of Detroit, Precinct 336",164,1,4,0,0,0,1632200007336.0
+"City of Detroit, Precinct 337",89,4,3,9,0,0,1632200007337.0
+"City of Detroit, Precinct 338",117,1,7,5,0,0,1632200007338.0
+"City of Detroit, Precinct 339",96,0,3,2,1,2,1632200007339.0
+"City of Detroit, Precinct 34",368,0,6,8,0,0,1632200004034.0
+"City of Detroit, Precinct 340",52,0,3,0,1,0,1632200007340.0
+"City of Detroit, Precinct 341",135,4,1,2,0,0,1632200007341.0
+"City of Detroit, Precinct 342",208,1,7,6,0,0,1632200007342.0
+"City of Detroit, Precinct 343",169,0,4,2,0,0,1632200007343.0
+"City of Detroit, Precinct 344",139,0,1,1,0,0,1632200007344.0
+"City of Detroit, Precinct 345",222,0,4,0,0,0,1632200007345.0
+"City of Detroit, Precinct 346",127,0,0,0,0,0,1632200007346.0
+"City of Detroit, Precinct 347",291,1,0,1,1,0,1632200007347.0
+"City of Detroit, Precinct 348",140,1,0,1,0,0,1632200007348.0
+"City of Detroit, Precinct 349",248,1,5,0,0,0,1632200007349.0
+"City of Detroit, Precinct 35",166,1,1,0,0,0,1632200004035.0
+"City of Detroit, Precinct 350",48,0,1,2,0,0,1632200001350.0
+"City of Detroit, Precinct 351",106,2,2,2,0,0,1632200001351.0
+"City of Detroit, Precinct 352",241,2,4,4,0,0,1632200001352.0
+"City of Detroit, Precinct 353",27,0,0,0,0,0,1632200007353.0
+"City of Detroit, Precinct 355",136,2,5,8,0,0,1632200007355.0
+"City of Detroit, Precinct 356",150,1,2,0,0,0,1632200007356.0
+"City of Detroit, Precinct 357",226,0,1,0,0,0,1632200001357.0
+"City of Detroit, Precinct 359",283,0,0,0,0,0,1632200001359.0
+"City of Detroit, Precinct 36",132,0,0,0,0,0,1632200004036.0
+"City of Detroit, Precinct 360",9,0,0,0,0,0,1632200006360.0
+"City of Detroit, Precinct 361",345,0,5,1,0,0,1632200001361.0
+"City of Detroit, Precinct 362",66,0,0,1,0,0,1632200001362.0
+"City of Detroit, Precinct 363",132,0,0,0,0,0,1632200007363.0
+"City of Detroit, Precinct 364",184,0,1,0,1,0,1632200007364.0
+"City of Detroit, Precinct 365",173,0,2,2,0,0,1632200007365.0
+"City of Detroit, Precinct 368",131,0,1,0,0,0,1632200007368.0
+"City of Detroit, Precinct 369",298,1,2,1,0,0,1632200007369.0
+"City of Detroit, Precinct 370",153,1,0,1,0,0,1632200007370.0
+"City of Detroit, Precinct 371",139,0,0,0,0,0,1632200007371.0
+"City of Detroit, Precinct 373",146,0,1,0,0,0,1632200007373.0
+"City of Detroit, Precinct 374",111,1,0,0,0,0,1632200007374.0
+"City of Detroit, Precinct 375",103,1,5,1,0,0,1632200007375.0
+"City of Detroit, Precinct 376",92,3,5,3,1,0,1632200007376.0
+"City of Detroit, Precinct 377",78,1,2,4,0,0,1632200007377.0
+"City of Detroit, Precinct 378",130,0,0,0,0,0,1632200001378.0
+"City of Detroit, Precinct 379",229,1,2,0,0,0,1632200001379.0
+"City of Detroit, Precinct 38",151,0,1,1,0,0,1632200004038.0
+"City of Detroit, Precinct 380",127,0,0,0,0,0,1632200007380.0
+"City of Detroit, Precinct 381",215,2,3,1,0,0,1632200007381.0
+"City of Detroit, Precinct 383",167,0,0,0,0,0,1632200002383.0
+"City of Detroit, Precinct 384",204,1,2,3,0,0,1632200002384.0
+"City of Detroit, Precinct 385",138,1,1,3,0,0,1632200002385.0
+"City of Detroit, Precinct 386",171,0,1,1,0,0,1632200002386.0
+"City of Detroit, Precinct 387",97,1,0,0,0,0,1632200002387.0
+"City of Detroit, Precinct 389",113,0,0,1,0,0,1632200002389.0
+"City of Detroit, Precinct 39",137,2,0,1,0,0,1632200004039.0
+"City of Detroit, Precinct 390",91,1,0,0,0,0,1632200002390.0
+"City of Detroit, Precinct 391",2,0,0,0,0,0,1632200007391.0
+"City of Detroit, Precinct 392",126,0,2,0,0,0,1632200007392.0
+"City of Detroit, Precinct 393",99,1,1,1,0,0,1632200007393.0
+"City of Detroit, Precinct 394",112,0,0,0,0,0,1632200007394.0
+"City of Detroit, Precinct 395",81,0,0,2,0,0,1632200007395.0
+"City of Detroit, Precinct 396",168,0,1,0,0,0,1632200007396.0
+"City of Detroit, Precinct 398",158,0,0,0,0,0,1632200007398.0
+"City of Detroit, Precinct 399",159,1,1,0,0,0,1632200007399.0
+"City of Detroit, Precinct 4",76,1,1,0,0,0,1632200004004.0
+"City of Detroit, Precinct 40",107,0,3,0,0,0,1632200004040.0
+"City of Detroit, Precinct 400",143,0,0,1,0,0,1632200007400.0
+"City of Detroit, Precinct 402",83,0,1,0,0,0,1632200002402.0
+"City of Detroit, Precinct 403",196,1,1,0,0,0,1632200002403.0
+"City of Detroit, Precinct 404",65,0,0,1,0,0,1632200007404.0
+"City of Detroit, Precinct 405",111,0,0,0,0,1,1632200007405.0
+"City of Detroit, Precinct 406",174,0,1,0,0,0,1632200007406.0
+"City of Detroit, Precinct 407",35,0,0,0,0,0,1632200007407.0
+"City of Detroit, Precinct 408",112,0,2,3,0,0,1632200007408.0
+"City of Detroit, Precinct 409",137,0,2,0,0,0,1632200007409.0
+"City of Detroit, Precinct 41",108,0,1,0,0,0,1632200004041.0
+"City of Detroit, Precinct 410",266,0,2,1,0,0,1632200007410.0
+"City of Detroit, Precinct 411",235,0,2,0,0,0,1632200007411.0
+"City of Detroit, Precinct 413",246,1,2,0,0,0,1632200007413.0
+"City of Detroit, Precinct 414",71,0,1,0,0,0,1632200007414.0
+"City of Detroit, Precinct 415",158,0,0,0,0,0,1632200007415.0
+"City of Detroit, Precinct 416",58,0,0,0,0,0,1632200006416.0
+"City of Detroit, Precinct 417",50,0,1,1,0,0,1632200006417.0
+"City of Detroit, Precinct 418",133,1,0,2,0,0,1632200006418.0
+"City of Detroit, Precinct 419",141,0,0,0,0,0,1632200006419.0
+"City of Detroit, Precinct 420",82,0,0,0,0,0,1632200006420.0
+"City of Detroit, Precinct 421",23,0,0,0,0,0,1632200006421.0
+"City of Detroit, Precinct 422",89,0,4,0,0,0,1632200006422.0
+"City of Detroit, Precinct 423",82,0,0,2,0,0,1632200006423.0
+"City of Detroit, Precinct 424",47,1,4,2,0,0,1632200006424.0
+"City of Detroit, Precinct 425",121,0,5,2,1,0,1632200006425.0
+"City of Detroit, Precinct 426",162,0,0,1,0,0,1632200005426.0
+"City of Detroit, Precinct 428",160,0,1,0,0,0,1632200005428.0
+"City of Detroit, Precinct 429",95,0,0,1,0,0,1632200005429.0
+"City of Detroit, Precinct 43",225,0,0,1,0,0,1632200004043.0
+"City of Detroit, Precinct 430",157,0,4,0,0,0,1632200005430.0
+"City of Detroit, Precinct 432",145,1,2,1,0,0,1632200005432.0
+"City of Detroit, Precinct 433",99,0,0,1,0,0,1632200005433.0
+"City of Detroit, Precinct 434",82,1,0,1,0,0,1632200005434.0
+"City of Detroit, Precinct 435",37,0,0,0,0,0,1632200005435.0
+"City of Detroit, Precinct 436",223,0,5,1,0,0,1632200005436.0
+"City of Detroit, Precinct 437",98,0,0,0,0,0,1632200005437.0
+"City of Detroit, Precinct 438",91,0,1,0,0,0,1632200005438.0
+"City of Detroit, Precinct 439",104,0,2,0,0,0,1632200005439.0
+"City of Detroit, Precinct 44",180,1,0,0,0,0,1632200004044.0
+"City of Detroit, Precinct 440",46,0,0,0,0,0,1632200005440.0
+"City of Detroit, Precinct 441",178,0,3,0,0,0,1632200005441.0
+"City of Detroit, Precinct 442",264,0,3,0,1,0,1632200005442.0
+"City of Detroit, Precinct 443",4,0,0,0,0,0,1632200005443.0
+"City of Detroit, Precinct 444",0,0,0,0,0,0,1632200006444.0
+"City of Detroit, Precinct 446",105,0,0,0,0,0,1632200005446.0
+"City of Detroit, Precinct 447",110,0,2,0,0,0,1632200005447.0
+"City of Detroit, Precinct 448",70,1,1,0,0,0,1632200005448.0
+"City of Detroit, Precinct 449",102,0,3,1,0,0,1632200005449.0
+"City of Detroit, Precinct 45",126,0,2,1,0,0,1632200004045.0
+"City of Detroit, Precinct 450",0,0,0,0,0,0,1632200005450.0
+"City of Detroit, Precinct 452",60,0,0,2,0,0,1632200005452.0
+"City of Detroit, Precinct 453",82,0,1,0,0,0,1632200006453.0
+"City of Detroit, Precinct 457",89,0,1,0,1,0,1632200006457.0
+"City of Detroit, Precinct 458",70,0,1,0,0,0,1632200006458.0
+"City of Detroit, Precinct 46",86,0,0,0,0,0,1632200004046.0
+"City of Detroit, Precinct 460",90,1,2,2,0,0,1632200006460.0
+"City of Detroit, Precinct 461",343,3,5,4,2,0,1632200006461.0
+"City of Detroit, Precinct 462",148,1,2,1,0,0,1632200006462.0
+"City of Detroit, Precinct 464",238,2,8,0,0,0,1632200006464.0
+"City of Detroit, Precinct 466",202,1,1,3,0,0,1632200006466.0
+"City of Detroit, Precinct 47",255,0,3,0,0,0,1632200004047.0
+"City of Detroit, Precinct 470",135,2,0,2,0,0,1632200006470.0
+"City of Detroit, Precinct 471",86,0,2,0,0,1,1632200006471.0
+"City of Detroit, Precinct 472",100,0,3,5,1,0,1632200006472.0
+"City of Detroit, Precinct 473",152,1,9,5,0,0,1632200006473.0
+"City of Detroit, Precinct 474",65,4,2,1,0,0,1632200006474.0
+"City of Detroit, Precinct 475",59,0,2,1,0,0,1632200006475.0
+"City of Detroit, Precinct 477",177,9,6,9,0,0,1632200006477.0
+"City of Detroit, Precinct 479",50,1,2,4,0,0,1632200006479.0
+"City of Detroit, Precinct 480",108,0,4,2,0,0,1632200006480.0
+"City of Detroit, Precinct 481",151,2,4,2,0,0,1632200006481.0
+"City of Detroit, Precinct 482",164,0,0,1,0,0,1632200006482.0
+"City of Detroit, Precinct 483",203,1,1,1,0,0,1632200006483.0
+"City of Detroit, Precinct 484",158,0,4,0,1,0,1632200006484.0
+"City of Detroit, Precinct 485",170,0,0,0,0,0,1632200006485.0
+"City of Detroit, Precinct 49",56,2,1,0,0,0,1632200004049.0
+"City of Detroit, Precinct 490",11,0,0,0,0,0,1632200002490.0
+"City of Detroit, Precinct 491",191,2,0,0,0,0,1632200004491.0
+"City of Detroit, Precinct 493",155,0,2,0,0,0,1632200005493.0
+"City of Detroit, Precinct 495",161,0,1,0,0,0,1632200001495.0
+"City of Detroit, Precinct 496",253,2,4,0,0,0,1632200005496.0
+"City of Detroit, Precinct 497",107,0,0,1,0,0,1632200005497.0
+"City of Detroit, Precinct 5",188,0,0,1,0,0,1632200004005.0
+"City of Detroit, Precinct 50",196,1,2,3,0,0,1632200004050.0
+"City of Detroit, Precinct 500",87,0,2,0,0,0,1632200006500.0
+"City of Detroit, Precinct 501",144,1,3,1,0,0,1632200001501.0
+"City of Detroit, Precinct 502",105,0,2,1,0,0,1632200004502.0
+"City of Detroit, Precinct 51",78,1,0,0,0,0,1632200004051.0
+"City of Detroit, Precinct 52",123,0,1,0,0,0,1632200004052.0
+"City of Detroit, Precinct 53",170,0,2,0,1,0,1632200004053.0
+"City of Detroit, Precinct 55",147,1,1,1,0,0,1632200004055.0
+"City of Detroit, Precinct 56",93,0,2,1,0,0,1632200004056.0
+"City of Detroit, Precinct 59",0,0,0,0,0,0,1632200003059.0
+"City of Detroit, Precinct 6",191,0,0,1,0,0,1632200004006.0
+"City of Detroit, Precinct 60",15,0,0,0,0,0,1632200007060.0
+"City of Detroit, Precinct 61",174,0,0,1,0,0,1632200003061.0
+"City of Detroit, Precinct 62",209,0,6,0,0,0,1632200003062.0
+"City of Detroit, Precinct 64",84,0,1,0,0,0,1632200003064.0
+"City of Detroit, Precinct 65",201,0,2,3,1,0,1632200003065.0
+"City of Detroit, Precinct 66",77,2,0,0,0,0,1632200003066.0
+"City of Detroit, Precinct 68",355,0,3,0,0,0,1632200003068.0
+"City of Detroit, Precinct 69",12,0,1,0,0,0,1632200006069.0
+"City of Detroit, Precinct 7",324,3,11,2,0,0,1632200004007.0
+"City of Detroit, Precinct 70",87,1,0,0,0,0,1632200003070.0
+"City of Detroit, Precinct 71",93,0,1,4,1,0,1632200003071.0
+"City of Detroit, Precinct 72",81,1,0,4,1,0,1632200003072.0
+"City of Detroit, Precinct 73",79,0,0,0,0,0,1632200003073.0
+"City of Detroit, Precinct 74",90,0,0,3,0,0,1632200003074.0
+"City of Detroit, Precinct 75",171,0,1,2,1,0,1632200003075.0
+"City of Detroit, Precinct 77",141,1,3,1,0,0,1632200003077.0
+"City of Detroit, Precinct 78",83,0,0,0,0,0,1632200003078.0
+"City of Detroit, Precinct 79",217,1,0,0,0,0,1632200003079.0
+"City of Detroit, Precinct 8",222,0,5,2,0,0,1632200004008.0
+"City of Detroit, Precinct 80",111,0,0,0,0,0,1632200003080.0
+"City of Detroit, Precinct 81",204,2,0,3,0,0,1632200003081.0
+"City of Detroit, Precinct 82",129,1,3,2,0,0,1632200003082.0
+"City of Detroit, Precinct 83",136,0,0,1,0,0,1632200003083.0
+"City of Detroit, Precinct 84",186,0,1,0,0,0,1632200003084.0
+"City of Detroit, Precinct 85",73,0,3,1,0,0,1632200003085.0
+"City of Detroit, Precinct 86",171,0,2,3,0,0,1632200003086.0
+"City of Detroit, Precinct 88",186,1,0,1,0,0,1632200003088.0
+"City of Detroit, Precinct 89",102,0,1,0,0,0,1632200003089.0
+"City of Detroit, Precinct 9",128,0,2,1,0,0,1632200004009.0
+"City of Detroit, Precinct 90",77,0,0,0,0,0,1632200003090.0
+"City of Detroit, Precinct 91",169,0,1,1,0,0,1632200003091.0
+"City of Detroit, Precinct 92",196,4,7,6,0,0,1632200003092.0
+"City of Detroit, Precinct 93",58,0,1,0,0,0,1632200003093.0
+"City of Detroit, Precinct 94",151,0,2,1,0,0,1632200003094.0
+"City of Detroit, Precinct 95",157,1,2,8,0,0,1632200003095.0
+"City of Detroit, Precinct 97",78,0,1,1,0,0,1632200003097.0
+"City of Detroit, Precinct 98",109,0,1,2,1,0,1632200003098.0
+"City of Ecorse, Precinct 1",107,5,5,7,1,0,1632474000001.0
+"City of Ecorse, Precinct 2",199,0,12,3,1,0,1632474000002.0
+"City of Ecorse, Precinct 3",53,0,8,4,0,0,1632474000003.0
+"City of Ecorse, Precinct 4",188,2,1,2,0,0,1632474000004.0
+"City of Flat Rock, Precinct 1",281,20,27,33,2,0,1632836000001.0
+"City of Flat Rock, Precinct 2",433,24,64,50,1,1,1632836000002.0
+"City of Flat Rock, Precinct 3",451,23,64,65,2,1,1632836000003.0
+"City of Garden City, Precinct 1",452,24,45,56,1,1,1633142000001.0
+"City of Garden City, Precinct 10",304,14,24,33,0,0,1633142000010.0
+"City of Garden City, Precinct 2",345,22,42,35,1,0,1633142000002.0
+"City of Garden City, Precinct 3",342,17,38,31,4,0,1633142000003.0
+"City of Garden City, Precinct 4",146,6,24,12,0,0,1633142000004.0
+"City of Garden City, Precinct 5",209,9,21,32,0,0,1633142000005.0
+"City of Garden City, Precinct 6",357,17,51,35,0,0,1633142000006.0
+"City of Garden City, Precinct 7",300,12,32,40,0,0,1633142000007.0
+"City of Garden City, Precinct 8",463,25,50,53,0,0,1633142000008.0
+"City of Garden City, Precinct 9",300,19,26,22,1,0,1633142000009.0
+"City of Gibraltar, Precinct 1",357,21,71,49,1,1,1633202000001.0
+"City of Gibraltar, Precinct 2",419,18,74,78,2,0,1633202000002.0
+"City of Grosse Pointe Farms, Precinct 1",1202,74,273,102,1,1,1633552000001.0
+"City of Grosse Pointe Farms, Precinct 2",1232,67,213,95,0,0,1633552000002.0
+"City of Grosse Pointe Park, Precinct 1",444,13,44,26,1,0,1633554000001.0
+"City of Grosse Pointe Park, Precinct 2",480,12,75,27,0,0,1633554000002.0
+"City of Grosse Pointe Park, Precinct 4",445,7,58,33,0,0,1633554000004.0
+"City of Grosse Pointe Park, Precinct 5",407,7,33,24,1,0,1633554000005.0
+"City of Grosse Pointe Park, Precinct 6",426,9,52,32,0,0,1633554000006.0
+"City of Grosse Pointe Park, Precinct 7",460,12,63,27,0,2,1633554000007.0
+"City of Grosse Pointe Woods, Precinct 1",1464,71,266,142,1,0,1633558000001.0
+"City of Grosse Pointe Woods, Precinct 2",1342,59,237,134,2,0,1633558000002.0
+"City of Grosse Pointe Woods, Precinct 3",1518,87,280,114,1,0,1633558000003.0
+"City of Grosse Pointe, Precinct 1",632,36,73,51,0,0,1633548000001.0
+"City of Grosse Pointe, Precinct 2",674,22,111,41,3,1,1633548000002.0
+"City of Hamtramck, Precinct 1",164,2,5,3,0,0,1633628000001.0
+"City of Hamtramck, Precinct 2",679,1,12,13,0,0,1633628000002.0
+"City of Hamtramck, Precinct 3",690,2,23,19,2,0,1633628000003.0
+"City of Hamtramck, Precinct 4",310,4,13,5,0,0,1633628000004.0
+"City of Hamtramck, Precinct 5",233,3,4,5,0,0,1633628000005.0
+"City of Harper Woods, Precinct 1",383,3,14,21,0,1,1633670000001.0
+"City of Harper Woods, Precinct 2",616,13,29,18,0,0,1633670000002.0
+"City of Harper Woods, Precinct 3",849,26,50,40,4,0,1633670000003.0
+"City of Highland Park, Precinct 1",140,0,1,0,0,0,1633818000001.0
+"City of Highland Park, Precinct 2",196,0,2,0,0,0,1633818000002.0
+"City of Highland Park, Precinct 3",176,0,3,1,0,0,1633818000003.0
+"City of Highland Park, Precinct 4",154,1,1,1,0,0,1633818000004.0
+"City of Highland Park, Precinct 5",73,2,1,0,0,0,1633818000005.0
+"City of Highland Park, Precinct 6",94,1,0,1,0,0,1633818000006.0
+"City of Inkster, District 1 Precinct 1",175,0,2,0,0,0,1634068001001.0
+"City of Inkster, District 1 Precinct 2",102,0,0,0,0,0,1634068001002.0
+"City of Inkster, District 2 Precinct 1",236,3,11,1,0,0,1634068002001.0
+"City of Inkster, District 2 Precinct 2",263,1,5,1,0,0,1634068002002.0
+"City of Inkster, District 3 Precinct 1",165,0,2,0,0,0,1634068003001.0
+"City of Inkster, District 3 Precinct 2",195,0,3,0,0,0,1634068003002.0
+"City of Inkster, District 4 Precinct 1",232,3,12,12,0,0,1634068004001.0
+"City of Inkster, District 4 Precinct 2",189,2,3,9,0,1,1634068004002.0
+"City of Inkster, District 5 Precinct 1",268,0,2,1,0,0,1634068005001.0
+"City of Inkster, District 6 Precinct 1",181,2,4,0,0,0,1634068006001.0
+"City of Inkster, District 6 Precinct 2",162,0,5,2,0,0,1634068006002.0
+"City of Lincoln Park, Precinct 1",590,13,65,48,1,2,1634780000001.0
+"City of Lincoln Park, Precinct 11",785,37,97,86,6,1,1634780000011.0
+"City of Lincoln Park, Precinct 3",545,16,31,46,3,0,1634780000003.0
+"City of Lincoln Park, Precinct 5",678,34,61,76,2,0,1634780000005.0
+"City of Lincoln Park, Precinct 7",644,19,54,68,3,0,1634780000007.0
+"City of Lincoln Park, Precinct 9",686,26,64,80,3,0,1634780000009.0
+"City of Livonia, Precinct 1",709,28,74,48,1,1,1634900000001.0
+"City of Livonia, Precinct 10",1205,45,200,134,2,0,1634900000010.0
+"City of Livonia, Precinct 11",976,56,138,101,3,0,1634900000011.0
+"City of Livonia, Precinct 12",1081,68,152,111,6,0,1634900000012.0
+"City of Livonia, Precinct 13",554,51,91,68,1,0,1634900000013.0
+"City of Livonia, Precinct 14",958,38,161,83,3,0,1634900000014.0
+"City of Livonia, Precinct 15",669,51,112,67,0,1,1634900000015.0
+"City of Livonia, Precinct 16",869,57,116,87,2,1,1634900000016.0
+"City of Livonia, Precinct 17",736,40,100,75,0,2,1634900000017.0
+"City of Livonia, Precinct 18",870,22,101,79,1,0,1634900000018.0
+"City of Livonia, Precinct 19",479,13,41,39,2,0,1634900000019.0
+"City of Livonia, Precinct 2",832,18,85,44,0,0,1634900000002.0
+"City of Livonia, Precinct 20",329,16,30,30,1,0,1634900000020.0
+"City of Livonia, Precinct 21",809,50,96,84,6,0,1634900000021.0
+"City of Livonia, Precinct 22",356,12,31,22,1,0,1634900000022.0
+"City of Livonia, Precinct 23",411,17,34,28,0,1,1634900000023.0
+"City of Livonia, Precinct 24",692,44,78,55,1,0,1634900000024.0
+"City of Livonia, Precinct 25",1120,92,167,107,3,0,1634900000025.0
+"City of Livonia, Precinct 26",981,60,128,74,3,0,1634900000026.0
+"City of Livonia, Precinct 3",1144,57,163,101,5,1,1634900000003.0
+"City of Livonia, Precinct 4",953,80,186,95,6,0,1634900000004.0
+"City of Livonia, Precinct 5",677,61,110,68,0,0,1634900000005.0
+"City of Livonia, Precinct 6",956,79,178,89,1,0,1634900000006.0
+"City of Livonia, Precinct 7",1228,79,208,130,5,0,1634900000007.0
+"City of Livonia, Precinct 8",970,60,98,80,1,0,1634900000008.0
+"City of Livonia, Precinct 9",1009,36,114,70,0,0,1634900000009.0
+"City of Melvindale, Precinct 1",228,5,19,13,0,0,1635294000001.0
+"City of Melvindale, Precinct 2",166,9,17,13,0,0,1635294000002.0
+"City of Melvindale, Precinct 3",159,8,13,6,1,0,1635294000003.0
+"City of Melvindale, Precinct 4",136,7,12,10,0,0,1635294000004.0
+"City of Melvindale, Precinct 5",175,8,12,11,0,0,1635294000005.0
+"City of Northville, Precinct 1",724,50,125,37,1,0,1635898000001.0
+"City of Plymouth, Precinct 1",660,24,57,64,1,0,1636506000001.0
+"City of Plymouth, Precinct 2",306,9,22,12,0,0,1636506000002.0
+"City of Plymouth, Precinct 3",726,32,94,43,1,1,1636506000003.0
+"City of Plymouth, Precinct 4",554,23,80,28,1,0,1636506000004.0
+"City of River Rouge, Precinct 1",73,1,7,7,0,0,1636876000001.0
+"City of River Rouge, Precinct 2",69,0,3,8,0,0,1636876000002.0
+"City of River Rouge, Precinct 3",56,0,4,8,0,0,1636876000003.0
+"City of River Rouge, Precinct 4",117,0,0,1,0,0,1636876000004.0
+"City of River Rouge, Precinct 5",92,0,0,2,0,0,1636876000005.0
+"City of Riverview, Precinct 1",617,35,84,62,3,0,1636888000001.0
+"City of Riverview, Precinct 2",594,29,85,75,1,0,1636888000002.0
+"City of Riverview, Precinct 3",864,67,134,96,3,1,1636888000003.0
+"City of Rockwood, Precinct 1",16,1,3,4,0,0,1636918000001.0
+"City of Rockwood, Precinct 2",35,1,8,4,1,0,1636918000002.0
+"City of Romulus, Precinct 1",266,9,19,29,0,0,1636942000001.0
+"City of Romulus, Precinct 10",311,10,11,10,1,0,1636942000010.0
+"City of Romulus, Precinct 2",522,4,22,45,2,1,1636942000002.0
+"City of Romulus, Precinct 3",249,15,41,36,0,0,1636942000003.0
+"City of Romulus, Precinct 4",318,8,26,28,0,1,1636942000004.0
+"City of Romulus, Precinct 5",346,6,30,32,0,0,1636942000005.0
+"City of Romulus, Precinct 6",85,2,8,6,0,0,1636942000006.0
+"City of Romulus, Precinct 7",316,5,11,8,0,0,1636942000007.0
+"City of Romulus, Precinct 8",561,2,16,11,2,1,1636942000008.0
+"City of Romulus, Precinct 9",183,9,9,17,0,2,1636942000009.0
+"City of Southgate, Precinct 1",763,31,82,62,0,0,1637496000001.0
+"City of Southgate, Precinct 2",810,26,100,94,0,0,1637496000002.0
+"City of Southgate, Precinct 3",853,32,103,66,4,0,1637496000003.0
+"City of Southgate, Precinct 4",732,21,81,70,2,0,1637496000004.0
+"City of Southgate, Precinct 5",1022,54,117,109,1,1,1637496000005.0
+"City of Taylor, Precinct 1",392,21,45,41,1,0,1637900000001.0
+"City of Taylor, Precinct 10",614,24,68,71,1,0,1637900000010.0
+"City of Taylor, Precinct 11",313,26,51,35,1,0,1637900000011.0
+"City of Taylor, Precinct 12",562,45,58,73,0,0,1637900000012.0
+"City of Taylor, Precinct 13",616,17,82,72,1,0,1637900000013.0
+"City of Taylor, Precinct 14",356,26,42,34,0,0,1637900000014.0
+"City of Taylor, Precinct 15",444,17,50,42,1,0,1637900000015.0
+"City of Taylor, Precinct 2",180,8,27,25,1,1,1637900000002.0
+"City of Taylor, Precinct 3",381,17,39,33,2,0,1637900000003.0
+"City of Taylor, Precinct 4",485,20,59,65,0,0,1637900000004.0
+"City of Taylor, Precinct 5",769,34,120,100,2,0,1637900000005.0
+"City of Taylor, Precinct 6",406,21,23,37,0,0,1637900000006.0
+"City of Taylor, Precinct 7",458,35,54,56,1,0,1637900000007.0
+"City of Taylor, Precinct 8",472,23,60,61,2,0,1637900000008.0
+"City of Taylor, Precinct 9",483,20,63,48,0,0,1637900000009.0
+"City of Trenton, Precinct 1",502,24,72,42,1,0,1638042000001.0
+"City of Trenton, Precinct 2",1096,55,200,105,2,0,1638042000002.0
+"City of Trenton, Precinct 3",956,44,133,127,1,0,1638042000003.0
+"City of Trenton, Precinct 4",1024,72,154,88,5,0,1638042000004.0
+"City of Wayne, Precinct 1",558,33,40,40,1,0,1638494000001.0
+"City of Wayne, Precinct 2",665,20,50,54,0,0,1638494000002.0
+"City of Wayne, Precinct 3",833,24,81,74,2,0,1638494000003.0
+"City of Westland, Precinct 1",658,23,42,50,5,0,1638600000001.0
+"City of Westland, Precinct 10",785,37,62,69,0,1,1638600000010.0
+"City of Westland, Precinct 11",658,27,95,53,0,1,1638600000011.0
+"City of Westland, Precinct 12",585,25,72,90,1,0,1638600000012.0
+"City of Westland, Precinct 13",578,27,56,91,0,0,1638600000013.0
+"City of Westland, Precinct 14",533,17,79,52,1,0,1638600000014.0
+"City of Westland, Precinct 15",325,11,39,36,0,0,1638600000015.0
+"City of Westland, Precinct 16",511,20,43,45,1,0,1638600000016.0
+"City of Westland, Precinct 17",665,35,70,62,2,1,1638600000017.0
+"City of Westland, Precinct 2",638,23,42,45,1,0,1638600000002.0
+"City of Westland, Precinct 28",634,21,21,34,2,0,1638600000028.0
+"City of Westland, Precinct 3",879,49,95,91,2,0,1638600000003.0
+"City of Westland, Precinct 4",783,37,102,72,3,0,1638600000004.0
+"City of Westland, Precinct 5",680,28,68,74,0,0,1638600000005.0
+"City of Westland, Precinct 6",637,25,48,50,0,2,1638600000006.0
+"City of Westland, Precinct 7",717,37,52,77,5,0,1638600000007.0
+"City of Westland, Precinct 8",383,8,22,21,0,0,1638600000008.0
+"City of Westland, Precinct 9",719,46,83,81,0,2,1638600000009.0
+"City of Woodhaven, Precinct 1",412,19,71,48,2,0,1638838000001.0
+"City of Woodhaven, Precinct 2",500,20,83,81,4,2,1638838000002.0
+"City of Woodhaven, Precinct 3",935,51,116,95,2,0,1638838000003.0
+"City of Woodhaven, Precinct 4",243,10,30,31,1,1,1638838000004.0
+"City of Wyandotte, Precinct 1",683,38,71,77,1,0,1638890000001.0
+"City of Wyandotte, Precinct 2",909,44,127,74,3,0,1638890000002.0
+"City of Wyandotte, Precinct 3",812,34,76,84,1,1,1638890000003.0
+"City of Wyandotte, Precinct 4",1101,52,143,100,9,0,1638890000004.0
+"City of Wyandotte, Precinct 5",532,29,57,54,1,0,1638890000005.0
+"Grosse Ile Township, Precinct 1",1440,87,272,194,8,3,1633542000001.0
+"Grosse Ile Township, Precinct 2",676,66,136,76,1,1,1633542000002.0
+"Grosse Ile Township, Precinct 3",925,77,246,124,2,1,1633542000003.0
+"Plymouth Township, Precinct 1",987,70,143,89,2,0,1636508000001.0
+"Plymouth Township, Precinct 2",1206,62,170,140,3,0,1636508000002.0
+"Plymouth Township, Precinct 3",1171,74,160,93,2,0,1636508000003.0
+"Plymouth Township, Precinct 4",1373,77,263,148,1,0,1636508000004.0
+"Plymouth Township, Precinct 5",1119,66,210,107,1,0,1636508000005.0
+"Plymouth Township, Precinct 6",1396,89,294,148,5,0,1636508000006.0
+"Redford Township, Precinct 1",315,4,14,17,0,0,1636762500001.0
+"Redford Township, Precinct 10",569,19,30,27,0,0,1636762500010.0
+"Redford Township, Precinct 11",794,28,73,40,0,0,1636762500011.0
+"Redford Township, Precinct 12",877,11,32,39,2,0,1636762500012.0
+"Redford Township, Precinct 2",34,3,4,2,0,0,1636762500002.0
+"Redford Township, Precinct 3",582,16,43,39,1,1,1636762500003.0
+"Redford Township, Precinct 4",305,10,27,15,3,0,1636762500004.0
+"Redford Township, Precinct 5",762,22,28,38,1,0,1636762500005.0
+"Redford Township, Precinct 6",506,13,39,40,1,0,1636762500006.0
+"Redford Township, Precinct 7",507,14,39,29,0,1,1636762500007.0
+"Redford Township, Precinct 8",574,22,40,22,0,1,1636762500008.0
+"Redford Township, Precinct 9",619,9,27,33,0,0,1636762500009.0
+"The Village of Grosse Pointe Shores, a Michigan City, Precinct 1",655,48,185,90,3,0,1638245300001.0
+"The Village of Grosse Pointe Shores, a Michigan City, Precinct 2 MACOMB",0,0,0,0,0,0,
+"Township of Sumpter, Precinct 1",185,10,28,31,0,1,1637736000001.0
+"Township of Sumpter, Precinct 2",366,17,52,43,7,0,1637736000002.0
+"Township of Sumpter, Precinct 3",398,28,62,63,0,0,1637736000003.0
+"Township of Sumpter, Precinct 4",384,19,48,68,2,0,1637736000004.0
+"Van Buren Township, Precinct 1",758,38,86,61,0,1,1638166000001.0
+"Van Buren Township, Precinct 2",1066,35,122,119,4,0,1638166000002.0
+"Van Buren Township, Precinct 3",928,18,106,81,0,1,1638166000003.0
+"Van Buren Township, Precinct 4",843,21,86,54,2,0,1638166000004.0
+"Van Buren Township, Precinct 5",651,26,56,39,1,0,1638166000005.0
+"Van Buren Township, Precinct 6",852,24,93,85,1,0,1638166000006.0
+"Van Buren Township, Precinct 7",245,11,29,24,1,1,1638166000007.0
