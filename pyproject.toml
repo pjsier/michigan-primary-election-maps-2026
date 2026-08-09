@@ -9,6 +9,7 @@ dependencies = [
     "requests (>=2.34.2,<3.0.0)",
     "pdfplumber (>=0.11.10,<0.12.0)",
     "pandas (>=3.0.5,<4.0.0)",
+    "esridump (>=1.13.0,<2.0.0)",
 ]
 
 

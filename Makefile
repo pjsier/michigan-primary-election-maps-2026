@@ -18,7 +18,7 @@ data/tiles/%.mbtiles: data/results/%.geojson
 	-L precincts:$< -o $@
 
 input/precinct-id-map.json: input/precincts.geojson
-	cat $< | poetry run python scripts/process_precinct_id_map.py > $@
+	cat $< | poetry run python processor/process_precinct_id_map.py > $@
 
 # TODO: Match on counties too, not just ID names, need to include CountyFIPS
 # TODO: Benzie AVCBs

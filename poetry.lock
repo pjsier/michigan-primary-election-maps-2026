@@ -292,6 +292,22 @@ cffi = {version = ">=2.0.0", markers = "platform_python_implementation != \"PyPy
 ssh = ["bcrypt (>=3.1.5)"]
 
 [[package]]
+name = "esridump"
+version = "1.13.0"
+description = "Dump geodata from ESRI endpoints to GeoJSON"
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "esridump-1.13.0-py3-none-any.whl", hash = "sha256:bfda87d3b9fc55dcfe1c1df583c98a7117f3861c02443e1350f77ffcca2237a2"},
+    {file = "esridump-1.13.0.tar.gz", hash = "sha256:3ea0b856da1a55b327375fb1eec24d08ec2a5eeda8700a9e696159252876dca7"},
+]
+
+[package.dependencies]
+requests = "*"
+six = "*"
+
+[[package]]
 name = "idna"
 version = "3.18"
 description = "Internationalized Domain Names in Applications (IDNA)"
@@ -890,4 +906,4 @@ zstd = ["backports-zstd (>=1.0.0) ; python_version < \"3.14\""]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.14"
-content-hash = "ba7f7e373f180f977e3c5686d1e469b464298365fbba80abf89534a35df211f8"
+content-hash = "b2e51dcc1e067e510e9011bd66691c455258f2bedf3d70551ade46f6f769731e"

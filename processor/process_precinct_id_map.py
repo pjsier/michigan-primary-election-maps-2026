@@ -3,6 +3,91 @@ import re
 import sys
 from collections import defaultdict
 
+MI_COUNTY_FIPS = {
+    "001": "alcona",
+    "003": "alger",
+    "005": "allegan",
+    "007": "alpena",
+    "009": "antrim",
+    "011": "arenac",
+    "013": "baraga",
+    "015": "barry",
+    "017": "bay",
+    "019": "benzie",
+    "021": "berrien",
+    "023": "branch",
+    "025": "calhoun",
+    "027": "cass",
+    "029": "charlevoix",
+    "031": "cheboygan",
+    "033": "chippewa",
+    "035": "clare",
+    "037": "clinton",
+    "039": "crawford",
+    "041": "delta",
+    "043": "dickinson",
+    "045": "eaton",
+    "047": "emmet",
+    "049": "genesee",
+    "051": "gladwin",
+    "053": "gogebic",
+    "055": "grand-traverse",
+    "057": "gratiot",
+    "059": "hillsdale",
+    "061": "houghton",
+    "063": "huron",
+    "065": "ingham",
+    "067": "ionia",
+    "069": "iosco",
+    "071": "iron",
+    "073": "isabella",
+    "075": "jackson",
+    "077": "kalamazoo",
+    "079": "kalkaska",
+    "081": "kent",
+    "083": "keweenaw",
+    "085": "lake",
+    "087": "lapeer",
+    "089": "leelanau",
+    "091": "lenawee",
+    "093": "livingston",
+    "095": "luce",
+    "097": "mackinac",
+    "099": "macomb",
+    "101": "manistee",
+    "103": "marquette",
+    "105": "mason",
+    "107": "mecosta",
+    "109": "menominee",
+    "111": "midland",
+    "113": "missaukee",
+    "115": "monroe",
+    "117": "montcalm",
+    "119": "montmorency",
+    "121": "muskegon",
+    "123": "newaygo",
+    "125": "oakland",
+    "127": "oceana",
+    "129": "ogemaw",
+    "131": "ontonagon",
+    "133": "osceola",
+    "135": "oscoda",
+    "137": "otsego",
+    "139": "ottawa",
+    "141": "presque-isle",
+    "143": "roscommon",
+    "145": "saginaw",
+    "147": "st-clair",
+    "149": "st-joseph",
+    "151": "sanilac",
+    "153": "schoolcraft",
+    "155": "shiawassee",
+    "157": "tuscola",
+    "159": "van-buren",
+    "161": "washtenaw",
+    "163": "wayne",
+    "165": "wexford",
+}
 if __name__ == "__main__":
     precincts = json.load(sys.stdin)
     output_map = defaultdict(dict)
@@ -54,5 +139,12 @@ if __name__ == "__main__":
             precinct_num = name.split(" ")[-1]
             output_map[county_slug][f"The {name.replace('A Michigan', 'a Michigan')}"] = precinct_id
             output_map[county_slug][f"Grosse Pointe Shores {precinct_num}"] = precinct_id
+        if ("City of Muskegon" in name) and ("Ward" in name):
+            split_precinct = name.split(", ")
+            updated_precinct = ", ".join([split_precinct[0], split_precinct[2]])
+            output_map[county_slug][updated_precinct] = precinct_id
+        if "Fruitport" in name:
+            precinct_num = name.split(" ")[-1]
+            output_map[county_slug][f"Fruitport Charter Township, Precinct {precinct_num}"] = precinct_id
 
     json.dump(output_map, sys.stdout)
