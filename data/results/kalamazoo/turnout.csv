@@ -1,0 +1,86 @@
+id,name,ballots,registered,turnout
+770084000001,"Alamo Township, Precinct 1",492.0,1133,43.42
+770084000002,"Alamo Township, Precinct 2",813.0,1940,41.91
+770992000001,"Brady Charter Township, Precinct 1",617.0,1882,32.78
+770992000002,"Brady Charter Township, Precinct 2",552.0,1642,33.62
+771472000001,"Charleston Township, Precinct 1",568.0,1515,37.49
+771646000001,"Climax Township, Precinct 1",649.0,1773,36.6
+771768000001,"Comstock Charter Township, Precinct 1",709.0,2112,33.57
+771768000002,"Comstock Charter Township, Precinct 2",629.0,2126,29.59
+771768000003,"Comstock Charter Township, Precinct 3",521.0,1893,27.52
+771768000004,"Comstock Charter Township, Precinct 4",611.0,1635,37.37
+771768000005,"Comstock Charter Township, Precinct 5",602.0,2953,20.39
+771768000006,"Comstock Charter Township, Precinct 6",572.0,1195,47.87
+771798000001,"Cooper Charter Township, Precinct 1",455.0,1070,42.52
+771798000002,"Cooper Charter Township, Precinct 2",522.0,1306,39.97
+771798000003,"Cooper Charter Township, Precinct 3",1077.0,3507,30.71
+771798000004,"Cooper Charter Township, Precinct 4",1022.0,2454,41.65
+773126000001,"Galesburg City, Precinct 1",4.0,1342,0.3
+774218000001,"Kalamazoo Charter Township, Precinct 1",112.0,632,17.72
+774218000002,"Kalamazoo Charter Township, Precinct 2",1324.0,3675,36.03
+774218000003,"Kalamazoo Charter Township, Precinct 3",1585.0,3870,40.96
+774218000004,"Kalamazoo Charter Township, Precinct 4",1357.0,2798,48.5
+774218000005,"Kalamazoo Charter Township, Precinct 5",537.0,1877,28.61
+774218000006,"Kalamazoo Charter Township, Precinct 6",795.0,3271,24.3
+774216000002,"Kalamazoo City, Precinct 2",403.0,1792,22.49
+774216000003,"Kalamazoo City, Precinct 3",1154.0,3189,36.19
+774216000004,"Kalamazoo City, Precinct 4",826.0,2129,38.8
+774216000005,"Kalamazoo City, Precinct 5",892.0,2420,36.86
+774216000006,"Kalamazoo City, Precinct 6",755.0,1747,43.22
+774216000007,"Kalamazoo City, Precinct 7",806.0,3181,25.34
+774216000008,"Kalamazoo City, Precinct 8",609.0,2638,23.09
+774216000009,"Kalamazoo City, Precinct 9",1285.0,2214,58.04
+774216000010,"Kalamazoo City, Precinct 10",694.0,2313,30.0
+774216000011,"Kalamazoo City, Precinct 11",314.0,1564,20.08
+774216000012,"Kalamazoo City, Precinct 12",894.0,1794,49.83
+774216000013,"Kalamazoo City, Precinct 13",507.0,2652,19.12
+774216000014,"Kalamazoo City, Precinct 14",1504.0,3119,48.22
+774216000015,"Kalamazoo City, Precinct 15",488.0,2124,22.98
+774216000016,"Kalamazoo City, Precinct 16",775.0,1853,41.82
+774216000017,"Kalamazoo City, Precinct 17",597.0,1735,34.41
+774216000018,"Kalamazoo City, Precinct 18",599.0,1643,36.46
+774216000019,"Kalamazoo City, Precinct 19",525.0,1903,27.59
+774216000020,"Kalamazoo City, Precinct 20",725.0,1378,52.61
+774216000021,"Kalamazoo City, Precinct 21",890.0,1598,55.69
+776140000001,"Oshtemo Charter Township, Precinct 1",608.0,1348,45.1
+776140000002,"Oshtemo Charter Township, Precinct 2",909.0,2713,33.51
+776140000003,"Oshtemo Charter Township, Precinct 3",796.0,1536,51.82
+776140000004,"Oshtemo Charter Township, Precinct 4",735.0,1718,42.78
+776140000005,"Oshtemo Charter Township, Precinct 5",1024.0,3499,29.27
+776140000006,"Oshtemo Charter Township, Precinct 6",427.0,908,47.03
+776140000007,"Oshtemo Charter Township, Precinct 7",639.0,1629,39.23
+776140000008,"Oshtemo Charter Township, Precinct 8",333.0,1143,29.13
+776140000009,"Oshtemo Charter Township, Precinct 9",824.0,2296,35.89
+776234000001,"Parchment City, Precinct 1",468.0,1394,33.57
+776296000001,"Charter Township of Pavilion, Precinct 1",745.0,2035,36.61
+776296000002,"Charter Township of Pavilion, Precinct 2",381.0,1140,33.42
+776296000003,"Charter Township of Pavilion, Precinct 3",415.0,1766,23.5
+776556000001,"Portage City, Precinct 1",920.0,2870,32.06
+776556000002,"Portage City, Precinct 2",320.0,1376,23.26
+776556000003,"Portage City, Precinct 3",1575.0,4036,39.02
+776556000004,"Portage City, Precinct 4",1507.0,3491,43.17
+776556000005,"Portage City, Precinct 5",1822.0,3892,46.81
+776556000006,"Portage City, Precinct 6",963.0,2503,38.47
+776556000007,"Portage City, Precinct 7",1054.0,2431,43.36
+776556000008,"Portage City, Precinct 8",1453.0,3468,41.9
+776556000009,"Portage City, Precinct 9",786.0,2192,35.86
+776556000010,"Portage City, Precinct 10",1395.0,3345,41.7
+776556000011,"Portage City, Precinct 11",894.0,2277,39.26
+776556000012,"Portage City, Precinct 12",655.0,1784,36.72
+776556000013,"Portage City, Precinct 13",1290.0,3248,39.72
+776620000001,"Prairie Ronde Township, Precinct 1",731.0,1868,39.13
+776826000001,"Richland Township, Precinct 1",1148.0,3209,35.77
+776826000002,"Richland Township, Precinct 2",1469.0,3554,41.33
+776982000001,"Ross Township, Precinct 1",735.0,2156,34.09
+776982000002,"Ross Township, Precinct 2",950.0,1848,51.41
+777188000001,"Schoolcraft Township, Precinct 1",582.0,1597,36.44
+777188000002,"Schoolcraft Township, Precinct 2",322.0,1103,29.19
+777188000003,"Schoolcraft Township, Precinct 3",963.0,3031,31.77
+777188000004,"Schoolcraft Township, Precinct 4",470.0,1297,36.24
+777930000001,"Texas Charter Township, Precinct 1",813.0,2144,37.92
+777930000002,"Texas Charter Township, Precinct 2",786.0,1933,40.66
+777930000003,"Texas Charter Township, Precinct 3",757.0,2072,36.53
+777930000004,"Texas Charter Township, Precinct 4",1099.0,2808,39.14
+777930000005,"Texas Charter Township, Precinct 5",1292.0,2670,48.39
+777930000006,"Texas Charter Township, Precinct 6",1150.0,2637,43.61
+778284000001,"Wakeshma Township, Precinct 1",279.0,972,28.7

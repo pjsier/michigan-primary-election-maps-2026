@@ -48,6 +48,9 @@ data/results/saginaw:
 data/results/ingham:
 	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/ingham-county-mi/AugustElection08042026 $@
 
+data/results/kalamazoo:
+	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/kalamazoo-county-mi/August-2026-Primary-Election $@
+
 input/precinct-id-map.json: input/precincts.geojson
 	cat $< | poetry run python processor/process_precinct_id_map.py > $@
 
