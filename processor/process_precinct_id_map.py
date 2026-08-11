@@ -162,5 +162,21 @@ if __name__ == "__main__":
             output_map[county_slug][name.replace("Columbia", "Columbia Charter")] = precinct_id
         if "Sandstone Township" in name:
             output_map[county_slug][name.replace("Sandstone", "Sandstone Charter")] = precinct_id
+        if "Caledonia Township" in name:
+            precinct_num = name.split(" ")[-1]
+            output_map[county_slug][f"Caledonia Charter Township, Precinct {precinct_num}"] = precinct_id
+        if "Cedar Springs" in name:
+            output_map[county_slug]["Cedar Springs City, Precinct 1"] = precinct_id
+        if "City of East Grand Rapids" in name:
+            second_component = ", ".join(name.split(", ")[1:])
+            output_map[county_slug][f"East Grand Rapids City, {second_component}"] = precinct_id
+        if "City of Grand Rapids" in name:
+            second_component = ", ".join(name.split(", ")[1:])
+            output_map[county_slug][f"Grand Rapids City, {second_component}"] = precinct_id
+        if county_slug == "kent":
+            if name.startswith("City of "):
+                components = name.split(", ")
+                precinct_name = ", ".join([f"{components[0].replace('City of ', '')} City"] + components[1:])
+                output_map[county_slug][precinct_name] = precinct_id
 
     json.dump(output_map, sys.stdout)

@@ -1,0 +1,203 @@
+id,name,Mike Rogers,Write-in
+810024000001,"Ada Township, Precinct 1",151,0
+810024000002,"Ada Township, Precinct 2",170,0
+810024000003,"Ada Township, Precinct 3",237,0
+810024000004,"Ada Township, Precinct 4",157,0
+810024000005,"Ada Township, Precinct 5",218,0
+810024000006,"Ada Township, Precinct 6",201,0
+810116000001,"Algoma Township, Precinct 1",166,0
+810116000002,"Algoma Township, Precinct 2",181,0
+810116000003,"Algoma Township, Precinct 3",146,0
+810116000004,"Algoma Township, Precinct 4",151,1
+810116000005,"Algoma Township, Precinct 5",252,2
+810184000001,"Alpine Township, Precinct 1",110,0
+810184000002,"Alpine Township, Precinct 2",77,0
+810184000003,"Alpine Township, Precinct 3",152,1
+810184000004,"Alpine Township, Precinct 4",158,0
+810184000005,"Alpine Township, Precinct 5",66,1
+810184000006,"Alpine Township, Precinct 6",14,0
+810978000001,"Bowne Township, Precinct 1",221,0
+811224000001,"Byron Township, Precinct 1",390,0
+811224000002,"Byron Township, Precinct 2",528,1
+811224000003,"Byron Township, Precinct 3",96,0
+811224000004,"Byron Township, Precinct 4",387,1
+811224000005,"Byron Township, Precinct 5",354,0
+811224000006,"Byron Township, Precinct 6",207,0
+811224000007,"Byron Township, Precinct 7",228,2
+811224000008,"Byron Township, Precinct 8",377,1
+811250000001,"Caledonia Charter Township, Precinct 1",95,0
+811250000002,"Caledonia Charter Township, Precinct 2",270,0
+811250000003,"Caledonia Charter Township, Precinct 3",219,0
+811250000004,"Caledonia Charter Township, Precinct 4",134,1
+811250000005,"Caledonia Charter Township, Precinct 5",295,3
+811250000006,"Caledonia Charter Township, Precinct 6",266,0
+811308000001,"Cannon Township, Precinct 1",310,1
+811308000002,"Cannon Township, Precinct 2",321,1
+811308000003,"Cannon Township, Precinct 3",289,1
+811308000004,"Cannon Township, Precinct 4",332,0
+811366000001,"Cascade Charter Township, Precinct 1",362,0
+811366000002,"Cascade Charter Township, Precinct 2",275,1
+811366000003,"Cascade Charter Township, Precinct 3",307,2
+811366000004,"Cascade Charter Township, Precinct 4",332,0
+811366000005,"Cascade Charter Township, Precinct 5",275,2
+811420000001,"Cedar Springs City, Precinct 1",100,0
+811850000001,"Courtland Township, Precinct 1",184,0
+811850000002,"Courtland Township, Precinct 2",366,0
+811850000003,"Courtland Township, Precinct 3",199,0
+812398001001,"East Grand Rapids City, Ward 1, Precinct 1",120,0
+812398002002,"East Grand Rapids City, Ward 2, Precinct 2",105,0
+812398003003,"East Grand Rapids City, Ward 3, Precinct 3",86,1
+813124000001,"Gaines Charter Township, Precinct 1",334,0
+813124000002,"Gaines Charter Township, Precinct 2",129,0
+813124000003,"Gaines Charter Township, Precinct 3",121,1
+813124000004,"Gaines Charter Township, Precinct 4",78,2
+813124000005,"Gaines Charter Township, Precinct 5",52,0
+813124000006,"Gaines Charter Township, Precinct 6",190,1
+813124000007,"Gaines Charter Township, Precinct 7",316,1
+813124000008,"Gaines Charter Township, Precinct 8",268,0
+813124000009,"Gaines Charter Township, Precinct 9",101,1
+813402000001,"Grand Rapids Charter Township, Precinct 1",307,0
+813402000002,"Grand Rapids Charter Township, Precinct 2",52,1
+813402000003,"Grand Rapids Charter Township, Precinct 3",231,2
+813402000004,"Grand Rapids Charter Township, Precinct 4",260,1
+813402000005,"Grand Rapids Charter Township, Precinct 5",95,1
+813402000006,"Grand Rapids Charter Township, Precinct 6",160,1
+813400001001,"Grand Rapids City, Ward 1, Precinct 1",33,0
+813400001002,"Grand Rapids City, Ward 1, Precinct 2",35,0
+813400001003,"Grand Rapids City, Ward 1, Precinct 3",62,0
+813400001004,"Grand Rapids City, Ward 1, Precinct 4",25,0
+813400001005,"Grand Rapids City, Ward 1, Precinct 5",153,1
+813400001006,"Grand Rapids City, Ward 1, Precinct 6",24,0
+813400001007,"Grand Rapids City, Ward 1, Precinct 7",111,0
+813400001008,"Grand Rapids City, Ward 1, Precinct 8",114,0
+813400001009,"Grand Rapids City, Ward 1, Precinct 9",18,0
+813400001010,"Grand Rapids City, Ward 1, Precinct 10",31,0
+813400001011,"Grand Rapids City, Ward 1, Precinct 11",61,0
+813400001012,"Grand Rapids City, Ward 1, Precinct 12",5,0
+813400001013,"Grand Rapids City, Ward 1, Precinct 13",14,0
+813400001014,"Grand Rapids City, Ward 1, Precinct 14",50,0
+813400001015,"Grand Rapids City, Ward 1, Precinct 15",4,0
+813400001016,"Grand Rapids City, Ward 1, Precinct 16",33,0
+813400001017,"Grand Rapids City, Ward 1, Precinct 17",214,0
+813400001018,"Grand Rapids City, Ward 1, Precinct 18",108,0
+813400001019,"Grand Rapids City, Ward 1, Precinct 19",149,0
+813400001020,"Grand Rapids City, Ward 1, Precinct 20",4,0
+813400002021,"Grand Rapids City, Ward 2, Precinct 21",22,0
+813400002022,"Grand Rapids City, Ward 2, Precinct 22",48,0
+813400002023,"Grand Rapids City, Ward 2, Precinct 23",37,0
+813400002024,"Grand Rapids City, Ward 2, Precinct 24",87,0
+813400002025,"Grand Rapids City, Ward 2, Precinct 25",41,0
+813400002026,"Grand Rapids City, Ward 2, Precinct 26",25,0
+813400002027,"Grand Rapids City, Ward 2, Precinct 27",21,0
+813400002028,"Grand Rapids City, Ward 2, Precinct 28",74,0
+813400002029,"Grand Rapids City, Ward 2, Precinct 29",85,0
+813400002030,"Grand Rapids City, Ward 2, Precinct 30",91,0
+813400002031,"Grand Rapids City, Ward 2, Precinct 31",31,0
+813400002032,"Grand Rapids City, Ward 2, Precinct 32",24,0
+813400002033,"Grand Rapids City, Ward 2, Precinct 33",18,0
+813400002034,"Grand Rapids City, Ward 2, Precinct 34",119,2
+813400002035,"Grand Rapids City, Ward 2, Precinct 35",55,0
+813400002036,"Grand Rapids City, Ward 2, Precinct 36",177,0
+813400002037,"Grand Rapids City, Ward 2, Precinct 37",131,0
+813400002038,"Grand Rapids City, Ward 2, Precinct 38",130,1
+813400002039,"Grand Rapids City, Ward 2, Precinct 39",80,1
+813400002040,"Grand Rapids City, Ward 2, Precinct 40",32,0
+813400003041,"Grand Rapids City, Ward 3, Precinct 41",38,0
+813400003042,"Grand Rapids City, Ward 3, Precinct 42",250,0
+813400003043,"Grand Rapids City, Ward 3, Precinct 43",140,0
+813400003044,"Grand Rapids City, Ward 3, Precinct 44",114,0
+813400003045,"Grand Rapids City, Ward 3, Precinct 45",106,1
+813400003046,"Grand Rapids City, Ward 3, Precinct 46",162,0
+813400003047,"Grand Rapids City, Ward 3, Precinct 47",19,1
+813400003048,"Grand Rapids City, Ward 3, Precinct 48",50,0
+813400003049,"Grand Rapids City, Ward 3, Precinct 49",9,0
+813400003050,"Grand Rapids City, Ward 3, Precinct 50",28,0
+813400003051,"Grand Rapids City, Ward 3, Precinct 51",45,0
+813400003052,"Grand Rapids City, Ward 3, Precinct 52",4,0
+813400003053,"Grand Rapids City, Ward 3, Precinct 53",6,0
+813400003054,"Grand Rapids City, Ward 3, Precinct 54",22,0
+813400003055,"Grand Rapids City, Ward 3, Precinct 55",22,0
+813400003056,"Grand Rapids City, Ward 3, Precinct 56",83,1
+813400003057,"Grand Rapids City, Ward 3, Precinct 57",21,0
+813400003058,"Grand Rapids City, Ward 3, Precinct 58",1,0
+813400003059,"Grand Rapids City, Ward 3, Precinct 59",116,0
+813416000001,"Grandville City, Precinct 1",124,1
+813416000002,"Grandville City, Precinct 2",92,0
+813416000003,"Grandville City, Precinct 3",161,1
+813416000004,"Grandville City, Precinct 4",226,0
+813416000005,"Grandville City, Precinct 5",215,0
+813416000006,"Grandville City, Precinct 6",155,0
+813456000001,"Grattan Township, Precinct 1",145,0
+813456000002,"Grattan Township, Precinct 2",162,0
+814282001001,"Kentwood City, Ward 1, Precinct 1",93,0
+814282001002,"Kentwood City, Ward 1, Precinct 2",133,0
+814282001003,"Kentwood City, Ward 1, Precinct 3",66,0
+814282001004,"Kentwood City, Ward 1, Precinct 4",27,0
+814282001005,"Kentwood City, Ward 1, Precinct 5",53,1
+814282001006,"Kentwood City, Ward 1, Precinct 6",145,0
+814282001007,"Kentwood City, Ward 1, Precinct 7",44,0
+814282001008,"Kentwood City, Ward 1, Precinct 8",128,0
+814282001009,"Kentwood City, Ward 1, Precinct 9",77,1
+814282001017,"Kentwood City, Ward 1, Precinct 17",83,0
+814282002010,"Kentwood City, Ward 2, Precinct 10",68,1
+814282002011,"Kentwood City, Ward 2, Precinct 11",141,0
+814282002012,"Kentwood City, Ward 2, Precinct 12",58,0
+814282002013,"Kentwood City, Ward 2, Precinct 13",311,0
+814282002014,"Kentwood City, Ward 2, Precinct 14",92,0
+814282002015,"Kentwood City, Ward 2, Precinct 15",48,0
+814282002016,"Kentwood City, Ward 2, Precinct 16",164,0
+814956000001,"Lowell Charter Township, Precinct 1",212,0
+814956000002,"Lowell Charter Township, Precinct 2",165,0
+814954000001,"Lowell City, Precinct 1",53,0
+814954000002,"Lowell City, Precinct 2",86,0
+815692000001,"Nelson Township, Precinct 1",104,1
+815692000002,"Nelson Township, Precinct 2",128,0
+815958000001,"Oakfield Township, Precinct 1",117,0
+815958000002,"Oakfield Township, Precinct 2",159,0
+815958000003,"Oakfield Township, Precinct 3",104,0
+816466000001,"Plainfield Charter Township, Precinct 1",237,0
+816466000002,"Plainfield Charter Township, Precinct 2",180,1
+816466000003,"Plainfield Charter Township, Precinct 3",268,2
+816466000004,"Plainfield Charter Township, Precinct 4",160,0
+816466000006,"Plainfield Charter Township, Precinct 6",291,3
+816466000007,"Plainfield Charter Township, Precinct 7",395,1
+816466000008,"Plainfield Charter Township, Precinct 8",245,1
+816466000009,"Plainfield Charter Township, Precinct 9",243,2
+816466000010,"Plainfield Charter Township, Precinct 10",232,0
+816466000011,"Plainfield Charter Township, Precinct 11",224,1
+816908000001,"Rockford City, Precinct 1",130,0
+816908000002,"Rockford City, Precinct 2",218,0
+817446000001,"Solon Township, Precinct 1",184,0
+817446000002,"Solon Township, Precinct 2",94,0
+817446000003,"Solon Township, Precinct 3",85,1
+817544000001,"Sparta Township, Precinct 1",192,1
+817544000002,"Sparta Township, Precinct 2",288,1
+817556000001,"Spencer Township, Precinct 1",146,1
+817556000002,"Spencer Township, Precinct 2",73,0
+818114000001,"Tyrone Township, Precinct 1",264,1
+818192000001,"Vergennes Township, Precinct 1",179,0
+818192000002,"Vergennes Township, Precinct 2",131,1
+818296001001,"Walker City, Ward 1, Precinct 1",120,0
+818296001002,"Walker City, Ward 1, Precinct 2",236,0
+818296002003,"Walker City, Ward 2, Precinct 3",310,2
+818296002004,"Walker City, Ward 2, Precinct 4",322,2
+818296003005,"Walker City, Ward 3, Precinct 5",190,0
+818296003006,"Walker City, Ward 3, Precinct 6",264,0
+818894001001,"Wyoming City, Ward 1, Precinct 1",87,0
+818894001002,"Wyoming City, Ward 1, Precinct 2",72,0
+818894001003,"Wyoming City, Ward 1, Precinct 3",208,2
+818894001004,"Wyoming City, Ward 1, Precinct 4",102,0
+818894001005,"Wyoming City, Ward 1, Precinct 5",117,1
+818894001006,"Wyoming City, Ward 1, Precinct 6",82,1
+818894002007,"Wyoming City, Ward 2, Precinct 7",124,2
+818894002008,"Wyoming City, Ward 2, Precinct 8",69,1
+818894002009,"Wyoming City, Ward 2, Precinct 9",40,0
+818894002010,"Wyoming City, Ward 2, Precinct 10",99,1
+818894002011,"Wyoming City, Ward 2, Precinct 11",83,0
+818894002012,"Wyoming City, Ward 2, Precinct 12",65,0
+818894003013,"Wyoming City, Ward 3, Precinct 13",156,0
+818894003014,"Wyoming City, Ward 3, Precinct 14",80,0
+818894003015,"Wyoming City, Ward 3, Precinct 15",168,0
+818894003016,"Wyoming City, Ward 3, Precinct 16",201,1
+818894003017,"Wyoming City, Ward 3, Precinct 17",236,0
+818894003018,"Wyoming City, Ward 3, Precinct 18",203,3

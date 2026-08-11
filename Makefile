@@ -39,8 +39,11 @@ data/results/marquette: input/results/marquette/primary.pdf
 data/results/jackson: input/results/jackson/primary.pdf
 	poetry run python processor/process_dominion_alt_pdf.py $< $@
 
+data/results/kent:
+	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/kent-county-mi/08042026 $@
+
 data/results/saginaw:
-	poetry run python scripts/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/saginaw-county-mi/SaginawCountyAugust2026Primary $@
+	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/saginaw-county-mi/SaginawCountyAugust2026Primary $@
 
 input/precinct-id-map.json: input/precincts.geojson
 	cat $< | poetry run python processor/process_precinct_id_map.py > $@

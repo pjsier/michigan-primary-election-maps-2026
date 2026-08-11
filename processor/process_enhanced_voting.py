@@ -37,6 +37,9 @@ def process_ballot_item(base_url, item_id, candidate_map, id_map):
         precinct_name = item["precinct"]["name"][0]["text"]
 
         for vote_type in vote_types:
+            # Hack to override weird multi-county item in Kent
+            if "(Ionia County)" in precinct_name:
+                continue
             result_obj = {
                 "id": id_map[precinct_name],
                 "name": precinct_name,
@@ -60,7 +63,7 @@ def process_ballot_item(base_url, item_id, candidate_map, id_map):
 def main():
     base_url = sys.argv[1]
     output_dir = Path(sys.argv[2])
-    county_slug = output_dir.split("/")[-1]
+    county_slug = output_dir.name
     output_dir.mkdir(parents=True, exist_ok=True)
 
     with open(os.path.join(BASE_DIR, "input", "precinct-id-map.json"), "r") as f:
@@ -71,6 +74,9 @@ def main():
 
     turnout = []
     for precinct in data["voterTurnout"]:
+        # Weird hack for Ionia exception
+        if "(Ionia County)" in precinct["precinctName"]:
+            continue
         if precinct["voterRegistration"] == 0:
             turnout_val = 0.0
         else:
