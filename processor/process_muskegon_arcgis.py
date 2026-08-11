@@ -19,27 +19,6 @@ def get_contest_key(contest):
     if "dem" in contest.lower():
         return "mi-governor-dem"
     return "mi-governor-rep"
-from pathlib import Path
-from collections import defaultdict
-import json
-import csv
-import requests
-
-BASE_DIR = Path(__file__).parent.parent
-BASE_URL = "https://gis.muskegoncountygis.com/arcgis/rest/services/Elections/Election_Results_2026_08/FeatureServer"
-
-CONTESTS = [ "United States Senator - Democratic Primary", "Representative in Congress 2nd District - Democratic Primary", "Governor - Republican Primary", "Governor - Democratic Primary"]
-
-contest_map = defaultdict(dict)
-
-def get_contest_key(contest):
-    if "senat" in contest.lower():
-        return "united-states-senator-dem"
-    if "district" in contest.lower():
-        return "representative-in-congress-2nd-district-dem"
-    if "dem" in contest.lower():
-        return "mi-governor-dem"
-    return "mi-governor-rep"
 
 def query_endpoint(url):
     records = []

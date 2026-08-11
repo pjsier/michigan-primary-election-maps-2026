@@ -173,6 +173,8 @@ if __name__ == "__main__":
         if "City of Grand Rapids" in name:
             second_component = ", ".join(name.split(", ")[1:])
             output_map[county_slug][f"Grand Rapids City, {second_component}"] = precinct_id
+        if "Manchester Township" in name:
+            output_map[county_slug][name.replace("Manchester Township", "City of Manchester")] = precinct_id
         if county_slug == "kent":
             if name.startswith("City of "):
                 components = name.split(", ")
