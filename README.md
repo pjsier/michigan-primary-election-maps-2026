@@ -23,3 +23,6 @@
     - **Note:** Containts 141 votes in a separate Absent Voter Counting Board
 - [Alcona](https://alconacountymi.com/wp-content/uploads/2026/08/2026-Primary-Spreadsheet6.pdf)
     - **Note:** Contains 182 votes in a separate Absent Voter Counting Board
+- [Otsego](https://www.otsegocountymi.gov/DocumentCenter/View/3739/August-4-2026-Unofficial-election-results-Summary)
+- [Benzie](https://www.benzieco.gov/government/county_clerk.php#outer-3)
+    - **Note:** Consolidates Absent Voter Counting Board precincts where 2 or more are combined

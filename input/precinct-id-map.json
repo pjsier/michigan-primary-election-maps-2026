@@ -1736,25 +1736,6 @@
     "Battle Creek, Ward 3, Precinct 9": 250592003009,
     "City of Battle Creek, Precinct 9": 250592003009
   },
-  "otsego": {
-    "Chester Township, Precinct 1": 1371528000001,
-    "Hayes Township, Precinct 1": 1373736000001,
-    "Bagley Township, Precinct 2": 1370478000002,
-    "Livingston Township, Precinct 1": 1374814000001,
-    "Dover Township, Precinct 1": 1372284000001,
-    "Bagley Township, Precinct 1": 1370478000001,
-    "City of Gaylord, Ward 1, Precinct 1": 1373172001001,
-    "Gaylord, Ward 1, Precinct 1": 1373172001001,
-    "City of Gaylord, Precinct 1": 1373172002001,
-    "Charlton Township, Precinct 1": 1371484000001,
-    "City of Gaylord, Ward 3, Precinct 1": 1373172003001,
-    "Gaylord, Ward 3, Precinct 1": 1373172003001,
-    "Corwith Township, Precinct 1": 1371832000001,
-    "Elmira Township, Precinct 1": 1372562000001,
-    "City of Gaylord, Ward 2, Precinct 1": 1373172002001,
-    "Gaylord, Ward 2, Precinct 1": 1373172002001,
-    "Otsego Lake Township, Precinct 1": 1376168000001
-  },
   "macomb": {
     "City of Warren, Precinct 35": 998400001035,
     "Warren, Precinct 35": 998400001035,
@@ -2347,31 +2328,6 @@
     "Petersburg, Precinct 1": 1156380000001,
     "Ida Township, Precinct 2": 1154026000002,
     "Summerfield Township, Precinct 1": 1157714000001
-  },
-  "dickinson": {
-    "Breen Township, Precinct 1": 431020000001,
-    "City of Iron Mountain, Ward 1, Precinct 3": 434096001003,
-    "Iron Mountain, Ward 1, Precinct 3": 434096001003,
-    "City of Iron Mountain, Precinct 3": 434096001003,
-    "City of Kingsford, Precinct 2": 434330000002,
-    "Kingsford, Precinct 2": 434330000002,
-    "City of Iron Mountain, Ward 2, Precinct 2": 434096002002,
-    "Iron Mountain, Ward 2, Precinct 2": 434096002002,
-    "City of Iron Mountain, Precinct 2": 434096003002,
-    "Waucedah Township, Precinct 1": 438470000001,
-    "City of Iron Mountain, Ward 3, Precinct 2": 434096003002,
-    "Iron Mountain, Ward 3, Precinct 2": 434096003002,
-    "Breitung Township, Precinct 3": 431022000003,
-    "City of Norway, Precinct 1": 435922000001,
-    "Norway, Precinct 1": 435922000001,
-    "Felch Township, Precinct 1": 432766000001,
-    "Breitung Township, Precinct 1": 431022000001,
-    "West Branch Township, Precinct 1": 438552000001,
-    "City of Kingsford, Precinct 1": 434330000001,
-    "Kingsford, Precinct 1": 434330000001,
-    "Sagola Township, Precinct 1": 437060000001,
-    "Breitung Township, Precinct 2": 431022000002,
-    "Norway Township, Precinct 1": 435924000001
   },
   "oakland": {
     "City of South Lyon, Precinct 2": 1257510000002,
@@ -3685,26 +3641,6 @@
     "Iron River, Precinct 2": 714098000002,
     "Mastodon Township, Precinct 1": 715230000001,
     "Mansfield Township, Precinct 1": 715086000001
-  },
-  "presque-isle": {
-    "Allis Township, Precinct 1": 1410148000001,
-    "Ocqueoc Township, Precinct 1": 1416016000001,
-    "Metz Township, Precinct 1": 1415344000001,
-    "Pulawski Township, Precinct 1": 1416646000001,
-    "Bismarck Township, Precinct 1": 1410870000001,
-    "City of Rogers City, Precinct 1": 1416926000001,
-    "Rogers City, Precinct 1": 1416926000001,
-    "Bearinger Township, Precinct 1": 1410640000001,
-    "Moltke Township, Precinct 1": 1415486000001,
-    "Belknap Township, Precinct 1": 1410692000001,
-    "Krakow Township, Precinct 1": 1414390000001,
-    "Case Township, Precinct 1": 1411374000001,
-    "Rogers Township, Precinct 1": 1416924000001,
-    "City of Onaway, Precinct 1": 1416068000001,
-    "Onaway, Precinct 1": 1416068000001,
-    "Presque Isle Township, Precinct 1": 1416634000001,
-    "North Allis Township, Precinct 1": 1415794000001,
-    "Posen Township, Precinct 1": 1416602000001
   },
   "washtenaw": {
     "Pittsfield Charter Township, Precinct 9": 1616456000009,
@@ -5544,15 +5480,6 @@
     "Bay De Noc Township, Precinct 1": 410604000001,
     "Cornell Township, Precinct 1": 411828000001
   },
-  "oscoda": {
-    "Big Creek Township, Precinct 2": 1350822000002,
-    "Clinton Township, Precinct 1": 1351654000001,
-    "Comins Township, Precinct 1": 1351760000001,
-    "Big Creek Township, Precinct 1": 1350822000001,
-    "Elmer Township, Precinct 1": 1352550000001,
-    "Mentor Township, Precinct 1": 1355312000001,
-    "Greenwood Township, Precinct 1": 1353520000001
-  },
   "chippewa": {
     "Detour Township, Precinct 1": 332177000001,
     "Pickford Township, Precinct 1": 336398000001,
@@ -5868,25 +5795,6 @@
     "Bangor, Precinct 1": 1590514000001,
     "Almena Township, Precinct 2": 1590160000002
   },
-  "alpena": {
-    "Alpena Township, Precinct 3": 70176000003,
-    "City of Alpena, Precinct 3": 70174000003,
-    "Alpena, Precinct 3": 70174000003,
-    "Alpena Township, Precinct 1": 70176000001,
-    "Sanborn Township, Precinct 1": 77124000001,
-    "Wellington Township, Precinct 1": 78518000001,
-    "Ossineke Township, Precinct 1": 76152000001,
-    "Alpena Township, Precinct 2": 70176000002,
-    "Wilson Township, Precinct 1": 78768000001,
-    "City of Alpena, Precinct 1": 70174000001,
-    "Alpena, Precinct 1": 70174000001,
-    "Green Township, Precinct 1": 73474000001,
-    "Long Rapids Township, Precinct 1": 74936000001,
-    "City of Alpena, Precinct 2": 70174000002,
-    "Alpena, Precinct 2": 70174000002,
-    "Maple Ridge Township, Precinct 1": 75122000001,
-    "Alpena Township, Precinct 4": 70176000004
-  },
   "kalkaska": {
     "Excelsior Township, Precinct 1": 792686000001,
     "Clearwater Township, Precinct 1": 791634000001,
@@ -5972,36 +5880,6 @@
     "Ferris Township, Precinct 1": 1172790000001,
     "Home Township, Precinct 1": 1173884000001,
     "Montcalm Township, Precinct 1": 1175514000001
-  },
-  "antrim": {
-    "Chestonia Township, Precinct 1": 91538000001,
-    "Banks Township, Precinct 1": 90524000001,
-    "Warner Township, Precinct 1": 98330000001,
-    "Central Lake Township, Precinct 1": 91442000001,
-    "Helena Township, Precinct 1": 93750000001,
-    "Mancelona Township, Precinct 1": 95064000001,
-    "Echo Township, Precinct 1": 92464000001,
-    "Torch Lake Township, Precinct 1": 98010000001,
-    "Star Township, Precinct 1": 97626000001,
-    "Kearney Township, Precinct 1": 94240000001,
-    "Elk Rapids Township, Precinct 1": 92534000001,
-    "Forest Home Township, Precinct 1": 92960000001,
-    "Milton Township, Precinct 1": 95444000001,
-    "Custer Township, Precinct 1": 91940000001,
-    "Mancelona Township, Precinct 2": 95064000002,
-    "Jordan Township, Precinct 1": 94196000001
-  },
-  "alger": {
-    "Burt Township, Precinct 1": 31196000001,
-    "Munising Township, Precinct 1": 35622000001,
-    "Mathias Township, Precinct 1": 35236000001,
-    "Onota Township, Precinct 1": 36082000001,
-    "City of Munising, Precinct 1": 35620000001,
-    "Munising, Precinct 1": 35620000001,
-    "Rock River Township, Precinct 1": 36916000001,
-    "Limestone Township, Precinct 1": 34754000001,
-    "Grand Island Township, Precinct 1": 33338000001,
-    "Au Train Township, Precinct 1": 30446000001
   },
   "bay": {
     "Hampton Township, Precinct 2": 173626000002,
@@ -6165,53 +6043,6 @@
     "Sheridan Township, Precinct 1": 357300000001,
     "Winterfield Township, Precinct 1": 358798000001
   },
-  "gladwin": {
-    "Gladwin Township, Precinct 1": 513234000001,
-    "Buckeye Township, Precinct 1": 511144000001,
-    "Bourret Township, Precinct 1": 510972000001,
-    "Hay Township, Precinct 1": 513730000001,
-    "Bentley Township, Precinct 1": 510736000001,
-    "Clement Township, Precinct 1": 511636000001,
-    "City of Beaverton, Precinct 1": 510666000001,
-    "Beaverton, Precinct 1": 510666000001,
-    "Grout Township, Precinct 1": 513562000001,
-    "Billings Township, Precinct 1": 510836000001,
-    "City of Gladwin, Precinct 1": 513232000001,
-    "Gladwin, Precinct 1": 513232000001,
-    "Sherman Township, Precinct 1": 517314000001,
-    "Sage Township, Precinct 1": 517050000001,
-    "Butman Township, Precinct 1": 511218000001,
-    "Beaverton Township, Precinct 1": 510668000001,
-    "Grim Township, Precinct 1": 513534000001,
-    "Secord Township, Precinct 1": 517224000001,
-    "Tobacco Township, Precinct 1": 517986000001
-  },
-  "menominee": {
-    "Ingallston Township, Precinct 1": 1094060000001,
-    "City of Menominee, Precinct 3": 1095302000003,
-    "Menominee, Precinct 3": 1095302000003,
-    "Holmes Township, Precinct 1": 1093876000001,
-    "Stephenson Township, Precinct 1": 1097640000001,
-    "Nadeau Township, Precinct 1": 1095644000001,
-    "Menominee Township, Precinct 1": 1095304000001,
-    "Lake Township, Precinct 1": 1094436000001,
-    "City of Menominee, Precinct 4": 1095302000004,
-    "Menominee, Precinct 4": 1095302000004,
-    "Cedarville Township, Precinct 1": 1091424000001,
-    "Spalding Township, Precinct 1": 1097535000001,
-    "Daggett Township, Precinct 1": 1091958000001,
-    "Meyer Township, Precinct 1": 1095346000001,
-    "Harris Township, Precinct 1": 1093676000001,
-    "City of Stephenson, Precinct 1": 1097638000001,
-    "Stephenson, Precinct 1": 1097638000001,
-    "City of Menominee, Precinct 1": 1095302000001,
-    "Menominee, Precinct 1": 1095302000001,
-    "Faithorn Township, Precinct 1": 1092730000001,
-    "Gourley Township, Precinct 1": 1093316000001,
-    "City of Menominee, Precinct 2": 1095302000002,
-    "Menominee, Precinct 2": 1095302000002,
-    "Mellen Township, Precinct 1": 1095286000001
-  },
   "gogebic": {
     "Bessemer Township, Precinct 1": 530798000001,
     "Marenisco Township, Precinct 1": 535156000001,
@@ -6263,17 +6094,44 @@
     "Haight Township, Precinct 1": 1313596000001,
     "Matchwood Township, Precinct 1": 1315232000001
   },
+  "alger": {
+    "Alger County": 3
+  },
+  "alpena": {
+    "Alpena County": 7
+  },
+  "antrim": {
+    "Antrim County": 9
+  },
   "arenac": {
     "Arenac County": 11
   },
   "cheboygan": {
     "Cheboygan County": 31
   },
+  "dickinson": {
+    "Dickinson County": 43
+  },
+  "gladwin": {
+    "Gladwin County": 51
+  },
   "mackinac": {
     "Mackinac County": 97
   },
+  "menominee": {
+    "Menominee County": 109
+  },
   "montmorency": {
     "Montmorency County": 119
+  },
+  "oscoda": {
+    "Oscoda County": 135
+  },
+  "otsego": {
+    "Otsego County": 137
+  },
+  "presque-isle": {
+    "Presque Isle County": 141
   },
   "schoolcraft": {
     "Schoolcraft County": 153
