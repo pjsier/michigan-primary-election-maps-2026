@@ -1,0 +1,72 @@
+id,name,total,over_votes,under_votes,Write-in,Mike Cox,John James,Perry Johnson,Aric Nesbitt
+1391802000001,"City of Coopersville, Precinct 1",41,,,0,5,15,20,1
+1392796000001,"City of Ferrysburg, Precinct 1",10,,,0,2,6,2,0
+1393334000001,"City of Grand Haven, Precinct 1",7,,,0,1,2,4,0
+1393334000002,"City of Grand Haven, Precinct 2",13,,,0,2,10,1,0
+1393334000003,"City of Grand Haven, Precinct 3",6,,,0,0,4,2,0
+1393334000004,"City of Grand Haven, Precinct 4",6,,,0,1,3,2,0
+1393864001001,"City of Holland, Ward 1, Precinct 1",13,,,0,2,4,7,0
+1393864001002,"City of Holland, Ward 1, Precinct 2",10,,,0,0,7,2,1
+1393864002003,"City of Holland, Ward 2, Precinct 3",14,,,0,1,7,5,1
+1393864003004,"City of Holland, Ward 3, Precinct 4",5,,,0,0,3,2,0
+1393864003005,"City of Holland, Ward 3, Precinct 5",3,,,0,0,1,1,1
+1393864004006,"City of Holland, Ward 4, Precinct 6",21,,,0,2,13,5,1
+1393864006010,"City of Holland, Ward 6, Precinct 10",3,,,0,0,3,0,0
+1393864006011,"City of Holland, Ward 6, Precinct 11",19,,,0,4,5,5,5
+1393980001001,"City of Hudsonville, Ward 1, Precinct 1",5,,,0,0,3,2,0
+1393980002001,"City of Hudsonville, Ward 2, Precinct 1",4,,,0,0,1,3,0
+1393980003001,"City of Hudsonville, Ward 3, Precinct 1",10,,,0,1,5,4,0
+1398926000001,"City of Zeeland, Precinct 1",22,,,0,0,13,8,1
+1398926000002,"City of Zeeland, Precinct 2",24,,,0,4,10,9,1
+1390894000001,"Blendon Township, Precinct 1",10,,,0,1,5,4,0
+1390894000002,"Blendon Township, Precinct 2",53,,,0,2,27,22,2
+1391530000001,"Chester Township, Precinct 1",37,,,0,3,16,18,0
+1391880000001,"Crockery Township, Precinct 1",35,,,0,3,8,24,0
+1391880000002,"Crockery Township, Precinct 2",11,,,0,0,5,6,0
+1393336000001,"Grand Haven Charter Township, Precinct 1",12,,,0,1,9,2,0
+1393336000002,"Grand Haven Charter Township, Precinct 2",4,,,0,0,4,0,0
+1393336000003,"Grand Haven Charter Township, Precinct 3",17,,,0,0,11,6,0
+1393336000004,"Grand Haven Charter Township, Precinct 4",5,,,0,0,2,2,1
+1393336000005,"Grand Haven Charter Township, Precinct 5",8,,,0,0,7,0,1
+1393336000006,"Grand Haven Charter Township, Precinct 6",13,,,0,0,2,11,0
+1393336000007,"Grand Haven Charter Township, Precinct 7",10,,,0,0,6,4,0
+1393866000001,"Holland Charter Township, Precinct 1",18,,,0,1,12,5,0
+1393866000002,"Holland Charter Township, Precinct 2",2,,,0,0,1,1,0
+1393866000003,"Holland Charter Township, Precinct 3",19,,,0,0,13,5,1
+1393866000004,"Holland Charter Township, Precinct 4",21,,,0,2,11,8,0
+1393866000005,"Holland Charter Township, Precinct 5",29,,,0,1,13,13,2
+1393866000006,"Holland Charter Township, Precinct 6",20,,,0,1,14,5,0
+1393866000007,"Holland Charter Township, Precinct 7",36,,,0,2,28,5,1
+1393866000008,"Holland Charter Township, Precinct 8",7,,,0,2,3,1,1
+1393866000009,"Holland Charter Township, Precinct 9",23,,,0,6,9,8,0
+1393866000010,"Holland Charter Township, Precinct 10",11,,,0,1,4,6,0
+1393866000011,"Holland Charter Township, Precinct 11",12,,,0,1,7,4,0
+1393866000012,"Holland Charter Township, Precinct 12",21,,,0,0,16,5,0
+1396046000001,"Olive Township, Precinct 1",13,,,0,1,2,9,1
+1396046000002,"Olive Township, Precinct 2",44,,,0,2,21,21,0
+1396246000001,"Park Township, Precinct 1",24,,,0,1,16,7,0
+1396246000002,"Park Township, Precinct 2",3,,,0,0,3,0,0
+1396246000003,"Park Township, Precinct 3",39,,,0,1,26,10,2
+1396246000004,"Park Township, Precinct 4",17,,,0,2,12,3,0
+1396246000005,"Park Township, Precinct 5",33,,,0,0,21,12,0
+1396246000006,"Park Township, Precinct 6",19,,,0,0,14,5,0
+1396532000001,"Polkton Charter Township, Precinct 1",50,,,0,3,22,25,0
+1396594000001,"Port Sheldon Township, Precinct 1",65,,,0,5,35,24,1
+1396594000002,"Port Sheldon Township, Precinct 2",24,,,0,1,17,5,1
+1396900000001,"Robinson Township, Precinct 1",11,,,0,1,7,3,0
+1396900000002,"Robinson Township, Precinct 2",8,,,0,0,3,5,0
+1396900000003,"Robinson Township, Precinct 3",5,,,0,0,3,2,0
+1397584000001,"Spring Lake Township, Precinct 1",15,,,0,3,11,1,0
+1397584000002,"Spring Lake Township, Precinct 2",11,,,0,0,5,6,0
+1397584000003,"Spring Lake Township, Precinct 3",32,,,0,4,17,11,0
+1397584000004,"Spring Lake Township, Precinct 4",15,,,0,1,6,8,0
+1397584000005,"Spring Lake Township, Precinct 5",33,,,0,2,19,12,0
+1397584000006,"Spring Lake Township, Precinct 6",13,,,0,1,8,4,0
+1397798000001,"Tallmadge Charter Township, Precinct 1",48,,,0,5,19,24,0
+1397798000002,"Tallmadge Charter Township, Precinct 2",52,,,0,3,25,24,0
+1397798000003,"Tallmadge Charter Township, Precinct 3",49,,,0,1,24,22,2
+1398882000001,"Wright Township, Precinct 1",51,,,0,0,19,30,2
+1398928000001,"Zeeland Charter Township, Precinct 1",25,,,0,3,13,9,0
+1398928000002,"Zeeland Charter Township, Precinct 2",33,,,0,3,14,15,1
+1398928000003,"Zeeland Charter Township, Precinct 3",21,,,0,1,6,13,1
+1398928000004,"Zeeland Charter Township, Precinct 4",28,,,0,2,15,10,1

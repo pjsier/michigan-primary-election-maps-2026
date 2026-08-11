@@ -45,6 +45,9 @@ data/results/kent:
 data/results/saginaw:
 	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/saginaw-county-mi/SaginawCountyAugust2026Primary $@
 
+data/results/ingham:
+	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/ingham-county-mi/AugustElection08042026 $@
+
 input/precinct-id-map.json: input/precincts.geojson
 	cat $< | poetry run python processor/process_precinct_id_map.py > $@
 

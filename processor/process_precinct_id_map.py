@@ -180,5 +180,8 @@ if __name__ == "__main__":
                 components = name.split(", ")
                 precinct_name = ", ".join([f"{components[0].replace('City of ', '')} City"] + components[1:])
                 output_map[county_slug][precinct_name] = precinct_id
+        if county_slug == "ingham":
+            if "Township" in name:
+                output_map[county_slug][name.replace(" Township", " Charter Township")] = precinct_id
 
     json.dump(output_map, sys.stdout)
