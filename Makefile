@@ -39,6 +39,9 @@ data/results/baraga: input/results/baraga/primary.pdf
 data/results/barry: input/results/barry/primary.pdf
 	poetry run python processor/process_dominion_alt_pdf.py $< $@
 
+data/results/houghton: input/results/houghton/primary.pdf
+	poetry run python processor/process_dominion_alt_pdf.py $< $@
+
 data/results/marquette: input/results/marquette/primary.pdf
 	poetry run python processor/process_dominion_alt_pdf.py $< $@
 
