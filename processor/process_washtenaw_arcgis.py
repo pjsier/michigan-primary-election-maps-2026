@@ -16,6 +16,7 @@ SERVERS = {
 
 contest_map = defaultdict(dict)
 
+
 def query_endpoint(url):
     records = []
     offset = 0
@@ -60,6 +61,7 @@ def process_endpoint_results(results):
             precinct_map[precinct][result["Candidate3"]] = result["numvote3"]
     return precinct_map
 
+
 if __name__ == "__main__":
     output_dir = BASE_DIR / "data" / "results" / "washtenaw"
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -67,26 +69,36 @@ if __name__ == "__main__":
     with Path.open(BASE_DIR / "input" / "precinct-id-map.json", "r") as f:
         id_map = json.load(f)["washtenaw"]
 
-    turnout_results = query_endpoint("https://services2.arcgis.com/xRI3cTw3hPVoEJP0/arcgis/rest/services/Aug2026Layers/FeatureServer/1/query")
+    turnout_results = query_endpoint(
+        "https://services2.arcgis.com/xRI3cTw3hPVoEJP0/arcgis/rest/services/Aug2026Layers/FeatureServer/1/query"
+    )
     with Path.open(output_dir / "turnout.csv", "w") as f:
-        writer = csv.DictWriter(f, fieldnames=["id", "name", "ballots", "registered", "turnout"])
+        writer = csv.DictWriter(
+            f, fieldnames=["id", "name", "ballots", "registered", "turnout"]
+        )
         writer.writeheader()
         for turnout in turnout_results:
             precinct = re.sub(r"\s+", " ", turnout["NAME"])
-            writer.writerow({
-                "id": id_map[precinct],
-                "name": precinct,
-                "ballots": turnout["totballots"],
-                "registered": turnout["regvoters"],
-                "turnout": turnout["percvote"],
-            })
+            writer.writerow(
+                {
+                    "id": id_map[precinct],
+                    "name": precinct,
+                    "ballots": turnout["totballots"],
+                    "registered": turnout["regvoters"],
+                    "turnout": turnout["percvote"],
+                }
+            )
 
     for server_id, contest in SERVERS.items():
-        results = query_endpoint(f"https://services2.arcgis.com/xRI3cTw3hPVoEJP0/arcgis/rest/services/Aug2026Layers/FeatureServer/{server_id}/query")
+        results = query_endpoint(
+            f"https://services2.arcgis.com/xRI3cTw3hPVoEJP0/arcgis/rest/services/Aug2026Layers/FeatureServer/{server_id}/query"
+        )
         precincts = process_endpoint_results(results)
         precinct_rows = []
         for precinct_name, precinct_data in precincts.items():
-            precinct_rows.append({"name": precinct_name, "id": id_map[precinct_name], **precinct_data})
+            precinct_rows.append(
+                {"name": precinct_name, "id": id_map[precinct_name], **precinct_data}
+            )
         if len(precinct_rows) == 0:
             breakpoint()
         with Path.open(output_dir / f"{contest}.csv", "w") as f:

@@ -239,7 +239,9 @@ if __name__ == "__main__":
 
             output_results.append(
                 {
-                    "id": id_map[county_slug].get(precinct_key[0], slugify(precinct_key[0])),
+                    "id": id_map[county_slug].get(
+                        precinct_key[0], slugify(precinct_key[0])
+                    ),
                     "name": precinct_key[0],
                     "board": "",
                     **precinct_data,

@@ -26,12 +26,17 @@ def slugify(text):
         r"\s", "-", re.sub(r"\s+", " ", re.sub(r"[^a-z\d]", " ", text.lower())).strip()
     )
 
+
 def get_race_file_key(race_key):
     if "governor" in race_key:
         return "mi-governor-dem" if "dem" in race_key else "mi-governor-rep"
     if "senat" in race_key:
         return "united-states-senator-dem"
-    return race_key.replace("democratic", "dem").replace("republican", "rep").replace("-party", "")
+    return (
+        race_key.replace("democratic", "dem")
+        .replace("republican", "rep")
+        .replace("-party", "")
+    )
 
 
 def is_target_race(race_title):
@@ -244,5 +249,7 @@ if __name__ == "__main__":
             print(f"Warning: missing precinct id mapping for some rows in {race_key}")
         precinct_df = precinct_df[["name", "id"] + candidate_cols]
 
-        precinct_df.to_csv(f"{output_dir}/{get_race_file_key(race_key)}.csv", index=False)
+        precinct_df.to_csv(
+            f"{output_dir}/{get_race_file_key(race_key)}.csv", index=False
+        )
         print(f"Wrote {race_key}.csv ({len(precinct_df)} precincts)")

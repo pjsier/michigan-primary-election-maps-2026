@@ -244,7 +244,9 @@ if __name__ == "__main__":
         df_map[title] = merged
 
     for race_key, df_val in df_map.items():
-        if not any(w in race_key for w in ("governor", "congress", "united-states-senator-dem")):
+        if not any(
+            w in race_key for w in ("governor", "congress", "united-states-senator-dem")
+        ):
             continue
         df_val = df_val.loc[:, ~df_val.columns.duplicated()]
         # TODO: Only run for Detroit-specific
@@ -290,7 +292,9 @@ if __name__ == "__main__":
                 .copy()
                 .drop(columns=["registered", "turnout"])
             )
-            vote_type_precinct_df["id"] = vote_type_precinct_df["name"].map(id_map[county_slug])
+            vote_type_precinct_df["id"] = vote_type_precinct_df["name"].map(
+                id_map[county_slug]
+            )
             vote_type_suffix = ""
             if vote_type != "Total":
                 vote_type_suffix = f"-{slugify(vote_type)}"

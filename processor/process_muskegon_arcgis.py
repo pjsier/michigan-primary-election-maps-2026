@@ -7,9 +7,15 @@ import requests
 BASE_DIR = Path(__file__).parent.parent
 BASE_URL = "https://gis.muskegoncountygis.com/arcgis/rest/services/Elections/Election_Results_2026_08/FeatureServer"
 
-CONTESTS = [ "United States Senator - Democratic Primary", "Representative in Congress 2nd District - Democratic Primary", "Governor - Republican Primary", "Governor - Democratic Primary"]
+CONTESTS = [
+    "United States Senator - Democratic Primary",
+    "Representative in Congress 2nd District - Democratic Primary",
+    "Governor - Republican Primary",
+    "Governor - Democratic Primary",
+]
 
 contest_map = defaultdict(dict)
+
 
 def get_contest_key(contest):
     if "senat" in contest.lower():
@@ -19,6 +25,7 @@ def get_contest_key(contest):
     if "dem" in contest.lower():
         return "mi-governor-dem"
     return "mi-governor-rep"
+
 
 def query_endpoint(url):
     records = []
@@ -62,10 +69,19 @@ def process_endpoint_results(results):
         choice_name = result["Choice_Name"]
         if choice_name == "Justin Blackburn":
             choice_name = "Write-in"
-        contest_precinct_map[result["GIS_Contest_Title"]]["Total"][result["Precinct_Parent"]][choice_name]= result["Total_Votes"]
-        contest_precinct_map[result["GIS_Contest_Title"]]["Election day"][result["Precinct_Parent"]][choice_name] = result["ElectionDayVoting_Votes"]
-        contest_precinct_map[result["GIS_Contest_Title"]]["All early votes"][result["Precinct_Parent"]][choice_name] = result["EarlyVoting_Local_Votes"] + result["Absentee_Voting_Votes"]
+        contest_precinct_map[result["GIS_Contest_Title"]]["Total"][
+            result["Precinct_Parent"]
+        ][choice_name] = result["Total_Votes"]
+        contest_precinct_map[result["GIS_Contest_Title"]]["Election day"][
+            result["Precinct_Parent"]
+        ][choice_name] = result["ElectionDayVoting_Votes"]
+        contest_precinct_map[result["GIS_Contest_Title"]]["All early votes"][
+            result["Precinct_Parent"]
+        ][choice_name] = (
+            result["EarlyVoting_Local_Votes"] + result["Absentee_Voting_Votes"]
+        )
     return contest_precinct_map
+
 
 if __name__ == "__main__":
     output_dir = BASE_DIR / "data" / "results" / "muskegon"
@@ -81,11 +97,19 @@ if __name__ == "__main__":
         for vote_type, precincts in vote_types.items():
             precinct_rows = []
             for precinct_name, precinct_data in precincts.items():
-                precinct_rows.append({"name": precinct_name, "id": id_map[precinct_name], **precinct_data})
+                precinct_rows.append(
+                    {
+                        "name": precinct_name,
+                        "id": id_map[precinct_name],
+                        **precinct_data,
+                    }
+                )
             vote_type_slug = ""
             if vote_type != "Total":
-                vote_type_slug = f'-{vote_type.lower().replace(" ", "-")}'
-            with Path.open(output_dir / f"{get_contest_key(contest)}{vote_type_slug}.csv", "w") as f:
+                vote_type_slug = f"-{vote_type.lower().replace(' ', '-')}"
+            with Path.open(
+                output_dir / f"{get_contest_key(contest)}{vote_type_slug}.csv", "w"
+            ) as f:
                 writer = csv.DictWriter(f, fieldnames=list(precinct_rows[0].keys()))
                 writer.writeheader()
                 writer.writerows(precinct_rows)

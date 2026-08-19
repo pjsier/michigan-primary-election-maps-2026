@@ -95,7 +95,13 @@ if __name__ == "__main__":
     for precinct in precincts["features"]:
         name = precinct["properties"]["name"].replace("3Macomb", "Macomb")
         precinct_id = precinct["properties"]["id"]
-        county_slug = re.sub(r"[^a-z]", "-", MI_COUNTY_FIPS[precinct["properties"]["countyfips"]].lower().replace(".", ""))
+        county_slug = re.sub(
+            r"[^a-z]",
+            "-",
+            MI_COUNTY_FIPS[precinct["properties"]["countyfips"]]
+            .lower()
+            .replace(".", ""),
+        )
         output_map[county_slug][name] = precinct_id
         if "Township of" in name:
             admin_name, precinct_num = name.split(", ")
@@ -105,7 +111,9 @@ if __name__ == "__main__":
             clean_name = f"{clean_admin_name} Township, {precinct_num}"
             output_map[county_slug][clean_name] = precinct_id
         elif "City of the Village of" in name:
-            output_map[county_slug][name.replace("City of the Village of ", "")] = precinct_id
+            output_map[county_slug][name.replace("City of the Village of ", "")] = (
+                precinct_id
+            )
         elif "City of" in name:
             output_map[county_slug][name.replace("City of ", "")] = precinct_id
             # HACK
@@ -123,67 +131,118 @@ if __name__ == "__main__":
         if "Inkster" in name:
             city, ward, precinct_num = name.split(", ")
             ward_num = ward.split(" ")[-1]
-            output_map[county_slug][f"City of Inkster, District {ward_num} {precinct_num}"] = (
-                precinct_id
-            )
+            output_map[county_slug][
+                f"City of Inkster, District {ward_num} {precinct_num}"
+            ] = precinct_id
         if "Brownstown" in name:
             precinct_num = name.split(", ")[-1]
-            output_map[county_slug][f"Charter Township of Brownstown, {precinct_num}"] = precinct_id
+            output_map[county_slug][
+                f"Charter Township of Brownstown, {precinct_num}"
+            ] = precinct_id
         if "Huron Township" in name:
             precinct_num = name.split(", ")[-1]
-            output_map[county_slug][f"Charter Township of Huron, {precinct_num}"] = precinct_id
+            output_map[county_slug][f"Charter Township of Huron, {precinct_num}"] = (
+                precinct_id
+            )
         if "Northville Township" in name:
             precinct_num = name.split(", ")[-1]
-            output_map[county_slug][f"Charter Township of Northville, {precinct_num}"] = precinct_id
+            output_map[county_slug][
+                f"Charter Township of Northville, {precinct_num}"
+            ] = precinct_id
         if "Sumpter Township" in name:
             precinct_num = name.split(", ")[-1]
-            output_map[county_slug][f"Township of Sumpter, {precinct_num}"] = precinct_id
+            output_map[county_slug][f"Township of Sumpter, {precinct_num}"] = (
+                precinct_id
+            )
         if "Village of Grosse Pointe Shores" in name:
             precinct_num = name.split(" ")[-1]
-            output_map[county_slug][f"The {name.replace('A Michigan', 'a Michigan')}"] = precinct_id
-            output_map[county_slug][f"Grosse Pointe Shores {precinct_num}"] = precinct_id
-        if (("City of Muskegon" in name) or ("City of Flint")) and ("Ward" in name):
+            output_map[county_slug][
+                f"The {name.replace('A Michigan', 'a Michigan')}"
+            ] = precinct_id
+            output_map[county_slug][f"Grosse Pointe Shores {precinct_num}"] = (
+                precinct_id
+            )
+        if (("City of Muskegon" in name) or ("City of Flint" in name)) and (
+            "Ward" in name
+        ):
             split_precinct = name.split(", ")
             updated_precinct = ", ".join([split_precinct[0], split_precinct[2]])
             output_map[county_slug][updated_precinct] = precinct_id
         if "Fruitport" in name:
             precinct_num = name.split(" ")[-1]
-            output_map[county_slug][f"Fruitport Charter Township, Precinct {precinct_num}"] = precinct_id
+            output_map[county_slug][
+                f"Fruitport Charter Township, Precinct {precinct_num}"
+            ] = precinct_id
         if "City of Marquette" in name:
             precinct_num = name.split(" ")[-1]
-            output_map[county_slug][f"City of Marquette, Ward 1, Precinct {precinct_num}"] = precinct_id
+            output_map[county_slug][
+                f"City of Marquette, Ward 1, Precinct {precinct_num}"
+            ] = precinct_id
         if "Chocolay" in name:
-            output_map[county_slug][name.replace("Chocolay", "Chocolay Charter")] = precinct_id
+            output_map[county_slug][name.replace("Chocolay", "Chocolay Charter")] = (
+                precinct_id
+            )
         if "Marquette Township" in name:
-            output_map[county_slug][name.replace("Marquette Township", "Marquette Charter Township")] = precinct_id
+            output_map[county_slug][
+                name.replace("Marquette Township", "Marquette Charter Township")
+            ] = precinct_id
         if "Blackman Township" in name:
-            output_map[county_slug][name.replace("Blackman", "Blackman Charter")] = precinct_id
+            output_map[county_slug][name.replace("Blackman", "Blackman Charter")] = (
+                precinct_id
+            )
         if "Columbia Township" in name:
-            output_map[county_slug][name.replace("Columbia", "Columbia Charter")] = precinct_id
+            output_map[county_slug][name.replace("Columbia", "Columbia Charter")] = (
+                precinct_id
+            )
         if "Sandstone Township" in name:
-            output_map[county_slug][name.replace("Sandstone", "Sandstone Charter")] = precinct_id
+            output_map[county_slug][name.replace("Sandstone", "Sandstone Charter")] = (
+                precinct_id
+            )
         if "Caledonia Township" in name:
             precinct_num = name.split(" ")[-1]
-            output_map[county_slug][f"Caledonia Charter Township, Precinct {precinct_num}"] = precinct_id
+            output_map[county_slug][
+                f"Caledonia Charter Township, Precinct {precinct_num}"
+            ] = precinct_id
         if "Cedar Springs" in name:
             output_map[county_slug]["Cedar Springs City, Precinct 1"] = precinct_id
         if "City of East Grand Rapids" in name:
             second_component = ", ".join(name.split(", ")[1:])
-            output_map[county_slug][f"East Grand Rapids City, {second_component}"] = precinct_id
+            output_map[county_slug][f"East Grand Rapids City, {second_component}"] = (
+                precinct_id
+            )
         if "City of Grand Rapids" in name:
             second_component = ", ".join(name.split(", ")[1:])
-            output_map[county_slug][f"Grand Rapids City, {second_component}"] = precinct_id
+            output_map[county_slug][f"Grand Rapids City, {second_component}"] = (
+                precinct_id
+            )
         if "Manchester Township" in name:
-            output_map[county_slug][name.replace("Manchester Township", "City of Manchester")] = precinct_id
+            output_map[county_slug][
+                name.replace("Manchester Township", "City of Manchester")
+            ] = precinct_id
         if name.startswith("City of "):
             components = name.split(", ")
-            precinct_name = ", ".join([f"{components[0].replace('City of ', '')} City"] + components[1:])
+            precinct_name = ", ".join(
+                [f"{components[0].replace('City of ', '')} City"] + components[1:]
+            )
             output_map[county_slug][precinct_name] = precinct_id
         if "Pavilion Township" in name:
             precinct_num = name.split(" ")[-1]
-            output_map[county_slug][f"Charter Township of Pavilion, Precinct {precinct_num}"] = precinct_id
+            output_map[county_slug][
+                f"Charter Township of Pavilion, Precinct {precinct_num}"
+            ] = precinct_id
+        if "Maple Forest Township" in name:
+            output_map[county_slug][name.replace("501", "1")] = precinct_id
+        if (county_slug == "gogebic") and ("Ironwood Township" in name):
+            output_map[county_slug][
+                name.replace("Ironwood Township", "Ironwood Charter Township")
+            ] = precinct_id
+        if (county_slug == "mason") and "Ludington" in name:
+            clean_name = ", ".join(name.split(", ")[:-1]).replace("Ward", "Precinct")
+            output_map["mason"][clean_name] = precinct_id
         if county_slug in ["ingham", "kalamazoo"]:
             if "Township" in name:
-                output_map[county_slug][name.replace("Township", "Charter Township")] = precinct_id
+                output_map[county_slug][
+                    name.replace("Township", "Charter Township")
+                ] = precinct_id
 
     json.dump(output_map, sys.stdout)
