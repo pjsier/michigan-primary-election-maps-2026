@@ -51,6 +51,9 @@ data/results/ingham:
 data/results/kalamazoo:
 	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/kalamazoo-county-mi/August-2026-Primary-Election $@
 
+data/results/st-clair:
+	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/st.-clair-county-mi/2026AugustPrimary $@
+
 input/precinct-id-map.json: input/precincts.geojson
 	cat $< | poetry run python processor/process_precinct_id_map.py > $@
 

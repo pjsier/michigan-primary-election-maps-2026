@@ -1,0 +1,66 @@
+name,id,Tom Barrett,Undervotes,Overvotes,Invalid Votes,Unresolved write-in votes,Precinct Voting Ballots Cast
+"City of Brighton, Precinct 1",931062000001,152,12,0,9,0,175
+"City of Brighton, Precinct 2",931062000002,248,16,0,12,0,267
+"City of Brighton, Precinct 3",931062000003,485,51,0,10,0,373
+"City of Howell, Precinct 1",933954000001,573,49,0,22,0,569
+"City of Howell, Precinct 2",933954000002,291,26,0,12,0,379
+"Brighton Charter Township, Precinct 1",931064000001,345,29,0,10,0,257
+"Brighton Charter Township, Precinct 2",931064000002,257,18,0,7,0,183
+"Brighton Charter Township, Precinct 3",931064000003,474,32,0,14,0,359
+"Brighton Charter Township, Precinct 4",931064000004,501,49,0,6,0,412
+"Brighton Charter Township, Precinct 5",931064000005,391,34,0,10,0,347
+"Brighton Charter Township, Precinct 6",931064000006,456,38,0,14,0,359
+"Brighton Charter Township, Precinct 7",931064000007,305,35,0,10,0,239
+"Cohoctah Township, Precinct 1",931692000001,537,51,0,18,0,419
+"Conway Township, Precinct 1",931792000001,522,44,0,4,0,393
+"Deerfield Township, Precinct 1",932122000001,683,52,0,25,0,574
+"Genoa Charter Township, Precinct 1",933186000001,279,24,0,6,0,258
+"Genoa Charter Township, Precinct 2",933186000002,531,45,0,16,0,359
+"Genoa Charter Township, Precinct 3",933186000003,532,46,0,15,0,460
+"Genoa Charter Township, Precinct 4",933186000004,536,44,0,9,0,361
+"Genoa Charter Township, Precinct 5",933186000005,817,84,0,19,0,521
+"Genoa Charter Township, Precinct 6",933186000006,397,31,0,7,0,261
+"Green Oak Charter Township, Precinct 1",933506000001,451,34,0,16,0,390
+"Green Oak Charter Township, Precinct 2",933506000002,354,38,0,17,0,359
+"Green Oak Charter Township, Precinct 3",933506000003,210,24,0,12,0,244
+"Green Oak Charter Township, Precinct 4",933506000004,302,22,0,14,0,304
+"Green Oak Charter Township, Precinct 5",933506000005,307,28,0,10,0,237
+"Green Oak Charter Township, Precinct 6",933506000006,379,32,0,16,0,304
+"Green Oak Charter Township, Precinct 7",933506000007,266,21,0,4,0,218
+"Green Oak Charter Township, Precinct 8",933506000008,174,21,0,5,0,169
+"Hamburg Township, Precinct 1",933610000001,442,54,0,1,0,396
+"Hamburg Township, Precinct 2",933610000002,397,35,0,0,0,457
+"Hamburg Township, Precinct 3",933610000003,428,60,0,0,0,364
+"Hamburg Township, Precinct 4",933610000004,427,42,0,0,0,373
+"Hamburg Township, Precinct 5",933610000005,287,39,0,3,0,281
+"Hamburg Township, Precinct 6",933610000006,524,38,0,1,0,402
+"Hamburg Township, Precinct 7",933610000007,461,55,0,5,0,547
+"Handy Township, Precinct 1",933634000001,277,16,0,15,0,245
+"Handy Township, Precinct 2",933634000002,236,21,0,6,0,216
+"Handy Township, Precinct 3",933634000003,447,30,0,9,0,373
+"Hartland Township, Precinct 1",933704000001,511,44,0,13,0,361
+"Hartland Township, Precinct 2",933704000002,381,22,0,12,0,338
+"Hartland Township, Precinct 3",933704000003,543,48,0,11,0,396
+"Hartland Township, Precinct 4",933704000004,496,31,0,12,0,367
+"Hartland Township, Precinct 5",933704000005,355,28,0,12,0,258
+"Howell Township, Precinct 1",933956000001,450,41,0,20,0,348
+"Howell Township, Precinct 2",933956000002,516,55,1,16,0,478
+"Iosco Township, Precinct 1",934090000001,263,28,0,2,0,211
+"Iosco Township, Precinct 2",934090000002,326,21,0,6,0,261
+"Marion Township, Precinct 1",935164000001,381,42,0,12,0,263
+"Marion Township, Precinct 2",935164000002,533,39,0,9,0,377
+"Marion Township, Precinct 3",935164000003,393,40,0,6,0,280
+"Marion Township, Precinct 4",935164000004,548,44,0,7,0,335
+"Oceola Township, Precinct 1",936012000001,427,34,0,15,0,309
+"Oceola Township, Precinct 2",936012000002,403,28,0,18,0,296
+"Oceola Township, Precinct 3",936012000003,245,17,0,1,0,158
+"Oceola Township, Precinct 4",936012000004,338,20,0,6,0,272
+"Oceola Township, Precinct 5",936012000005,384,35,0,13,0,199
+"Oceola Township, Precinct 6",936012000006,262,19,0,7,0,210
+"Putnam Township, Precinct 1",936654000004,502,25,0,14,0,392
+"Putnam Township, Precinct 2",936654000002,693,56,0,14,0,484
+"Tyrone Township, Precinct 1",938116000001,339,30,0,7,0,296
+"Tyrone Township, Precinct 2",938116000002,393,28,0,14,0,342
+"Tyrone Township, Precinct 3",938116000003,412,31,0,14,0,319
+"Tyrone Township, Precinct 4",938116000004,364,29,0,5,0,315
+"Unadilla Township, Precinct 1",938124000001,455,31,1,15,0,546
