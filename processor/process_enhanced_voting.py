@@ -10,6 +10,11 @@ from collections import defaultdict
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
+def clean_precinct_name(name: str) -> str:
+    """Handling some weird typos"""
+    return name.replace("Athur ", "Arthur ")
+
+
 def slugify(text):
     return (
         re.sub(
@@ -34,7 +39,7 @@ def process_ballot_item(base_url, item_id, candidate_map, id_map):
     vote_types = list(vote_type_groups.keys())
 
     for item in data["ballotItemWithBreakdown"]["breakdownResults"]:
-        precinct_name = item["precinct"]["name"][0]["text"]
+        precinct_name = clean_precinct_name(item["precinct"]["name"][0]["text"])
 
         for vote_type in vote_types:
             # Hack to override weird multi-county item in Kent
@@ -83,19 +88,21 @@ def main():
             turnout_val = round(
                 (precinct["ballotsCast"] / precinct["voterRegistration"]) * 100, 2
             )
+        precinct_name = clean_precinct_name(precinct["precinctName"])
         turnout.append(
             {
-                "id": id_map[precinct["precinctName"]],
-                "name": precinct["precinctName"],
+                "id": id_map[precinct_name],
+                "name": precinct_name,
                 "ballots": precinct["ballotsCast"],
                 "registered": precinct["voterRegistration"],
                 "turnout": turnout_val,
             }
         )
-    with Path.open(output_dir / "turnout.csv", "w") as f:
-        writer = csv.DictWriter(f, fieldnames=list(turnout[0].keys()))
-        writer.writeheader()
-        writer.writerows(turnout)
+    if len(turnout) > 0:
+        with Path.open(output_dir / "turnout.csv", "w") as f:
+            writer = csv.DictWriter(f, fieldnames=list(turnout[0].keys()))
+            writer.writeheader()
+            writer.writerows(turnout)
 
     for ballot_item in data["ballotItems"]:
         item_name = ballot_item["name"][0]["text"]

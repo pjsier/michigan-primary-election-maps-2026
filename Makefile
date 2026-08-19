@@ -45,6 +45,9 @@ data/results/marquette: input/results/marquette/primary.pdf
 data/results/jackson: input/results/jackson/primary.pdf
 	poetry run python processor/process_dominion_alt_pdf.py $< $@
 
+data/results/clare:
+	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/clare-county-mi/2026AugustElection $@
+
 data/results/kent:
 	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/kent-county-mi/08042026 $@
 
