@@ -15,6 +15,7 @@ MANUAL_COUNTIES = [
     "luce",
     "mackinac",
     "mason",
+    # "missaukee", # TODO: EV
     "montmorency",
     "sanilac",
     "schoolcraft",

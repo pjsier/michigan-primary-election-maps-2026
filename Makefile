@@ -33,6 +33,9 @@ data/results/ottawa:
 data/results/wayne: input/results/wayne/primary.pdf
 	poetry run python processor/process_dominion_pdf.py $< $@
 
+data/results/baraga: input/results/baraga/primary.pdf
+	poetry run python processor/process_dominion_alt_pdf.py $< $@
+
 data/results/marquette: input/results/marquette/primary.pdf
 	poetry run python processor/process_dominion_alt_pdf.py $< $@
 
