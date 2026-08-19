@@ -232,6 +232,11 @@ if __name__ == "__main__":
             ] = precinct_id
         if "Maple Forest Township" in name:
             output_map[county_slug][name.replace("501", "1")] = precinct_id
+        if (county_slug == "barry") and ("City of Hastings" in name):
+            precinct_num = name.split(" ")[-1]
+            output_map[county_slug][f"City of Hastings, Ward {precinct_num}, Precinct {precinct_num}"] = precinct_id
+        if (county_slug == "barry") and any(w in name for w in ["Hastings Township", "Rutland"]):
+            output_map[county_slug][name.replace(" Township", " Charter Township")] = precinct_id
         if (county_slug == "gogebic") and ("Ironwood Township" in name):
             output_map[county_slug][
                 name.replace("Ironwood Township", "Ironwood Charter Township")
