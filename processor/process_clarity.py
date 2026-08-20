@@ -28,6 +28,8 @@ def clean_precinct_name(precinct_name):
     return (
         precinct_name.replace(" Twp, ", " Township, ")
         .replace(" Pct ", " Precinct ")
+        .replace(" Prec ", " Precinct ")
+        .replace("AuSable", "Au Sable")
         .replace(
             "Grosse Pointe Shores, ",
             "Village of Grosse Pointe Shores, A Michigan City, ",
@@ -111,10 +113,11 @@ def process_xml(xml_str, id_map, output_dir):
     tree = etree.fromstring(xml_str)
 
     turnout_rows = parse_voter_turnout(tree, id_map)
-    with open(os.path.join(output_dir, "turnout.csv"), "w") as f:
-        writer = csv.DictWriter(f, fieldnames=list(turnout_rows[0].keys()))
-        writer.writeheader()
-        writer.writerows(turnout_rows)
+    if len(turnout_rows) > 0:
+        with open(os.path.join(output_dir, "turnout.csv"), "w") as f:
+            writer = csv.DictWriter(f, fieldnames=list(turnout_rows[0].keys()))
+            writer.writeheader()
+            writer.writerows(turnout_rows)
 
     for contest in tree.xpath(".//Contest"):
         contest_name, contest_row_map = process_contest(contest, id_map)

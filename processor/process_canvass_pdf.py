@@ -225,8 +225,13 @@ if __name__ == "__main__":
                 "Registered Voters": "registered",
                 "Turnout Percentage": "turnout",
                 "Write-ins": "Write-in",
+                "Overvotes": "over_votes",
+                "Undervotes": "under_votes",
+                "Unresolved write-in votes": "Write-in",
             }
         )
+        if "Invalid Votes" in df_val.columns:
+            df_val.drop("Invalid Votes", axis=1, inplace=True)
 
         non_candidate_cols = [
             "total",

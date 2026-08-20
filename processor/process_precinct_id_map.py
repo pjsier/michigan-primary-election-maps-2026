@@ -243,6 +243,14 @@ if __name__ == "__main__":
                 output_map[county_slug][f"City of Hancock, Ward {precinct_num}, Precinct {precinct_num}"] = precinct_id
             if any(w in name for w in ["Chassell", "Calumet"]):
                 output_map[county_slug][name.replace(" Township", " Charter Township")] = precinct_id
+        if county_slug == "mecosta":
+            if ("Big Rapids" in name) or ("Green" in name):
+                output_map[county_slug][name.replace(" Township", " Charter Township")] = precinct_id
+        if county_slug == "isabella":
+            if "Pleasant" in name:
+                output_map[county_slug][name.replace("Mount ", "Mt. ")] = precinct_id
+            if "Union Township" in name:
+                output_map[county_slug][name.replace(" Township", " Charter Township")] = precinct_id
         if (county_slug == "gogebic") and ("Ironwood Township" in name):
             output_map[county_slug][
                 name.replace("Ironwood Township", "Ironwood Charter Township")

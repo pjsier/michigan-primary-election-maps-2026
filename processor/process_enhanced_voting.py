@@ -32,9 +32,9 @@ def process_ballot_item(base_url, item_id, candidate_map, id_map):
     data = res.json()
 
     vote_type_groups = {"Total": []}
-    for group_name in data["ballotItemWithBreakdown"]["breakdownResults"][0][
+    for group_name in (data["ballotItemWithBreakdown"]["breakdownResults"][0][
         "ballotOptions"
-    ][0]["groupResults"]:
+    ][0]["groupResults"] or []):
         vote_type_groups[group_name["groupName"][0]["text"]] = []
     vote_types = list(vote_type_groups.keys())
 
@@ -42,8 +42,8 @@ def process_ballot_item(base_url, item_id, candidate_map, id_map):
         precinct_name = clean_precinct_name(item["precinct"]["name"][0]["text"])
 
         for vote_type in vote_types:
-            # Hack to override weird multi-county item in Kent
-            if "(Ionia County)" in precinct_name:
+            # Hack to override weird multi-county item in Kent, Isabella
+            if any(c in precinct_name for c in ("(Ionia County)", "(Clare County)")):
                 continue
             result_obj = {
                 "id": id_map[precinct_name],
@@ -79,8 +79,8 @@ def main():
 
     turnout = []
     for precinct in data["voterTurnout"]:
-        # Weird hack for Ionia exception
-        if "(Ionia County)" in precinct["precinctName"]:
+        # Weird hack for county exception
+        if any(c in precinct["precinctName"] for c in ("(Ionia County)", "(Clare County)")):
             continue
         if precinct["voterRegistration"] == 0:
             turnout_val = 0.0

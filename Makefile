@@ -30,6 +30,9 @@ data/results/genesee:
 data/results/ottawa:
 	poetry run python processor/process_clarity.py https://www.miottawavotes.gov//MI/Ottawa/126772/377930/reports/detailxml.zip $@
 
+data/results/roscommon:
+	poetry run python processor/process_clarity.py https://results.enr.clarityelections.com//MI/Roscommon/126770/378560/reports/detailxml.zip $@
+
 data/results/wayne: input/results/wayne/primary.pdf
 	poetry run python processor/process_dominion_pdf.py $< $@
 
@@ -42,10 +45,26 @@ data/results/barry: input/results/barry/primary.pdf
 data/results/houghton: input/results/houghton/primary.pdf
 	poetry run python processor/process_dominion_alt_pdf.py $< $@
 
-data/results/marquette: input/results/marquette/primary.pdf
+data/results/iron: input/results/iron/primary.pdf
 	poetry run python processor/process_dominion_alt_pdf.py $< $@
 
 data/results/jackson: input/results/jackson/primary.pdf
+	poetry run python processor/process_dominion_alt_pdf.py $< $@
+
+data/results/marquette: input/results/marquette/primary.pdf
+	poetry run python processor/process_dominion_alt_pdf.py $< $@
+
+data/results/mecosta: input/results/mecosta/primary.pdf
+	poetry run python processor/process_dominion_alt_pdf.py $< $@
+
+data/results/oceana: input/results/oceana/primary.pdf
+	poetry run python processor/process_dominion_alt_pdf.py $< $@
+
+# TODO:
+data/results/ogemaw: input/results/ogemaw/primary.pdf
+	poetry run python processor/process_dominion_alt_pdf.py $< $@
+
+data/results/wexford: input/results/wexford/primary.pdf
 	poetry run python processor/process_dominion_alt_pdf.py $< $@
 
 data/results/clare:
@@ -60,11 +79,26 @@ data/results/saginaw:
 data/results/ingham:
 	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/ingham-county-mi/AugustElection08042026 $@
 
+data/results/isabella:
+	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/isabella-county-mi/August2026Primary $@
+
 data/results/kalamazoo:
 	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/kalamazoo-county-mi/August-2026-Primary-Election $@
 
+data/results/lake:
+	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/lake-county-mi/Aug-2026-Primary $@
+
+data/results/newaygo:
+	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/newaygo-county-mi/August2026PrimaryElection $@
+
+data/results/osceola:
+	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/osceola-county-mi/August2026 $@
+
 data/results/st-clair:
 	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/st.-clair-county-mi/2026AugustPrimary $@
+
+data/results/montcalm: input/results/montcalm/primary.pdf
+	poetry run python processor/process_canvass_pdf.py $< $@
 
 input/precinct-id-map.json: input/precincts.geojson
 	cat $< | poetry run python processor/process_precinct_id_map.py > $@
