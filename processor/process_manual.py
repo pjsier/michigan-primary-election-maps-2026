@@ -16,7 +16,7 @@ MANUAL_COUNTIES = [
     "luce",
     "mackinac",
     "mason",
-    # "missaukee", # TODO: EV
+    "missaukee",
     "montmorency",
     "sanilac",
     "schoolcraft",
@@ -52,4 +52,7 @@ if __name__ == "__main__":
                 writer = csv.DictWriter(f, fieldnames=output_fields)
                 writer.writeheader()
                 for row in rows:
+                    if row["name"] not in id_map[county]:
+                        print(f"Precinct not found: {row['name']}")
+                        continue
                     writer.writerow({"id": id_map[county][row["name"]], **row})
