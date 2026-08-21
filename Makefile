@@ -72,6 +72,9 @@ data/results/clare:
 data/results/delta:
 	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/delta-county-mi/August2026Election $@
 
+data/results/gratiot:
+	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/gratiot-county-mi/GratiotCountyPrimary2026 $@
+
 data/results/kent:
 	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/kent-county-mi/08042026 $@
 
