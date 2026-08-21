@@ -262,6 +262,9 @@ if __name__ == "__main__":
             output_map["mason"][clean_name] = precinct_id
         if (county_slug == "ogemaw") and ("City" in name):
             output_map[county_slug][name.replace(", Precinct 1", ", Ward 1, Precinct 1")] = precinct_id
+        if county_slug == "allegan":
+            if "Gunplain" in name:
+                output_map[county_slug][name.replace("Gunplain", "Gun Plain")] = precinct_id
         if county_slug in ["ingham", "kalamazoo"]:
             if "Township" in name:
                 output_map[county_slug][

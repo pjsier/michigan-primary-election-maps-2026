@@ -11,6 +11,7 @@ MANUAL_COUNTIES = [
     "cheboygan",
     "crawford",
     "gogebic",
+    "huron",
     "lapeer",
     "luce",
     "mackinac",

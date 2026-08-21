@@ -36,6 +36,9 @@ data/results/roscommon:
 data/results/wayne: input/results/wayne/primary.pdf
 	poetry run python processor/process_dominion_pdf.py $< $@
 
+data/results/allegan: input/results/allegan/primary.pdf
+	poetry run python processor/process_dominion_alt_pdf.py $< $@
+
 data/results/baraga: input/results/baraga/primary.pdf
 	poetry run python processor/process_dominion_alt_pdf.py $< $@
 
