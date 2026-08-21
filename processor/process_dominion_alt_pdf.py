@@ -31,6 +31,17 @@ def slugify(text):
     ).replace("-for-", "-")
 
 
+def _is_rotated_char(c: Char) -> bool:
+    if "upright" in c:
+        return not c["upright"]
+    matrix = c.get("matrix")
+    if not matrix:
+        return False
+    return abs(matrix[0]) < 1e-6 and abs(matrix[3]) < 1e-6 and (
+        abs(matrix[1]) > 1e-6 or abs(matrix[2]) > 1e-6
+    )
+
+
 def header_text_for_cell(
     page_or_crop: PageLike,
     cell_bbox: BBox,
@@ -48,7 +59,7 @@ def header_text_for_cell(
     chars: List[Char] = [
         c
         for c in page_or_crop.chars
-        if not c.get("upright", True)
+        if _is_rotated_char(c)
         and x0 - 0.5 <= c["x0"] < x1 + 0.5
         and top - 0.5 <= c["top"] < bottom + 0.5
     ]
@@ -75,22 +86,20 @@ def header_text_for_cell(
     return re.sub(r"\s+", " ", " ".join(lines)).strip()
 
 
-def extract_race_header(page, top_cutoff=100, title_size_cutoff=16):
-    """Return the race-header text if this page starts a new race, else None.
+def detect_header_font(first_page) -> str:
+    words = first_page.extract_words(extra_attrs=["size", "fontname"])
+    top_words = [w for w in words if w["top"] < 100]
+    if not top_words:
+        return ""
+    return max(top_words, key=lambda w: w["size"])["fontname"]
 
-    Every page repeats the document title ("Statement of Votes Cast") in bold
-    18pt Georgia near the top of the page. Actual race headers ("Governor
-    (DEM) (Vote for 1)", etc.) use the same bold Georgia font but at 14pt.
-    Without the size filter, the title on page 1 gets mistaken for a race
-    header, which stomps on the "Registration" bucket and misfiles the
-    registration table under "Statement of Votes Cast".
-    """
+
+def extract_race_header(page, header_font, top_cutoff=100, title_size_cutoff=16):
     words = page.extract_words(extra_attrs=["size", "fontname"])
     bold_words = [
         w
         for w in words
-        if "Bold" in w["fontname"]
-        and "Georgia" in w["fontname"]
+        if w["fontname"] == header_font
         and w["top"] < top_cutoff
         and w["size"] < title_size_cutoff
     ]
@@ -102,7 +111,143 @@ def extract_race_header(page, top_cutoff=100, title_size_cutoff=16):
     return re.sub(r"\s+", " ", re.sub(r"\(.*\)", "", race_header_str)).strip()
 
 
+def extract_rotated_headers(page: Page, table, gap: float = 25.0) -> list[tuple[float, float, str]]:
+    chars = [
+        c for c in page.chars
+        if _is_rotated_char(c)
+        and table.bbox[1] - 1 <= c["top"] <= table.bbox[3]
+    ]
+    if not chars:
+        return []
+
+    xs = sorted({round(c["x0"], 1) for c in chars})
+    clusters: list[list[float]] = []
+    current: list[float] = []
+    for x in xs:
+        if current and x - current[-1] > gap:
+            clusters.append(current)
+            current = []
+        current.append(x)
+    if current:
+        clusters.append(current)
+
+    headers = []
+    for cluster in clusters:
+        cluster_set = set(cluster)
+        cluster_chars = [c for c in chars if round(c["x0"], 1) in cluster_set]
+        by_x: DefaultDict[float, List[Char]] = defaultdict(list)
+        for c in cluster_chars:
+            by_x[round(c["x0"], 1)].append(c)
+
+        lines = []
+        for x in sorted(by_x):
+            line_chars = sorted(by_x[x], key=lambda c: -c["top"])
+            text = ""
+            prev = None
+            for c in line_chars:
+                if prev is not None and (prev["top"] - c["bottom"]) > 1.5:
+                    text += " "
+                text += c["text"]
+                prev = c
+            lines.append(text)
+
+        text = re.sub(r"\s+", " ", " ".join(lines)).strip()
+        if text:
+            headers.append((min(cluster), max(cluster), text))
+    return headers
+
+
+def _cell_index_for_x(row_cells, x: float) -> Optional[int]:
+    """Return the row cell containing x."""
+    for i, cell in enumerate(row_cells):
+        if cell and cell[0] - 0.5 <= x <= cell[2] + 0.5:
+            return i
+    return None
+
+
+def _clean_value(value):
+    if value is None:
+        return None
+    value = re.sub(r"\s+", " ", str(value)).strip()
+    if not value:
+        return None
+    return value.replace("%", "").replace(",", "")
+
+
+def extract_registration_table(table) -> dict:
+    """Extract the registration/turnout table on page 1 of the new layout."""
+    rows = table.extract()
+    result = defaultdict(list)
+    columns = ["Vote Type", "Registered Voters", "Voters Cast", "% Turnout"]
+
+    for row in rows:
+        label = re.sub(r"\s+", " ", row[0] or "").strip()
+        if not label or label == "Precinct" or "Cumulative" in label or "County" in label:
+            continue
+        values = [_clean_value(v) for v in row[1:4]]
+        if not any(v is not None for v in values):
+            continue
+        result[label].append(dict(zip(columns, ["Total", *values])))
+    return result
+
+
+def extract_combined_table_info(page: Page, table, state: dict) -> dict:
+    """Extract a Dominion table where registration and candidate results share one table."""
+    rows = table.extract()
+    rotated_headers = extract_rotated_headers(page, table)
+    if not rotated_headers:
+        return {}
+
+    # Map each rotated header to the data cell whose x-range contains its center.
+    header_map = {}
+    sample_row = table.rows[4] if len(table.rows) > 4 else table.rows[-1]
+    for x0, x1, header in rotated_headers:
+        idx = _cell_index_for_x(sample_row.cells, (x0 + x1) / 2)
+        if idx is not None:
+            header_map[idx] = header
+
+    registration_headers = {
+        idx: header for idx, header in header_map.items()
+        if header in {"Times Cast", "Registered Voters", "% Turnout", "Voters Cast"}
+    }
+    candidate_headers = {
+        idx: header for idx, header in header_map.items()
+        if header not in registration_headers.values()
+    }
+
+    precinct_map = defaultdict(dict)
+    for row in rows[1:]:
+        if not row:
+            continue
+        cleaned = [re.sub(r"\s+", " ", v or "").strip() if v is not None else None for v in row]
+        labels = [i for i, v in enumerate(cleaned) if v and ("Precinct" in v)]
+        if not labels:
+            continue
+
+        precinct = cleaned[labels[0]]
+        if not precinct or precinct == "Precinct" or "Cumulative" in precinct:
+            continue
+
+        # Ignore county aggregate rows.
+        if "County" in precinct:
+            continue
+
+        entry = precinct_map[precinct]
+        for idx, header in registration_headers.items():
+            if idx < len(cleaned) and cleaned[idx] is not None:
+                entry[header] = _clean_value(cleaned[idx])
+        for idx, header in candidate_headers.items():
+            if idx < len(cleaned) and cleaned[idx] is not None:
+                entry[header] = _clean_value(cleaned[idx])
+
+        # The output pipeline expects one synthetic "Total" vote type per precinct.
+        entry["Vote Type"] = "Total"
+
+    return defaultdict(list, {p: [data] for p, data in precinct_map.items()})
+
+
 def extract_vertical_headers(page: Page, table) -> list[str]:
+    # Kept for compatibility with the older Dominion layout.
     cropped = page.crop(table.bbox)
     header_row = cropped.find_tables()[0].rows[0]
     return [
@@ -110,74 +255,92 @@ def extract_vertical_headers(page: Page, table) -> list[str]:
     ]
 
 
-def extract_table_info(page: Page, table) -> dict:
-    # Skipping first because it's always Precinct/Vote Type
-    headers = [h for h in extract_vertical_headers(page, table) if h]
-    table_columns = ["Vote Type"]
-    if "Times Cast" in headers:
-        table_columns.extend(headers)
+def extract_table_info(page: Page, table, state: dict) -> dict:
+    rows = table.extract()
+    joined_header = " ".join(str(v or "") for v in rows[:4])
+
+    rotated_headers = extract_rotated_headers(page, table)
+
+    # Page 1 is a plain registration table.
+    if not rotated_headers and "Registered" in joined_header and "Voters Cast" in joined_header:
+        return extract_registration_table(table)
+
+    # New Dominion layout: registration and candidate columns are in one table.
+    if "Times Cast" in joined_header or rotated_headers:
+        return extract_combined_table_info(page, table, state)
+
+    # Older layout: preserve the original extraction behavior.
+    raw_headers = extract_vertical_headers(page, table)
+    headers = [h for h in raw_headers if h]
+    table_rows = rows
+
+    has_header_row = True
+    if "Voters Cast" in table_rows[0]:
+        table_columns = ["Vote Type"] + [re.sub(r"\s+", " ", c or "").strip() for c in table_rows[0][1:]]
+    elif headers:
+        if "Times Cast" in headers:
+            table_columns = ["Vote Type"] + raw_headers[1:]
+        else:
+            table_columns = ["Vote Type"]
+            for header in headers:
+                table_columns.append(header)
+                if "Total" not in header:
+                    table_columns.append(f"{header} Percent")
     else:
-        for header in headers:
-            table_columns.append(header)
-            if "Total" not in header:
-                table_columns.append(f"{header} Percent")
+        has_header_row = False
+        table_columns = state.get("table_columns") or ["Vote Type"]
 
     precinct_map = defaultdict(list)
-    precinct = ""
-    table_rows = table.extract()
-    # Registration at top is a bit different
-    if "Voters Cast" in table_rows[0]:
-        table_columns = ["Vote Type"] + [
-            re.sub(r"\s+", " ", c).strip() for c in table_rows[0][1:]
-        ]
-
-    # Classify rows by labels, content
+    precinct = state.get("precinct", "")
+    rows_to_process = table_rows[1:] if has_header_row else table_rows
     done_with_precincts = False
-    for row in table_rows[1:]:
+    for row in rows_to_process:
         if done_with_precincts:
             continue
-
         label = re.sub(r"\s+", " ", row[0] or "").strip()
         if not label or "Cumulative" in label:
             continue
-
-        has_values = any(v and v.strip() for v in row[1:])
-
+        has_values = any(v and str(v).strip() for v in row[1:])
         if "County" in label or "top District" in label:
             if has_values:
                 done_with_precincts = True
             continue
-
         if not has_values:
-            # Format B label row -- remember the precinct, no data here.
             precinct = label
             continue
-
         if precinct:
             vote_type, row_precinct = label, precinct
         else:
             vote_type, row_precinct = "Total", label
+        row_values = [vote_type] + [_clean_value(r) for r in row[1:]]
+        precinct_row = dict(zip(table_columns, row_values))
+        precinct_row.pop("", None)
+        precinct_map[row_precinct].append(precinct_row)
 
-        row_values = [vote_type] + [
-            (r.replace("%", "").replace(",", "") if r else r) for r in row[1:]
-        ]
-        precinct_map[row_precinct].append(dict(zip(table_columns, row_values)))
-
+    state["precinct"] = precinct
+    state["table_columns"] = table_columns
     return precinct_map
-
 
 def process_results_input(input_file: str) -> dict:
     current_race = "Registration"
     race_mappings = {current_race: defaultdict(dict)}
+    race_state = {current_race: {"precinct": "", "table_columns": None}}
     with pdfplumber.open(input_file) as pdf:
+        header_font = detect_header_font(pdf.pages[0])
         # Flush cache at the end because these get large
         for i in range(len(pdf.pages)):
             page = pdf.pages[i]
-            if race_header := extract_race_header(page):
+            if race_header := extract_race_header(page, header_font):
                 current_race = race_header
-                race_mappings[current_race] = defaultdict(dict)
+                race_mappings.setdefault(current_race, defaultdict(dict))
+                race_state.setdefault(
+                    current_race, {"precinct": "", "table_columns": None}
+                )
+            state = race_state[current_race]
             for table in page.find_tables():
-                for precinct, precinct_rows in extract_table_info(page, table).items():
+                for precinct, precinct_rows in extract_table_info(
+                    page, table, state
+                ).items():
                     for precinct_row in precinct_rows:
                         vote_type = precinct_row.pop("Vote Type")
                         race_mappings[current_race][precinct, vote_type].update(
@@ -229,6 +392,8 @@ if __name__ == "__main__":
                 precinct_data["ballots"] = int(precinct_data.pop("Voters Cast", "0"))
             if "% Turnout" in precinct_data:
                 precinct_data["turnout"] = precinct_data.pop("% Turnout", "")
+            if "Unresolved Write-In" in precinct_data:
+                precinct_data["Write-in"] = precinct_data.pop("Unresolved Write-In", "0")
             precinct_data_keys = list(precinct_data.keys())
             for precinct_data_key in precinct_data_keys:
                 if " Percent" in precinct_data_key:
@@ -239,7 +404,7 @@ if __name__ == "__main__":
 
             output_results.append(
                 {
-                    "id": id_map[county_slug].get(
+                    "id": id_map.get(county_slug, {}).get(
                         precinct_key[0], slugify(precinct_key[0])
                     ),
                     "name": precinct_key[0],
@@ -249,7 +414,7 @@ if __name__ == "__main__":
             )
         if len(output_results) == 0:
             continue
-        output_file_key = slugify(race_key)
+        output_file_key = slugify(race_key).replace("dem-dem", "dem").replace("rep-rep", "rep")
         if output_file_key == "registration":
             output_file_key = "turnout"
         with open(f"{output_dir}/{output_file_key}.csv", "w") as f:

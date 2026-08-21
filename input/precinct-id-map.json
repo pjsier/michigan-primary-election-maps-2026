@@ -6974,6 +6974,7 @@
     "Masonville Township, Precinct 1": 415222000001,
     "Ford River Township, Precinct 1": 412938000001,
     "Bay De Noc Township, Precinct 1": 410604000001,
+    "Bay de Noc Township, Precinct 1": 410604000001,
     "Cornell Township, Precinct 1": 411828000001
   },
   "chippewa": {
@@ -7229,10 +7230,12 @@
     "City of West Branch, Precinct 1": 1298558000001,
     "West Branch, Precinct 1": 1298558000001,
     "West Branch City, Precinct 1": 1298558000001,
+    "City of West Branch, Ward 1, Precinct 1": 1298558000001,
     "Churchill Township, Precinct 1": 1291574000001,
     "City of Rose City, Precinct 1": 1296968000001,
     "Rose City, Precinct 1": 1296968000001,
     "Rose City City, Precinct 1": 1296968000001,
+    "City of Rose City, Ward 1, Precinct 1": 1296968000001,
     "Hill Township, Precinct 1": 1293830000001
   },
   "hillsdale": {

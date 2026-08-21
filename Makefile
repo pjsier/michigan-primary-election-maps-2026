@@ -60,7 +60,6 @@ data/results/mecosta: input/results/mecosta/primary.pdf
 data/results/oceana: input/results/oceana/primary.pdf
 	poetry run python processor/process_dominion_alt_pdf.py $< $@
 
-# TODO:
 data/results/ogemaw: input/results/ogemaw/primary.pdf
 	poetry run python processor/process_dominion_alt_pdf.py $< $@
 
@@ -69,6 +68,9 @@ data/results/wexford: input/results/wexford/primary.pdf
 
 data/results/clare:
 	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/clare-county-mi/2026AugustElection $@
+
+data/results/delta:
+	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/delta-county-mi/August2026Election $@
 
 data/results/kent:
 	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/kent-county-mi/08042026 $@

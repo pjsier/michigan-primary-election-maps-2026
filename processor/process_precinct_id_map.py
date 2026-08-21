@@ -237,6 +237,8 @@ if __name__ == "__main__":
             output_map[county_slug][f"City of Hastings, Ward {precinct_num}, Precinct {precinct_num}"] = precinct_id
         if (county_slug == "barry") and any(w in name for w in ["Hastings Township", "Rutland"]):
             output_map[county_slug][name.replace(" Township", " Charter Township")] = precinct_id
+        if county_slug == "delta":
+            output_map[county_slug][name.replace("Bay De ", "Bay de ")] = precinct_id
         if county_slug == "houghton":
             if "City of Hancock" in name:
                 precinct_num = name.split(" ")[-1]
@@ -258,6 +260,8 @@ if __name__ == "__main__":
         if (county_slug == "mason") and "Ludington" in name:
             clean_name = ", ".join(name.split(", ")[:-1]).replace("Ward", "Precinct")
             output_map["mason"][clean_name] = precinct_id
+        if (county_slug == "ogemaw") and ("City" in name):
+            output_map[county_slug][name.replace(", Precinct 1", ", Ward 1, Precinct 1")] = precinct_id
         if county_slug in ["ingham", "kalamazoo"]:
             if "Township" in name:
                 output_map[county_slug][
