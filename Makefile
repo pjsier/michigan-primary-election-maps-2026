@@ -36,7 +36,14 @@ data/results/roscommon:
 data/results/wayne: input/results/wayne/primary.pdf
 	poetry run python processor/process_dominion_pdf.py $< $@
 
+data/results/alger: input/results/alger/primary.pdf
+	poetry run python processor/process_dominion_alt_pdf.py $< $@
+
 data/results/allegan: input/results/allegan/primary.pdf
+	poetry run python processor/process_dominion_alt_pdf.py $< $@
+
+# TODO:
+data/results/alpena: input/results/alpena/primary.pdf
 	poetry run python processor/process_dominion_alt_pdf.py $< $@
 
 data/results/baraga: input/results/baraga/primary.pdf
@@ -116,8 +123,6 @@ input/precinct-id-map.json: input/precincts.geojson
 input/precincts.geojson:
 	wget -O - 'https://hub.arcgis.com/api/v3/datasets/b7df95c78668407280a7dead8e26aad0_0/downloads/data?format=geojson&spatialRefId=4326&where=1=1' | \
 	npm run mapshaper -- -i - \
-	-dissolve where='CountyFIPS === "003"' calc='CountyFIPS = "003", PrecinctLongName= "Alger County", PrecinctCode = "003"' \
-	-dissolve where='CountyFIPS === "007"' calc='CountyFIPS = "007", PrecinctLongName= "Alpena County", PrecinctCode = "007"' \
 	-dissolve where='CountyFIPS === "009"' calc='CountyFIPS = "009", PrecinctLongName= "Antrim County", PrecinctCode = "009"' \
 	-dissolve where='CountyFIPS === "011"' calc='CountyFIPS = "011", PrecinctLongName= "Arenac County", PrecinctCode = "011"' \
 	-dissolve where='CountyFIPS === "031"' calc='CountyFIPS = "031", PrecinctLongName= "Cheboygan County", PrecinctCode = "031"' \

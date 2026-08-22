@@ -32,14 +32,14 @@ def slugify(text):
 
 
 def _is_rotated_char(c: Char) -> bool:
+    matrix = c.get("matrix")
+    if matrix:
+        return abs(matrix[0]) < 1e-6 and abs(matrix[3]) < 1e-6 and (
+            abs(matrix[1]) > 1e-6 or abs(matrix[2]) > 1e-6
+        )
     if "upright" in c:
         return not c["upright"]
-    matrix = c.get("matrix")
-    if not matrix:
-        return False
-    return abs(matrix[0]) < 1e-6 and abs(matrix[3]) < 1e-6 and (
-        abs(matrix[1]) > 1e-6 or abs(matrix[2]) > 1e-6
-    )
+    return False
 
 
 def header_text_for_cell(
@@ -366,6 +366,14 @@ if __name__ == "__main__":
         id_map = {}
 
     processed_results = process_results_input(input_file)
+    registration_lookup = {
+        precinct: data
+        for (precinct, vote_type), data in processed_results.get(
+            "Registration", {}
+        ).items()
+        if vote_type == "Total"
+    }
+
     for race_key, race_results in processed_results.items():
         if not any(w in race_key.lower() for w in ("governor", "senator", "congress")):
             continue
@@ -378,10 +386,18 @@ if __name__ == "__main__":
             if precinct_key[1] != "Total":
                 continue
 
-            precinct_data["registered"] = int(
-                precinct_data.pop("Registered Voters", "")
-            )
-            precinct_data["ballots"] = int(precinct_data.pop("Times Cast", "0"))
+            reg = registration_lookup.get(precinct_key[0], {})
+
+            registered_raw = precinct_data.pop("Registered Voters", None)
+            if not registered_raw:
+                registered_raw = reg.get("Registered Voters", "")
+            precinct_data["registered"] = int(registered_raw)
+
+            times_cast_raw = precinct_data.pop("Times Cast", None)
+            if not times_cast_raw:
+                times_cast_raw = reg.get("Voters Cast", "0")
+            precinct_data["ballots"] = int(times_cast_raw)
+
             precinct_data["over_votes"] = "0"
             precinct_data["under_votes"] = "0"
             precinct_data["total"] = precinct_data.pop("Total Votes", "")
@@ -392,6 +408,8 @@ if __name__ == "__main__":
                 precinct_data["ballots"] = int(precinct_data.pop("Voters Cast", "0"))
             if "% Turnout" in precinct_data:
                 precinct_data["turnout"] = precinct_data.pop("% Turnout", "")
+            elif reg.get("% Turnout"):
+                precinct_data["turnout"] = reg.get("% Turnout")
             if "Unresolved Write-In" in precinct_data:
                 precinct_data["Write-in"] = precinct_data.pop("Unresolved Write-In", "0")
             precinct_data_keys = list(precinct_data.keys())

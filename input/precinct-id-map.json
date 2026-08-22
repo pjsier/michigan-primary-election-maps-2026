@@ -7327,6 +7327,28 @@
     "Bangor City, Precinct 1": 1590514000001,
     "Almena Township, Precinct 2": 1590160000002
   },
+  "alpena": {
+    "Alpena Township, Precinct 3": 70176000003,
+    "City of Alpena, Precinct 3": 70174000003,
+    "Alpena, Precinct 3": 70174000003,
+    "Alpena City, Precinct 3": 70174000003,
+    "Alpena Township, Precinct 1": 70176000001,
+    "Sanborn Township, Precinct 1": 77124000001,
+    "Wellington Township, Precinct 1": 78518000001,
+    "Ossineke Township, Precinct 1": 76152000001,
+    "Alpena Township, Precinct 2": 70176000002,
+    "Wilson Township, Precinct 1": 78768000001,
+    "City of Alpena, Precinct 1": 70174000001,
+    "Alpena, Precinct 1": 70174000001,
+    "Alpena City, Precinct 1": 70174000001,
+    "Green Township, Precinct 1": 73474000001,
+    "Long Rapids Township, Precinct 1": 74936000001,
+    "City of Alpena, Precinct 2": 70174000002,
+    "Alpena, Precinct 2": 70174000002,
+    "Alpena City, Precinct 2": 70174000002,
+    "Maple Ridge Township, Precinct 1": 75122000001,
+    "Alpena Township, Precinct 4": 70176000004
+  },
   "kalkaska": {
     "Excelsior Township, Precinct 1": 792686000001,
     "Clearwater Township, Precinct 1": 791634000001,
@@ -7423,6 +7445,19 @@
     "Ferris Township, Precinct 1": 1172790000001,
     "Home Township, Precinct 1": 1173884000001,
     "Montcalm Township, Precinct 1": 1175514000001
+  },
+  "alger": {
+    "Burt Township, Precinct 1": 31196000001,
+    "Munising Township, Precinct 1": 35622000001,
+    "Mathias Township, Precinct 1": 35236000001,
+    "Onota Township, Precinct 1": 36082000001,
+    "City of Munising, Precinct 1": 35620000001,
+    "Munising, Precinct 1": 35620000001,
+    "Munising City, Precinct 1": 35620000001,
+    "Rock River Township, Precinct 1": 36916000001,
+    "Limestone Township, Precinct 1": 34754000001,
+    "Grand Island Township, Precinct 1": 33338000001,
+    "Au Train Township, Precinct 1": 30446000001
   },
   "bay": {
     "Hampton Township, Precinct 2": 173626000002,
@@ -7678,12 +7713,6 @@
     "Stannard Township, Precinct 1": 1317618000001,
     "Haight Township, Precinct 1": 1313596000001,
     "Matchwood Township, Precinct 1": 1315232000001
-  },
-  "alger": {
-    "Alger County": 3
-  },
-  "alpena": {
-    "Alpena County": 7
   },
   "antrim": {
     "Antrim County": 9
