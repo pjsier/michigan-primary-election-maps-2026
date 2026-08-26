@@ -32,9 +32,12 @@ def process_ballot_item(base_url, item_id, candidate_map, id_map):
     data = res.json()
 
     vote_type_groups = {"Total": []}
-    for group_name in (data["ballotItemWithBreakdown"]["breakdownResults"][0][
-        "ballotOptions"
-    ][0]["groupResults"] or []):
+    for group_name in (
+        data["ballotItemWithBreakdown"]["breakdownResults"][0]["ballotOptions"][0][
+            "groupResults"
+        ]
+        or []
+    ):
         vote_type_groups[group_name["groupName"][0]["text"]] = []
     vote_types = list(vote_type_groups.keys())
 
@@ -80,7 +83,9 @@ def main():
     turnout = []
     for precinct in data["voterTurnout"]:
         # Weird hack for county exception
-        if any(c in precinct["precinctName"] for c in ("(Ionia County)", "(Clare County)")):
+        if any(
+            c in precinct["precinctName"] for c in ("(Ionia County)", "(Clare County)")
+        ):
             continue
         if precinct["voterRegistration"] == 0:
             turnout_val = 0.0

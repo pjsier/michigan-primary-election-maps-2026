@@ -34,8 +34,10 @@ def slugify(text):
 def _is_rotated_char(c: Char) -> bool:
     matrix = c.get("matrix")
     if matrix:
-        return abs(matrix[0]) < 1e-6 and abs(matrix[3]) < 1e-6 and (
-            abs(matrix[1]) > 1e-6 or abs(matrix[2]) > 1e-6
+        return (
+            abs(matrix[0]) < 1e-6
+            and abs(matrix[3]) < 1e-6
+            and (abs(matrix[1]) > 1e-6 or abs(matrix[2]) > 1e-6)
         )
     if "upright" in c:
         return not c["upright"]
@@ -111,11 +113,13 @@ def extract_race_header(page, header_font, top_cutoff=100, title_size_cutoff=16)
     return re.sub(r"\s+", " ", re.sub(r"\(.*\)", "", race_header_str)).strip()
 
 
-def extract_rotated_headers(page: Page, table, gap: float = 25.0) -> list[tuple[float, float, str]]:
+def extract_rotated_headers(
+    page: Page, table, gap: float = 25.0
+) -> list[tuple[float, float, str]]:
     chars = [
-        c for c in page.chars
-        if _is_rotated_char(c)
-        and table.bbox[1] - 1 <= c["top"] <= table.bbox[3]
+        c
+        for c in page.chars
+        if _is_rotated_char(c) and table.bbox[1] - 1 <= c["top"] <= table.bbox[3]
     ]
     if not chars:
         return []
@@ -182,7 +186,12 @@ def extract_registration_table(table) -> dict:
 
     for row in rows:
         label = re.sub(r"\s+", " ", row[0] or "").strip()
-        if not label or label == "Precinct" or "Cumulative" in label or "County" in label:
+        if (
+            not label
+            or label == "Precinct"
+            or "Cumulative" in label
+            or "County" in label
+        ):
             continue
         values = [_clean_value(v) for v in row[1:4]]
         if not any(v is not None for v in values):
@@ -207,11 +216,13 @@ def extract_combined_table_info(page: Page, table, state: dict) -> dict:
             header_map[idx] = header
 
     registration_headers = {
-        idx: header for idx, header in header_map.items()
+        idx: header
+        for idx, header in header_map.items()
         if header in {"Times Cast", "Registered Voters", "% Turnout", "Voters Cast"}
     }
     candidate_headers = {
-        idx: header for idx, header in header_map.items()
+        idx: header
+        for idx, header in header_map.items()
         if header not in registration_headers.values()
     }
 
@@ -219,7 +230,9 @@ def extract_combined_table_info(page: Page, table, state: dict) -> dict:
     for row in rows[1:]:
         if not row:
             continue
-        cleaned = [re.sub(r"\s+", " ", v or "").strip() if v is not None else None for v in row]
+        cleaned = [
+            re.sub(r"\s+", " ", v or "").strip() if v is not None else None for v in row
+        ]
         labels = [i for i, v in enumerate(cleaned) if v and ("Precinct" in v)]
         if not labels:
             continue
@@ -262,7 +275,11 @@ def extract_table_info(page: Page, table, state: dict) -> dict:
     rotated_headers = extract_rotated_headers(page, table)
 
     # Page 1 is a plain registration table.
-    if not rotated_headers and "Registered" in joined_header and "Voters Cast" in joined_header:
+    if (
+        not rotated_headers
+        and "Registered" in joined_header
+        and "Voters Cast" in joined_header
+    ):
         return extract_registration_table(table)
 
     # New Dominion layout: registration and candidate columns are in one table.
@@ -276,7 +293,9 @@ def extract_table_info(page: Page, table, state: dict) -> dict:
 
     has_header_row = True
     if "Voters Cast" in table_rows[0]:
-        table_columns = ["Vote Type"] + [re.sub(r"\s+", " ", c or "").strip() for c in table_rows[0][1:]]
+        table_columns = ["Vote Type"] + [
+            re.sub(r"\s+", " ", c or "").strip() for c in table_rows[0][1:]
+        ]
     elif headers:
         if "Times Cast" in headers:
             table_columns = ["Vote Type"] + raw_headers[1:]
@@ -320,6 +339,7 @@ def extract_table_info(page: Page, table, state: dict) -> dict:
     state["precinct"] = precinct
     state["table_columns"] = table_columns
     return precinct_map
+
 
 def process_results_input(input_file: str) -> dict:
     current_race = "Registration"
@@ -411,7 +431,9 @@ if __name__ == "__main__":
             elif reg.get("% Turnout"):
                 precinct_data["turnout"] = reg.get("% Turnout")
             if "Unresolved Write-In" in precinct_data:
-                precinct_data["Write-in"] = precinct_data.pop("Unresolved Write-In", "0")
+                precinct_data["Write-in"] = precinct_data.pop(
+                    "Unresolved Write-In", "0"
+                )
             precinct_data_keys = list(precinct_data.keys())
             for precinct_data_key in precinct_data_keys:
                 if " Percent" in precinct_data_key:
@@ -432,7 +454,9 @@ if __name__ == "__main__":
             )
         if len(output_results) == 0:
             continue
-        output_file_key = slugify(race_key).replace("dem-dem", "dem").replace("rep-rep", "rep")
+        output_file_key = (
+            slugify(race_key).replace("dem-dem", "dem").replace("rep-rep", "rep")
+        )
         if output_file_key == "registration":
             output_file_key = "turnout"
         with open(f"{output_dir}/{output_file_key}.csv", "w") as f:

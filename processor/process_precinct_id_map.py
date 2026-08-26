@@ -234,25 +234,39 @@ if __name__ == "__main__":
             output_map[county_slug][name.replace("501", "1")] = precinct_id
         if (county_slug == "barry") and ("City of Hastings" in name):
             precinct_num = name.split(" ")[-1]
-            output_map[county_slug][f"City of Hastings, Ward {precinct_num}, Precinct {precinct_num}"] = precinct_id
-        if (county_slug == "barry") and any(w in name for w in ["Hastings Township", "Rutland"]):
-            output_map[county_slug][name.replace(" Township", " Charter Township")] = precinct_id
+            output_map[county_slug][
+                f"City of Hastings, Ward {precinct_num}, Precinct {precinct_num}"
+            ] = precinct_id
+        if (county_slug == "barry") and any(
+            w in name for w in ["Hastings Township", "Rutland"]
+        ):
+            output_map[county_slug][name.replace(" Township", " Charter Township")] = (
+                precinct_id
+            )
         if county_slug == "delta":
             output_map[county_slug][name.replace("Bay De ", "Bay de ")] = precinct_id
         if county_slug == "houghton":
             if "City of Hancock" in name:
                 precinct_num = name.split(" ")[-1]
-                output_map[county_slug][f"City of Hancock, Ward {precinct_num}, Precinct {precinct_num}"] = precinct_id
+                output_map[county_slug][
+                    f"City of Hancock, Ward {precinct_num}, Precinct {precinct_num}"
+                ] = precinct_id
             if any(w in name for w in ["Chassell", "Calumet"]):
-                output_map[county_slug][name.replace(" Township", " Charter Township")] = precinct_id
+                output_map[county_slug][
+                    name.replace(" Township", " Charter Township")
+                ] = precinct_id
         if county_slug == "mecosta":
             if ("Big Rapids" in name) or ("Green" in name):
-                output_map[county_slug][name.replace(" Township", " Charter Township")] = precinct_id
+                output_map[county_slug][
+                    name.replace(" Township", " Charter Township")
+                ] = precinct_id
         if county_slug == "isabella":
             if "Pleasant" in name:
                 output_map[county_slug][name.replace("Mount ", "Mt. ")] = precinct_id
             if "Union Township" in name:
-                output_map[county_slug][name.replace(" Township", " Charter Township")] = precinct_id
+                output_map[county_slug][
+                    name.replace(" Township", " Charter Township")
+                ] = precinct_id
         if (county_slug == "gogebic") and ("Ironwood Township" in name):
             output_map[county_slug][
                 name.replace("Ironwood Township", "Ironwood Charter Township")
@@ -261,10 +275,14 @@ if __name__ == "__main__":
             clean_name = ", ".join(name.split(", ")[:-1]).replace("Ward", "Precinct")
             output_map["mason"][clean_name] = precinct_id
         if (county_slug == "ogemaw") and ("City" in name):
-            output_map[county_slug][name.replace(", Precinct 1", ", Ward 1, Precinct 1")] = precinct_id
+            output_map[county_slug][
+                name.replace(", Precinct 1", ", Ward 1, Precinct 1")
+            ] = precinct_id
         if county_slug == "allegan":
             if "Gunplain" in name:
-                output_map[county_slug][name.replace("Gunplain", "Gun Plain")] = precinct_id
+                output_map[county_slug][name.replace("Gunplain", "Gun Plain")] = (
+                    precinct_id
+                )
         if county_slug in ["ingham", "kalamazoo"]:
             if "Township" in name:
                 output_map[county_slug][
@@ -273,12 +291,27 @@ if __name__ == "__main__":
         if county_slug == "berrien":
             if "Benton Harbor, Ward" in name:
                 ward_num = name.split(",")[1].split(" ")[-1]
-                output_map[county_slug][name.replace("Precinct 1", f"Precinct {ward_num}")] = precinct_id
+                output_map[county_slug][
+                    name.replace("Precinct 1", f"Precinct {ward_num}")
+                ] = precinct_id
         if county_slug == "branch":
             if "City of Coldwater" in name:
                 ward_num = name.split(",")[1].split(" ")[-1]
-                output_map[county_slug][f"City of Coldwater, Precinct {ward_num}"] = precinct_id
+                output_map[county_slug][f"City of Coldwater, Precinct {ward_num}"] = (
+                    precinct_id
+                )
         if county_slug == "chippewa":
-            output_map[county_slug][name.replace("Detour", "DeTour").replace("Drummond Township", "Drummond Island Township")] = precinct_id
+            output_map[county_slug][
+                name.replace("Detour", "DeTour").replace(
+                    "Drummond Township", "Drummond Island Township"
+                )
+            ] = precinct_id
+        if county_slug == "clinton":
+            output_map[county_slug][
+                name.replace("De Witt", "DeWitt")
+                .replace("Bath Town", "Bath Charter Town")
+                .replace("DeWitt Town", "DeWitt Charter Town")
+                .replace("Watertown Town", "Watertown Charter Town")
+            ] = precinct_id
 
     json.dump(output_map, sys.stdout)

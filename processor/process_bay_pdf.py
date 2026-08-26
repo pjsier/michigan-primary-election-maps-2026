@@ -11,9 +11,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 HEADER_LINES = {"TOTAL Election Absentee Early", "Day Counting Voting", "Board"}
 
-CANDIDATE_LINE_RE = re.compile(
-    r"^(.+?)\s+([\d,]+)\s+([\d,]+)\s+([\d,]+)\s+([\d,]+)$"
-)
+CANDIDATE_LINE_RE = re.compile(r"^(.+?)\s+([\d,]+)\s+([\d,]+)\s+([\d,]+)\s+([\d,]+)$")
 RACE_TITLE_RE = re.compile(r"^(DEM|REP) ")
 VOTE_FOR_RE = re.compile(r"^Vote For \d+$")
 
@@ -42,7 +40,11 @@ def is_target_race(race_title):
 
 
 def clean_precinct_name(name):
-    return name.replace("Twp.", "Township").replace("Pct ", "Precinct ").replace("Mt. ", "Mount ")
+    return (
+        name.replace("Twp.", "Township")
+        .replace("Pct ", "Precinct ")
+        .replace("Mt. ", "Mount ")
+    )
 
 
 def extract_precinct_bodies(pdf):
