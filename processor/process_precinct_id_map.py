@@ -274,5 +274,9 @@ if __name__ == "__main__":
             if "Benton Harbor, Ward" in name:
                 ward_num = name.split(",")[1].split(" ")[-1]
                 output_map[county_slug][name.replace("Precinct 1", f"Precinct {ward_num}")] = precinct_id
+        if county_slug == "branch":
+            if "City of Coldwater" in name:
+                ward_num = name.split(",")[1].split(" ")[-1]
+                output_map[county_slug][f"City of Coldwater, Precinct {ward_num}"] = precinct_id
 
     json.dump(output_map, sys.stdout)

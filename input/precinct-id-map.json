@@ -6649,9 +6649,11 @@
     "City of Coldwater, Ward 3, Precinct 1": 231702003001,
     "Coldwater, Ward 3, Precinct 1": 231702003001,
     "Coldwater City, Ward 3, Precinct 1": 231702003001,
+    "City of Coldwater, Precinct 3": 231702003001,
     "City of Coldwater, Ward 4, Precinct 1": 231702004001,
     "Coldwater, Ward 4, Precinct 1": 231702004001,
     "Coldwater City, Ward 4, Precinct 1": 231702004001,
+    "City of Coldwater, Precinct 4": 231702004001,
     "Girard Township, Precinct 1": 233228000001,
     "Matteson Township, Precinct 1": 235240000001,
     "Bronson Township, Precinct 1": 231088000001,
@@ -6668,6 +6670,7 @@
     "City of Coldwater, Ward 1, Precinct 1": 231702001001,
     "Coldwater, Ward 1, Precinct 1": 231702001001,
     "Coldwater City, Ward 1, Precinct 1": 231702001001,
+    "City of Coldwater, Precinct 1": 231702001001,
     "Gilead Township, Precinct 1": 233212000001,
     "Sherwood Township, Precinct 1": 237344000001,
     "Butler Township, Precinct 1": 231214000001,
@@ -6676,7 +6679,8 @@
     "Ovid Township, Precinct 1": 236184000001,
     "City of Coldwater, Ward 2, Precinct 1": 231702002001,
     "Coldwater, Ward 2, Precinct 1": 231702002001,
-    "Coldwater City, Ward 2, Precinct 1": 231702002001
+    "Coldwater City, Ward 2, Precinct 1": 231702002001,
+    "City of Coldwater, Precinct 2": 231702002001
   },
   "cass": {
     "Milton Township, Precinct 1": 275446000001,

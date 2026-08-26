@@ -86,6 +86,9 @@ data/results/wexford: input/results/wexford/primary.pdf
 data/results/berrien:
 	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/berrien-county-mi/2026Augustelection $@
 
+data/results/branch:
+	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/branch-county-mi/August2026Primary $@
+
 data/results/clare:
 	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/clare-county-mi/2026AugustElection $@
 
