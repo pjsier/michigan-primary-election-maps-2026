@@ -270,5 +270,9 @@ if __name__ == "__main__":
                 output_map[county_slug][
                     name.replace("Township", "Charter Township")
                 ] = precinct_id
+        if county_slug == "berrien":
+            if "Benton Harbor, Ward" in name:
+                ward_num = name.split(",")[1].split(" ")[-1]
+                output_map[county_slug][name.replace("Precinct 1", f"Precinct {ward_num}")] = precinct_id
 
     json.dump(output_map, sys.stdout)

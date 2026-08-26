@@ -83,6 +83,9 @@ data/results/ogemaw: input/results/ogemaw/primary.pdf
 data/results/wexford: input/results/wexford/primary.pdf
 	poetry run python processor/process_dominion_alt_pdf.py $< $@
 
+data/results/berrien:
+	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/berrien-county-mi/2026Augustelection $@
+
 data/results/clare:
 	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/clare-county-mi/2026AugustElection $@
 

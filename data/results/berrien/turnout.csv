@@ -1,0 +1,56 @@
+id,name,ballots,registered,turnout
+210752001001,"City of Benton Harbor, Ward 1, Precinct 1",265.0,2180,12.16
+210752002001,"City of Benton Harbor, Ward 2, Precinct 2",116.0,1627,7.13
+210752003001,"City of Benton Harbor, Ward 3, Precinct 3",274.0,2114,12.96
+210752004001,"City of Benton Harbor, Ward 4, Precinct 4",190.0,1971,9.64
+211058000001,"City of Bridgman, Precinct 1",604.0,1845,32.74
+211140000001,"City of Buchanan, Precinct 1",403.0,2178,18.5
+211140000002,"City of Buchanan, Precinct 2",335.0,1546,21.67
+211732000001,"City of Coloma, Precinct 1",338.0,1293,26.14
+215722000001,"City of New Buffalo, Precinct 1",407.0,1617,25.17
+215776001001,"City of Niles, Ward 1, Precinct 1",267.0,2330,11.46
+215776002002,"City of Niles, Ward 2, Precinct 2",404.0,2788,14.49
+215776003003,"City of Niles, Ward 3, Precinct 3",316.0,2598,12.16
+215776004004,"City of Niles, Ward 4, Precinct 4",588.0,2572,22.86
+217096000001,"City of St. Joseph, Precinct 1",998.0,2658,37.55
+217096000002,"City of St. Joseph, Precinct 2",915.0,2279,40.15
+217096000003,"City of St. Joseph, Precinct 3",683.0,2218,30.79
+218450000001,"City of Watervliet, Precinct 1",318.0,1523,20.88
+210484000001,"Bainbridge Township, Precinct 1",735.0,2272,32.35
+210552000001,"Baroda Township, Precinct 1",716.0,2524,28.37
+210740000001,"Benton Charter Township, Precinct 1",474.0,2905,16.32
+210740000002,"Benton Charter Township, Precinct 2",228.0,2142,10.64
+210740000003,"Benton Charter Township, Precinct 3",314.0,1350,23.26
+210740000004,"Benton Charter Township, Precinct 4",443.0,1600,27.69
+210740000005,"Benton Charter Township, Precinct 5",377.0,2608,14.46
+210740000006,"Benton Charter Township, Precinct 6",366.0,2461,14.87
+210782000001,"Berrien Township, Precinct 1",611.0,2242,27.25
+210782000002,"Berrien Township, Precinct 2",454.0,1862,24.38
+210792000001,"Bertrand Charter Township, Precinct 1",660.0,2463,26.8
+211142000001,"Buchanan Charter Township, Precinct 1",867.0,3155,27.48
+211548000001,"Chikaming Township, Precinct 1",1149.0,2815,40.82
+211734000001,"Coloma Charter Township, Precinct 1",1201.0,4406,27.26
+213132000001,"Galien Township, Precinct 1",308.0,1306,23.58
+213586000001,"Hagar Township, Precinct 1",845.0,2808,30.09
+214426000001,"Lake Charter Township, Precinct 1",878.0,2946,29.8
+214760000001,"Lincoln Charter Township, Precinct 1",1077.0,2745,39.23
+214760000002,"Lincoln Charter Township, Precinct 2",995.0,2550,39.02
+214760000003,"Lincoln Charter Township, Precinct 3",913.0,2663,34.28
+214760000004,"Lincoln Charter Township, Precinct 4",731.0,2277,32.1
+214760000005,"Lincoln Charter Township, Precinct 5",801.0,2217,36.13
+215723000001,"New Buffalo Township, Precinct 1",714.0,2309,30.92
+215778000001,"Niles Charter Township, Precinct 1",1181.0,4769,24.76
+215778000002,"Niles Charter Township, Precinct 2",855.0,5170,16.54
+215778000003,"Niles Charter Township, Precinct 3",514.0,2874,17.88
+216118000001,"Oronoko Charter Township, Precinct 1",711.0,2373,29.96
+216118000002,"Oronoko Charter Township, Precinct 2",635.0,4144,15.32
+216448000001,"Pipestone Township, Precinct 1",489.0,1907,25.64
+217010000001,"Royalton Township, Precinct 1",1497.0,4325,34.61
+217444000001,"Sodus Township, Precinct 1",480.0,1714,28.0
+217098000001,"St. Joseph Charter Township, Precinct 1",948.0,2823,33.58
+217098000002,"St. Joseph Charter Township, Precinct 2",771.0,1775,43.44
+217098000003,"St. Joseph Charter Township, Precinct 3",665.0,1549,42.93
+217098000004,"St. Joseph Charter Township, Precinct 4",1128.0,2768,40.75
+217974000001,"Three Oaks Township, Precinct 1",629.0,2232,28.18
+218452000001,"Watervliet Charter Township, Precinct 1",620.0,2852,21.74
+218512000001,"Weesaw Township, Precinct 1",437.0,1725,25.33
