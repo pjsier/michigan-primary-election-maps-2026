@@ -278,5 +278,7 @@ if __name__ == "__main__":
             if "City of Coldwater" in name:
                 ward_num = name.split(",")[1].split(" ")[-1]
                 output_map[county_slug][f"City of Coldwater, Precinct {ward_num}"] = precinct_id
+        if county_slug == "chippewa":
+            output_map[county_slug][name.replace("Detour", "DeTour").replace("Drummond Township", "Drummond Island Township")] = precinct_id
 
     json.dump(output_map, sys.stdout)
