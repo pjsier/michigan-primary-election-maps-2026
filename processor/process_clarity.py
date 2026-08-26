@@ -47,6 +47,9 @@ def parse_voter_turnout(tree, id_map):
     results = []
     for precinct in tree.xpath(".//VoterTurnout/Precincts/Precinct"):
         precinct_name = clean_precinct_name(precinct.attrib["name"])
+        # Representing votes in other counties
+        if "County)" in precinct_name:
+            continue
         if precinct_name not in id_map:
             print(precinct_name)
             continue

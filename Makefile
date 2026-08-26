@@ -27,11 +27,18 @@ data/results/macomb:
 data/results/genesee:
 	poetry run python processor/process_clarity.py https://results.enr.clarityelections.com//MI/Genesee/126773/377963/reports/detailxml.zip $@
 
+# TODO:
+data/results/cass:
+	poetry run python processor/process_clarity.py https://results.enr.clarityelections.com//MI/Cass/127065/377945/reports/detailxml.zip $@
+
 data/results/ottawa:
 	poetry run python processor/process_clarity.py https://www.miottawavotes.gov//MI/Ottawa/126772/377930/reports/detailxml.zip $@
 
 data/results/roscommon:
 	poetry run python processor/process_clarity.py https://results.enr.clarityelections.com//MI/Roscommon/126770/378560/reports/detailxml.zip $@
+
+data/results/bay: input/results/bay/primary.pdf
+	poetry run python processor/process_bay_pdf.py $< $@
 
 data/results/wayne: input/results/wayne/primary.pdf
 	poetry run python processor/process_dominion_pdf.py $< $@
