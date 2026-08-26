@@ -313,5 +313,8 @@ if __name__ == "__main__":
                 .replace("DeWitt Town", "DeWitt Charter Town")
                 .replace("Watertown Town", "Watertown Charter Town")
             ] = precinct_id
+        if county_slug == "emmet" and ("City of Petoskey" in name):
+            name_start = ", ".join(name.split(", ")[:2])
+            output_map[county_slug][f"{name_start}, Precinct 1"] = precinct_id
 
-    json.dump(output_map, sys.stdout)
+    json.dump(output_map, sys.stdout, indent=2)

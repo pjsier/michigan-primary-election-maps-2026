@@ -28,6 +28,10 @@ def clean_precinct_name(precinct_name):
     if "City of Lansing" in precinct_name:
         ward, precinct = precinct_name.split(", ")[-1].split("-")
         return f"City of Lansing, Ward {ward}, Precinct {precinct}"
+    if "City of Petoskey" in precinct_name:
+        # Hack for updating missing comma after ward
+        return precinct_name.replace(" Precinct", ", Precinct")
+    
     return (
         precinct_name.replace(" Twp, ", " Township, ")
         .replace(" Pct ", " Precinct ")
