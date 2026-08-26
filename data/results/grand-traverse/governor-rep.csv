@@ -1,0 +1,37 @@
+id,name,total,over_votes,under_votes,Write-in,John James,Perry Johnson,Mike Cox,Aric Nesbitt
+550020000001,"Acme Township, Precinct 1",358,,,1,194,110,52,1
+550020000002,"Acme Township, Precinct 2",254,,,0,170,64,19,1
+550888000001,"Blair Township, Precinct 1",330,,,0,127,133,69,1
+550888000002,"Blair Township, Precinct 2",357,,,0,172,135,44,6
+550888000003,"Blair Township, Precinct 3",246,,,0,136,75,35,0
+552380000001,"East Bay Township, Precinct 1",334,,,0,197,86,44,7
+552380000004,"East Bay Township, Precinct 4",323,,,1,186,98,33,5
+552380000005,"East Bay Township, Precinct 5",326,,,0,193,89,38,6
+552380000006,"East Bay Township, Precinct 6",659,,,0,327,214,99,19
+552802000001,"Fife Lake Township, Precinct 1",326,,,2,153,109,54,8
+553158000001,"Garfield Township, Precinct 1",375,,,0,191,129,51,4
+553158000002,"Garfield Township, Precinct 2",371,,,0,225,89,53,4
+553158000003,"Garfield Township, Precinct 3",150,,,1,65,50,30,4
+553158000004,"Garfield Township, Precinct 4",210,,,3,115,62,25,5
+553158000005,"Garfield Township, Precinct 5",429,,,0,237,124,61,7
+553158000006,"Garfield Township, Precinct 6",282,,,1,142,97,41,1
+553158000007,"Garfield Township, Precinct 7",114,,,0,51,40,19,4
+553424000001,"Grant Township, Precinct 1",188,,,0,100,70,10,8
+553496000001,"Green Lake Township, Precinct 1",353,,,0,166,123,54,10
+553496000002,"Green Lake Township, Precinct 2",276,,,1,118,116,34,7
+553496000003,"Green Lake Township, Precinct 3",217,,,1,100,80,33,3
+554924000001,"Long Lake Township, Precinct 1",669,,,2,376,207,79,5
+554924000002,"Long Lake Township, Precinct 2",621,,,1,325,208,78,9
+555248000001,"Mayfield Township, Precinct 1",279,,,2,147,93,34,3
+556232000001,"Paradise Township, Precinct 1",399,,,0,191,137,65,6
+556232000002,"Paradise Township, Precinct 2",292,,,3,152,97,32,8
+556334000001,"Peninsula Township, Precinct 1",593,,,2,340,183,61,7
+556334000002,"Peninsula Township, Precinct 2",479,,,0,311,103,53,12
+558132000001,"Union Township, Precinct 1",78,,,0,36,31,11,0
+558704000001,"Whitewater Township, Precinct 1",499,,,0,283,157,56,3
+558034000001,"Traverse City, Precinct 1",242,,,0,133,73,29,7
+558034000003,"Traverse City, Precinct 3",153,,,0,79,50,20,4
+558034000007,"Traverse City, Precinct 7",163,,,0,71,60,29,3
+558034000008,"Traverse City, Precinct 8",156,,,0,103,28,23,2
+558034000009,"Traverse City, Precinct 9",236,,,1,148,58,23,6
+558034000010,"Traverse City, Precinct 10",218,,,0,126,68,18,6

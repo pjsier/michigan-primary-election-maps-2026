@@ -37,6 +37,9 @@ data/results/eaton:
 data/results/emmet:
 	poetry run python processor/process_clarity.py https://results.enr.clarityelections.com//MI/Emmet/126948/378360/reports/detailxml.zip $@
 
+data/results/grand-traverse:
+	poetry run python processor/process_clarity.py https://results.enr.clarityelections.com//MI/Grand_Traverse/127066/378477/reports/detailxml.zip $@
+
 data/results/ottawa:
 	poetry run python processor/process_clarity.py https://www.miottawavotes.gov//MI/Ottawa/126772/377930/reports/detailxml.zip $@
 

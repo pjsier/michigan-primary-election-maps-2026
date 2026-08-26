@@ -24,13 +24,15 @@ def slugify(text):
     return slug_text
 
 
-def clean_precinct_name(precinct_name):
+def clean_precinct_name(precinct_name, county_slug):
     if "City of Lansing" in precinct_name:
         ward, precinct = precinct_name.split(", ")[-1].split("-")
         return f"City of Lansing, Ward {ward}, Precinct {precinct}"
     if "City of Petoskey" in precinct_name:
         # Hack for updating missing comma after ward
         return precinct_name.replace(" Precinct", ", Precinct")
+    if county_slug == "grand-traverse":
+        return precinct_name.replace("Twp", "Township").replace("Pct", "Precinct").replace(" Precinct", ", Precinct")
     
     return (
         precinct_name.replace(" Twp, ", " Township, ")
@@ -51,10 +53,10 @@ def clean_candidate_name(candidate_name):
     return candidate_name.replace(",", "")
 
 
-def parse_voter_turnout(tree, id_map):
+def parse_voter_turnout(tree, id_map, county_slug):
     results = []
     for precinct in tree.xpath(".//VoterTurnout/Precincts/Precinct"):
-        precinct_name = clean_precinct_name(precinct.attrib["name"])
+        precinct_name = clean_precinct_name(precinct.attrib["name"], county_slug)
         # Representing votes in other counties
         if "County)" in precinct_name:
             continue
@@ -73,13 +75,13 @@ def parse_voter_turnout(tree, id_map):
     return results
 
 
-def process_contest(contest, id_map):
+def process_contest(contest, id_map, county_slug):
     precinct_map = defaultdict(lambda: defaultdict(lambda: defaultdict(int)))
     for choice in contest.xpath("./Choice"):
         for vote_type in choice.xpath("./VoteType"):
             for precinct in vote_type.xpath("./Precinct"):
                 vote_type_name = vote_type.attrib["name"].split(" - ")[0]
-                precinct_name = clean_precinct_name(precinct.attrib["name"])
+                precinct_name = clean_precinct_name(precinct.attrib["name"], county_slug)
                 precinct_map[precinct_name][vote_type_name][
                     clean_candidate_name(choice.attrib["text"])
                 ] += int(precinct.attrib["votes"])
@@ -120,10 +122,10 @@ def process_contest(contest, id_map):
     return contest.attrib["text"], precinct_vote_type_map
 
 
-def process_xml(xml_str, id_map, output_dir):
+def process_xml(xml_str, id_map, county_slug, output_dir):
     tree = etree.fromstring(xml_str)
 
-    turnout_rows = parse_voter_turnout(tree, id_map)
+    turnout_rows = parse_voter_turnout(tree, id_map, county_slug)
     if len(turnout_rows) > 0:
         with open(os.path.join(output_dir, "turnout.csv"), "w") as f:
             writer = csv.DictWriter(f, fieldnames=list(turnout_rows[0].keys()))
@@ -131,7 +133,7 @@ def process_xml(xml_str, id_map, output_dir):
             writer.writerows(turnout_rows)
 
     for contest in tree.xpath(".//Contest"):
-        contest_name, contest_row_map = process_contest(contest, id_map)
+        contest_name, contest_row_map = process_contest(contest, id_map, county_slug)
         contest_slug = slugify(contest_name)
         if not any(
             w in contest_slug
@@ -193,4 +195,4 @@ if __name__ == "__main__":
         id_map = json.load(f)
 
     xml_str = download_detail_xml(sys.argv[1])
-    process_xml(xml_str, id_map[county_slug], output_dir)
+    process_xml(xml_str, id_map[county_slug], county_slug, output_dir)

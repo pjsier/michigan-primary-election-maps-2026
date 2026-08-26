@@ -1,0 +1,37 @@
+id,name,total,over_votes,under_votes,Write-in,Jack Bergman,Matthew DenOtter,Justin Michal
+550020000001,"Acme Township, Precinct 1",216,,,0,151,45,20
+550020000002,"Acme Township, Precinct 2",139,,,0,114,18,7
+550888000001,"Blair Township, Precinct 1",156,,,0,110,26,20
+550888000002,"Blair Township, Precinct 2",197,,,0,147,27,23
+550888000003,"Blair Township, Precinct 3",128,,,0,99,14,15
+552380000001,"East Bay Township, Precinct 1",242,,,0,202,18,22
+552380000004,"East Bay Township, Precinct 4",219,,,0,174,27,18
+552380000005,"East Bay Township, Precinct 5",213,,,2,171,28,12
+552380000006,"East Bay Township, Precinct 6",437,,,2,322,68,45
+552802000001,"Fife Lake Township, Precinct 1",174,,,0,148,13,13
+553158000001,"Garfield Township, Precinct 1",220,,,0,181,21,18
+553158000002,"Garfield Township, Precinct 2",244,,,0,167,52,25
+553158000003,"Garfield Township, Precinct 3",99,,,0,71,17,11
+553158000004,"Garfield Township, Precinct 4",139,,,0,116,18,5
+553158000005,"Garfield Township, Precinct 5",278,,,0,216,27,35
+553158000006,"Garfield Township, Precinct 6",184,,,0,140,33,11
+553158000007,"Garfield Township, Precinct 7",52,,,0,35,11,6
+553424000001,"Grant Township, Precinct 1",13,,,0,8,5,0
+553496000001,"Green Lake Township, Precinct 1",189,,,0,137,28,24
+553496000002,"Green Lake Township, Precinct 2",136,,,0,102,17,17
+553496000003,"Green Lake Township, Precinct 3",128,,,1,91,12,24
+554924000001,"Long Lake Township, Precinct 1",394,,,0,309,37,48
+554924000002,"Long Lake Township, Precinct 2",327,,,0,248,39,40
+555248000001,"Mayfield Township, Precinct 1",15,,,0,10,4,1
+556232000001,"Paradise Township, Precinct 1",47,,,0,37,8,2
+556232000002,"Paradise Township, Precinct 2",22,,,0,19,3,0
+556334000001,"Peninsula Township, Precinct 1",409,,,2,330,40,37
+556334000002,"Peninsula Township, Precinct 2",340,,,0,280,36,24
+558132000001,"Union Township, Precinct 1",1,,,0,1,0,0
+558704000001,"Whitewater Township, Precinct 1",296,,,0,229,25,42
+558034000001,"Traverse City, Precinct 1",159,,,0,133,17,9
+558034000003,"Traverse City, Precinct 3",99,,,0,72,18,9
+558034000007,"Traverse City, Precinct 7",109,,,0,69,23,17
+558034000008,"Traverse City, Precinct 8",100,,,0,68,15,17
+558034000009,"Traverse City, Precinct 9",144,,,0,107,29,8
+558034000010,"Traverse City, Precinct 10",140,,,0,99,25,16
