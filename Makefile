@@ -31,6 +31,9 @@ data/results/genesee:
 data/results/cass:
 	poetry run python processor/process_clarity.py https://results.enr.clarityelections.com//MI/Cass/127065/377945/reports/detailxml.zip $@
 
+data/results/eaton:
+	poetry run python processor/process_clarity.py https://results.enr.clarityelections.com//MI/Eaton/126881/378357/reports/detailxml.zip $@
+
 data/results/ottawa:
 	poetry run python processor/process_clarity.py https://www.miottawavotes.gov//MI/Ottawa/126772/377930/reports/detailxml.zip $@
 

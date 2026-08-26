@@ -25,6 +25,9 @@ def slugify(text):
 
 
 def clean_precinct_name(precinct_name):
+    if "City of Lansing" in precinct_name:
+        ward, precinct = precinct_name.split(", ")[-1].split("-")
+        return f"City of Lansing, Ward {ward}, Precinct {precinct}"
     return (
         precinct_name.replace(" Twp, ", " Township, ")
         .replace(" Pct ", " Precinct ")
@@ -36,6 +39,7 @@ def clean_precinct_name(precinct_name):
         )
         .replace("Richmond City, ", "Richmond, ")
         .replace("Shelby Township, ", "Shelby Charter Township, ")
+        .replace("Dist. ", "District ")
     )
 
 
