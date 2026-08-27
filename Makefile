@@ -110,6 +110,9 @@ data/results/delta:
 data/results/gratiot:
 	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/gratiot-county-mi/GratiotCountyPrimary2026 $@
 
+data/results/iosco:
+	poetry run python processor/process_enhanced_voting.py 	https://app.enhancedvoting.com/results/public/api/elections/iosco-county-mi/AugustPrimary2026 $@
+
 data/results/kent:
 	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/kent-county-mi/08042026 $@
 
@@ -138,6 +141,10 @@ data/results/st-clair:
 	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/st.-clair-county-mi/2026AugustPrimary $@
 
 data/results/clinton: input/results/clinton/primary.pdf
+	poetry run python processor/process_canvass_pdf.py $< $@
+
+# TODO:
+data/results/hillsdale: input/results/hillsdale/primary.pdf
 	poetry run python processor/process_canvass_pdf.py $< $@
 
 data/results/montcalm: input/results/montcalm/primary.pdf

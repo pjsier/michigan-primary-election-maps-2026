@@ -316,5 +316,7 @@ if __name__ == "__main__":
         if county_slug == "emmet" and ("City of Petoskey" in name):
             name_start = ", ".join(name.split(", ")[:2])
             output_map[county_slug][f"{name_start}, Precinct 1"] = precinct_id
+        if county_slug == "iosco":
+            output_map[county_slug][name.replace("Au Sable", "AuSable")] = precinct_id
 
     json.dump(output_map, sys.stdout, indent=2)
