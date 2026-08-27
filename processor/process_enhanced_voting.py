@@ -46,7 +46,7 @@ def process_ballot_item(base_url, item_id, candidate_map, id_map):
 
         for vote_type in vote_types:
             # Hack to override weird multi-county item in Kent, Isabella
-            if any(c in precinct_name for c in ("(Ionia County)", "(Clare County)", "(Out of County)")):
+            if any(c in precinct_name for c in ("(Ionia County)", "(Clare County)", "(Out of County)", "(Cass)")):
                 continue
             result_obj = {
                 "id": id_map[precinct_name],
@@ -84,7 +84,7 @@ def main():
     for precinct in data["voterTurnout"]:
         # Weird hack for county exception
         if any(
-            c in precinct["precinctName"] for c in ("(Ionia County)", "(Clare County)", "(Out of County)")
+            c in precinct["precinctName"] for c in ("(Ionia County)", "(Clare County)", "(Out of County)", "(Cass)")
         ):
             continue
         if precinct["voterRegistration"] == 0:

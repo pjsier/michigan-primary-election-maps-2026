@@ -131,6 +131,9 @@ data/results/saginaw:
 data/results/shiawassee:
 	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/shiawassee-county-mi/AUGUST42026 $@
 
+data/results/st-joseph:
+	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/st.-joseph-county-mi/2026PrimaryElection $@
+
 data/results/ingham:
 	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/ingham-county-mi/AugustElection08042026 $@
 
