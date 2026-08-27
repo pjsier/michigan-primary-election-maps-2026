@@ -330,6 +330,11 @@ if __name__ == "__main__":
             output_map[county_slug][
                 name.replace("Haven Township", "Haven Charter Township")
             ] = precinct_id
+        if county_slug == "calhoun" and ("City of Battle Creek" in name):
+            precinct = name.split(", ")[-1]
+            output_map[county_slug][f"City of Battle Creek, {precinct}"] = precinct_id
+        if county_slug == "lenawee":
+            output_map[county_slug][name.replace("Tecumseh, Ward 1, ", "Tecumseh, ").replace("Raisin ", "Raisin Charter ")] = precinct_id
 
     output_map["van-buren"]["City of South Haven, Ward 3, Precinct 2"] = output_map[
         "allegan"

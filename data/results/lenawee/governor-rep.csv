@@ -1,0 +1,41 @@
+id,name,board,registered,ballots,over_votes,under_votes,total,turnout,Write-in,Mike Cox,John James,Perry Johnson,Aric Nesbitt
+910044000001,"City of Adrian, Precinct 1",,2475,459,0,0,87,18.55,0,18,40,27,2
+910044000002,"City of Adrian, Precinct 2",,2713,330,0,0,79,12.16,0,8,53,15,3
+910044000003,"City of Adrian, Precinct 3",,2844,370,0,0,99,13.01,1,21,47,29,2
+910044000004,"City of Adrian, Precinct 4",,2583,668,0,0,211,25.86,2,23,142,42,4
+910044000005,"City of Adrian, Precinct 5",,1993,408,0,0,152,20.47,0,23,92,35,2
+910044000006,"City of Adrian, Precinct 6",,2458,509,0,0,155,20.71,0,11,93,48,3
+913972000001,"City of Hudson, Precinct 1",,1672,317,0,0,156,18.96,0,38,73,45,0
+915550000001,"City of Morenci, Precinct 1",,1982,327,0,0,172,16.5,0,30,100,36,6
+917912001001,"City of Tecumseh, Precinct 1",,3927,1272,0,0,427,32.39,2,71,248,106,2
+917912001002,"City of Tecumseh, Precinct 2",,3667,1224,0,0,444,33.38,0,62,263,115,4
+910046000001,"Adrian Township, Precinct 1",,2859,923,0,0,439,32.28,0,56,262,117,4
+910046000002,"Adrian Township, Precinct 2",,2904,706,0,0,309,24.31,2,52,168,82,7
+910902000001,"Blissfield Township, Precinct 1",,548,155,0,0,93,28.28,0,17,40,35,1
+910902000002,"Blissfield Township, Precinct 2",,2807,781,0,0,386,27.82,0,49,223,104,10
+911272000001,"Cambridge Township, Precinct 1",,1951,587,0,0,331,30.09,0,41,178,110,2
+911272000002,"Cambridge Township, Precinct 2",,1776,600,0,0,291,33.78,0,40,150,96,5
+911272000003,"Cambridge Township, Precinct 3",,1462,487,0,0,226,33.31,0,33,145,45,3
+911650000001,"Clinton Township, Precinct 1",,3139,971,0,0,406,30.93,1,47,224,129,6
+912120000001,"Deerfield Township, Precinct 1",,1273,325,0,0,167,25.53,1,26,78,58,5
+912282000001,"Dover Township, Precinct 1",,1421,274,0,0,166,19.28,0,17,96,48,5
+912702000001,"Fairfield Township, Precinct 1",,1394,279,0,0,163,20.01,0,26,93,41,3
+913032000001,"Franklin Township, Precinct 1",,2715,833,0,0,435,30.68,1,54,251,128,2
+913974000001,"Hudson Township, Precinct 1",,1294,320,0,0,190,24.73,0,37,95,53,5
+915052000001,"Macon Township, Precinct 1",,1125,370,0,0,211,32.89,1,25,96,89,1
+915054000001,"Madison Charter Township, Precinct 1",,2460,391,0,0,162,15.89,0,32,91,35,4
+915054000002,"Madison Charter Township, Precinct 2",,1687,460,0,0,271,27.27,0,32,153,83,3
+915054000003,"Madison Charter Township, Precinct 3",,1484,417,0,0,211,28.1,0,30,120,57,4
+915282000001,"Medina Township, Precinct 1",,912,192,0,0,118,21.05,0,13,76,24,5
+916026000001,"Ogden Township, Precinct 1",,847,186,0,0,109,21.96,0,20,61,24,4
+916224000001,"Palmyra Township, Precinct 1",,1766,424,0,0,264,24.01,0,34,157,66,7
+916684000001,"Raisin Charter Township, Precinct 1",,2664,696,0,0,335,26.13,4,34,207,84,10
+916684000002,"Raisin Charter Township, Precinct 2",,2035,562,0,0,251,27.62,0,41,148,58,4
+916684000003,"Raisin Charter Township, Precinct 3",,2225,563,0,0,228,25.3,1,34,135,57,2
+916854000001,"Ridgeway Township, Precinct 1",,1237,344,0,0,211,27.81,3,21,101,89,0
+916858000001,"Riga Township, Precinct 1",,1157,304,0,0,177,26.27,0,14,116,45,2
+916934000001,"Rollin Township, Precinct 1",,2925,825,0,0,435,28.21,4,65,248,111,11
+916936000001,"Rome Township, Precinct 1",,1607,362,0,0,240,22.53,2,25,123,91,1
+917244000001,"Seneca Township, Precinct 1",,921,168,0,0,103,18.24,1,15,60,28,0
+917914000001,"Tecumseh Township, Precinct 1",,1811,499,0,0,215,27.55,0,30,112,67,6
+918864000001,"Woodstock Township, Precinct 1",,3311,869,0,0,457,26.25,1,58,252,143,4

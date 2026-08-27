@@ -80,6 +80,9 @@ data/results/iron: input/results/iron/primary.pdf
 data/results/jackson: input/results/jackson/primary.pdf
 	poetry run python processor/process_dominion_alt_pdf.py $< $@
 
+data/results/lenawee: input/results/lenawee/primary.pdf
+	poetry run python processor/process_dominion_flat_pdf.py $< $@
+
 data/results/marquette: input/results/marquette/primary.pdf
 	poetry run python processor/process_dominion_alt_pdf.py $< $@
 
