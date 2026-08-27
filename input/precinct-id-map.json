@@ -7009,6 +7009,15 @@
     "Bay de Noc Township, Precinct 1": 410604000001,
     "Cornell Township, Precinct 1": 411828000001
   },
+  "oscoda": {
+    "Big Creek Township, Precinct 2": 1350822000002,
+    "Clinton Township, Precinct 1": 1351654000001,
+    "Comins Township, Precinct 1": 1351760000001,
+    "Big Creek Township, Precinct 1": 1350822000001,
+    "Elmer Township, Precinct 1": 1352550000001,
+    "Mentor Township, Precinct 1": 1355312000001,
+    "Greenwood Township, Precinct 1": 1353520000001
+  },
   "chippewa": {
     "Detour Township, Precinct 1": 332177000001,
     "DeTour Township, Precinct 1": 332177000001,
@@ -7776,9 +7785,6 @@
   },
   "montmorency": {
     "Montmorency County": 119
-  },
-  "oscoda": {
-    "Oscoda County": 135
   },
   "otsego": {
     "Otsego County": 137

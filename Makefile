@@ -92,6 +92,9 @@ data/results/oceana: input/results/oceana/primary.pdf
 data/results/ogemaw: input/results/ogemaw/primary.pdf
 	poetry run python processor/process_dominion_alt_pdf.py $< $@
 
+data/results/oscoda: input/results/oscoda/primary.pdf
+	poetry run python processor/process_dominion_alt_2_pdf.py $< $@
+
 data/results/wexford: input/results/wexford/primary.pdf
 	poetry run python processor/process_dominion_alt_pdf.py $< $@
 
@@ -184,7 +187,6 @@ input/precincts.geojson:
 	-dissolve where='CountyFIPS === "097"' calc='CountyFIPS = "097", PrecinctLongName= "Mackinac County", PrecinctCode = "097"' \
 	-dissolve where='CountyFIPS === "109"' calc='CountyFIPS = "109", PrecinctLongName= "Menominee County", PrecinctCode = "109"' \
 	-dissolve where='CountyFIPS === "119"' calc='CountyFIPS = "119", PrecinctLongName= "Montmorency County", PrecinctCode = "119"' \
-	-dissolve where='CountyFIPS === "135"' calc='CountyFIPS = "135", PrecinctLongName= "Oscoda County", PrecinctCode = "135"' \
 	-dissolve where='CountyFIPS === "137"' calc='CountyFIPS = "137", PrecinctLongName= "Otsego County", PrecinctCode = "137"' \
 	-dissolve where='CountyFIPS === "141"' calc='CountyFIPS = "141", PrecinctLongName= "Presque Isle County", PrecinctCode = "141"' \
 	-dissolve where='CountyFIPS === "153"' calc='CountyFIPS = "153", PrecinctLongName= "Schoolcraft County", PrecinctCode = "153"' \
