@@ -320,5 +320,7 @@ if __name__ == "__main__":
             output_map[county_slug][name.replace("Au Sable", "AuSable")] = precinct_id
         if county_slug == "monroe" and ("Monroe" in name):
             output_map[county_slug][name.replace("Monroe Township", "Monroe Charter Township")] = precinct_id
+        if county_slug == "shiawassee" and ("Owosso" in name):
+            output_map[county_slug][name.replace("Owosso Township", "Owosso Charter Township")] = precinct_id
 
     json.dump(output_map, sys.stdout, indent=2)

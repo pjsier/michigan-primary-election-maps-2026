@@ -7608,6 +7608,7 @@
     "Hazelton Township, Precinct 1": 1553744000001,
     "Sciota Township, Precinct 1": 1557196000001,
     "Owosso Township, Precinct 1": 1556196000001,
+    "Owosso Charter Township, Precinct 1": 1556196000001,
     "City of Owosso, Precinct 1": 1556194000001,
     "Owosso, Precinct 1": 1556194000001,
     "Owosso City, Precinct 1": 1556194000001,
@@ -7623,7 +7624,8 @@
     "Perry, Precinct 1": 1556370000001,
     "Perry City, Precinct 1": 1556370000001,
     "Rush Township, Precinct 1": 1557026000001,
-    "Owosso Township, Precinct 2": 1556196000002
+    "Owosso Township, Precinct 2": 1556196000002,
+    "Owosso Charter Township, Precinct 2": 1556196000002
   },
   "barry": {
     "City of Hastings, Precinct 1": 153712000001,

@@ -128,6 +128,9 @@ data/results/monroe:
 data/results/saginaw:
 	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/saginaw-county-mi/SaginawCountyAugust2026Primary $@
 
+data/results/shiawassee:
+	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/shiawassee-county-mi/AUGUST42026 $@
+
 data/results/ingham:
 	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/ingham-county-mi/AugustElection08042026 $@
 
