@@ -319,8 +319,20 @@ if __name__ == "__main__":
         if county_slug == "iosco":
             output_map[county_slug][name.replace("Au Sable", "AuSable")] = precinct_id
         if county_slug == "monroe" and ("Monroe" in name):
-            output_map[county_slug][name.replace("Monroe Township", "Monroe Charter Township")] = precinct_id
+            output_map[county_slug][
+                name.replace("Monroe Township", "Monroe Charter Township")
+            ] = precinct_id
         if county_slug == "shiawassee" and ("Owosso" in name):
-            output_map[county_slug][name.replace("Owosso Township", "Owosso Charter Township")] = precinct_id
+            output_map[county_slug][
+                name.replace("Owosso Township", "Owosso Charter Township")
+            ] = precinct_id
+        if county_slug == "van-buren" and ("South Haven Township" in name):
+            output_map[county_slug][
+                name.replace("Haven Township", "Haven Charter Township")
+            ] = precinct_id
+
+    output_map["van-buren"]["City of South Haven, Ward 3, Precinct 2"] = output_map[
+        "allegan"
+    ]["City of South Haven, Ward 3, Precinct 2"]
 
     json.dump(output_map, sys.stdout, indent=2)

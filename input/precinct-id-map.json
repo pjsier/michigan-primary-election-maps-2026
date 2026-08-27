@@ -7320,6 +7320,7 @@
     "Antwerp Township, Precinct 3": 1590314000003,
     "Antwerp Township, Precinct 1": 1590314000001,
     "South Haven Township, Precinct 1": 1597500000001,
+    "South Haven Charter Township, Precinct 1": 1597500000001,
     "Decatur Township, Precinct 1": 1592106000001,
     "Waverly Township, Precinct 1": 1598482000001,
     "Bloomingdale Township, Precinct 1": 1590924000001,
@@ -7333,6 +7334,7 @@
     "Keeler Township, Precinct 1": 1594250000001,
     "Hartford Township, Precinct 1": 1593698000001,
     "South Haven Township, Precinct 2": 1597500000002,
+    "South Haven Charter Township, Precinct 2": 1597500000002,
     "City of South Haven, Ward 2, Precinct 1": 1597498002001,
     "South Haven, Ward 2, Precinct 1": 1597498002001,
     "South Haven City, Ward 2, Precinct 1": 1597498002001,
@@ -7358,7 +7360,8 @@
     "City of Bangor, Precinct 1": 1590514000001,
     "Bangor, Precinct 1": 1590514000001,
     "Bangor City, Precinct 1": 1590514000001,
-    "Almena Township, Precinct 2": 1590160000002
+    "Almena Township, Precinct 2": 1590160000002,
+    "City of South Haven, Ward 3, Precinct 2": 1597498003002
   },
   "alpena": {
     "Alpena Township, Precinct 3": 70176000003,

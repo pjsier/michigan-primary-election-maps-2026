@@ -155,6 +155,9 @@ data/results/osceola:
 data/results/st-clair:
 	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/st.-clair-county-mi/2026AugustPrimary $@
 
+data/results/van-buren:
+	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/van-buren-county-mi/Primary2026 $@
+
 data/results/clinton: input/results/clinton/primary.pdf
 	poetry run python processor/process_canvass_pdf.py $< $@
 

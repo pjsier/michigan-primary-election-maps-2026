@@ -32,8 +32,12 @@ def clean_precinct_name(precinct_name, county_slug):
         # Hack for updating missing comma after ward
         return precinct_name.replace(" Precinct", ", Precinct")
     if county_slug == "grand-traverse":
-        return precinct_name.replace("Twp", "Township").replace("Pct", "Precinct").replace(" Precinct", ", Precinct")
-    
+        return (
+            precinct_name.replace("Twp", "Township")
+            .replace("Pct", "Precinct")
+            .replace(" Precinct", ", Precinct")
+        )
+
     return (
         precinct_name.replace(" Twp, ", " Township, ")
         .replace(" Pct ", " Precinct ")
@@ -81,7 +85,9 @@ def process_contest(contest, id_map, county_slug):
         for vote_type in choice.xpath("./VoteType"):
             for precinct in vote_type.xpath("./Precinct"):
                 vote_type_name = vote_type.attrib["name"].split(" - ")[0]
-                precinct_name = clean_precinct_name(precinct.attrib["name"], county_slug)
+                precinct_name = clean_precinct_name(
+                    precinct.attrib["name"], county_slug
+                )
                 precinct_map[precinct_name][vote_type_name][
                     clean_candidate_name(choice.attrib["text"])
                 ] += int(precinct.attrib["votes"])
