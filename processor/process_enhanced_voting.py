@@ -125,6 +125,9 @@ def main():
             vote_type_slug = ""
             if vote_type != "Total":
                 vote_type_slug = f"-{slugify(vote_type)}"
+            if len(item_results) == 0:
+                continue
+
             with Path.open(
                 output_dir / f"{slugify(item_name)}{vote_type_slug}.csv", "w"
             ) as f:

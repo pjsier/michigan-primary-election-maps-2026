@@ -122,6 +122,9 @@ data/results/leelanau:
 data/results/midland:
 	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/midland-county-mi/AugustPrimary2026 $@
 
+data/results/monroe:
+	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/monroe-county-mi/August2026Election $@
+
 data/results/saginaw:
 	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/saginaw-county-mi/SaginawCountyAugust2026Primary $@
 
