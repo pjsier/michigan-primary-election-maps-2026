@@ -119,6 +119,9 @@ data/results/kent:
 data/results/leelanau:
 	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/leelanau-county-mi/20260804_LeelanauAugust2026Primary $@
 
+data/results/midland:
+	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/midland-county-mi/AugustPrimary2026 $@
+
 data/results/saginaw:
 	poetry run python processor/process_enhanced_voting.py https://app.enhancedvoting.com/results/public/api/elections/saginaw-county-mi/SaginawCountyAugust2026Primary $@
 

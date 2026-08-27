@@ -12,7 +12,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 def clean_precinct_name(name: str) -> str:
     """Handling some weird typos"""
-    return name.replace("Athur ", "Arthur ")
+    return name.replace("Athur ", "Arthur ").replace("Mt. ", "Mount ")
 
 
 def slugify(text):

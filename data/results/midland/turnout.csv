@@ -1,0 +1,34 @@
+id,name,ballots,registered,turnout
+1111710000001,"City of Coleman, Precinct 1",228.0,1007,22.64
+1115378001001,"City of Midland, Ward 1, Precinct 1",965.0,3374,28.6
+1115378001002,"City of Midland, Ward 1, Precinct 2",757.0,3473,21.8
+1115378002003,"City of Midland, Ward 2, Precinct 3",903.0,3429,26.33
+1115378002004,"City of Midland, Ward 2, Precinct 4",1226.0,3493,35.1
+1115378003005,"City of Midland, Ward 3, Precinct 5",1093.0,3483,31.38
+1115378003006,"City of Midland, Ward 3, Precinct 6",1344.0,3796,35.41
+1115378004007,"City of Midland, Ward 4, Precinct 7",1314.0,3394,38.72
+1115378004008,"City of Midland, Ward 4, Precinct 8",1287.0,3597,35.78
+1115378005009,"City of Midland, Ward 5, Precinct 9",1211.0,3542,34.19
+1115378005010,"City of Midland, Ward 5, Precinct 10",1326.0,3547,37.38
+1112483000001,"Edenville Township, Precinct 1",694.0,2143,32.38
+1113182000001,"Geneva Township, Precinct 1",297.0,951,31.23
+1113486000001,"Greendale Township, Precinct 1",368.0,1585,23.22
+1113898000001,"Homer Township, Precinct 1",336.0,1059,31.73
+1113898000002,"Homer Township, Precinct 2",310.0,1069,29.0
+1113898000003,"Homer Township, Precinct 3",433.0,1340,32.31
+1113916000001,"Hope Township, Precinct 1",402.0,1308,30.73
+1114062000001,"Ingersoll Township, Precinct 1",406.0,1362,29.81
+1114062000002,"Ingersoll Township, Precinct 2",279.0,898,31.07
+1114156000001,"Jasper Township, Precinct 1",236.0,883,26.73
+1114176000001,"Jerome Township, Precinct 1",652.0,2001,32.58
+1114176000002,"Jerome Township, Precinct 2",598.0,2158,27.71
+1114616000001,"Larkin Township, Precinct 1",793.0,1996,39.73
+1114616000002,"Larkin Township, Precinct 2",1061.0,2705,39.22
+1114664000001,"Lee Township, Precinct 1",405.0,1821,22.24
+1114664000002,"Lee Township, Precinct 2",379.0,1573,24.09
+1114768000001,"Lincoln Township, Precinct 1",754.0,2234,33.75
+1115380000001,"Midland Township, Precinct 1",552.0,1889,29.22
+1115432000001,"Mills Township, Precinct 1",486.0,1594,30.49
+1115594000001,"Mount Haley Township, Precinct 1",427.0,1410,30.28
+1116574000001,"Porter Township, Precinct 1",266.0,1020,26.08
+1118402000001,"Warren Township, Precinct 1",465.0,1739,26.74
