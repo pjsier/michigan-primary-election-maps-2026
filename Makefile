@@ -167,9 +167,8 @@ data/results/van-buren:
 data/results/clinton: input/results/clinton/primary.pdf
 	poetry run python processor/process_canvass_pdf.py $< $@
 
-# TODO:
 data/results/hillsdale: input/results/hillsdale/primary.pdf
-	poetry run python processor/process_canvass_pdf.py $< $@
+	poetry run python processor/process_hillsdale_pdf.py $< $@
 
 data/results/montcalm: input/results/montcalm/primary.pdf
 	poetry run python processor/process_canvass_pdf.py $< $@
