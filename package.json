@@ -24,7 +24,7 @@
     "vite-plugin-solid": "^2.11.14"
   },
   "dependencies": {
-    "maplibre-gl": "^6.2.0",
+    "maplibre-gl": "^6.4.1",
     "solid-js": "^1.9.14"
   },
   "eslintConfig": {
