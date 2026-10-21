@@ -20,7 +20,7 @@
     "mapshaper": "^0.7.51",
     "prettier": "^3.9.6",
     "prettier-eslint": "^17.1.1",
-    "vite": "^8.2.1",
+    "vite": "^8.3.4",
     "vite-plugin-solid": "^2.11.14"
   },
   "dependencies": {
